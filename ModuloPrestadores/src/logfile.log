@@ -1,0 +1,211 @@
+2018-12-19 16:20:57,180 INFO  [Log]  
+2018-12-20 08:43:13,151 INFO  [Log] Start test: generateInvitation 
+2018-12-20 08:43:13,151 INFO  [Log]  
+2018-12-20 08:43:13,151 INFO  [Log] End test: generateInvitation 
+2018-12-20 08:44:46,301 INFO  [Log] Start test: generateInvitation 
+2018-12-20 09:37:19,268 INFO  [Log]  
+2018-12-20 09:37:19,276 INFO  [Log] End test: generateInvitation 
+2018-12-20 09:42:41,047 INFO  [Log] Start test: generateInvitation 
+2018-12-20 09:42:44,348 INFO  [Log]  
+2018-12-20 09:42:44,351 INFO  [Log] End test: generateInvitation 
+2018-12-20 09:43:43,264 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:05:16,845 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:05:20,618 INFO  [Log]  
+2018-12-20 11:05:20,621 INFO  [Log] End test: generateInvitation 
+2018-12-20 11:13:17,313 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:13:40,660 INFO  [Log] End test: generateInvitation 
+2018-12-20 11:20:35,121 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:20:42,637 INFO  [Log] End test: generateInvitation 
+2018-12-20 11:21:36,246 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:25:34,233 INFO  [Log] End test: generateInvitation 
+2018-12-20 11:29:11,235 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:29:29,161 INFO  [Log] End test: generateInvitation 
+2018-12-20 11:31:34,708 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:32:17,684 INFO  [Log] End test: generateInvitation 
+2018-12-20 11:35:39,945 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:35:44,003 INFO  [Log] End test: generateInvitation 
+2018-12-20 11:39:09,343 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:39:22,770 INFO  [Log] End test: generateInvitation 
+2018-12-20 11:46:32,448 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:46:44,817 INFO  [Log] End test: generateInvitation 
+2018-12-20 11:50:12,113 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:50:53,699 INFO  [Log] End test: generateInvitation 
+2018-12-20 11:56:24,408 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:56:38,510 INFO  [Log] End test: generateInvitation 
+2018-12-20 11:58:30,637 INFO  [Log] Start test: generateInvitation 
+2018-12-20 11:58:38,291 INFO  [Log] End test: generateInvitation 
+2018-12-20 12:02:38,035 INFO  [Log] Start test: generateInvitation 
+2018-12-20 12:02:46,079 INFO  [Log] End test: generateInvitation 
+2018-12-20 12:05:00,729 INFO  [Log] Start test: generateInvitation 
+2018-12-20 12:06:36,097 INFO  [Log] Start test: generateInvitation 
+2018-12-20 12:06:40,851 INFO  [Log] End test: generateInvitation 
+2018-12-20 12:11:26,375 INFO  [Log] Start test: generateInvitation 
+2018-12-20 12:11:30,475 INFO  [Log] End test: generateInvitation 
+2018-12-20 12:12:56,150 INFO  [Log] Start test: generateInvitation 
+2018-12-20 12:13:00,199 INFO  [Log] End test: generateInvitation 
+2018-12-20 12:43:14,351 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:07:53,654 INFO  [Log] chrome not reachable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\ntedesco\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 034c07a841b748495ff39128e577c59e 
+2018-12-20 14:07:53,656 INFO  [Log] End test: generateInvitation 
+2018-12-20 14:09:22,879 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:09:27,130 INFO  [Log] generateInvitation: Pasa 
+2018-12-20 14:09:27,130 INFO  [Log] End test: generateInvitation 
+2018-12-20 14:10:20,927 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:10:49,738 INFO  [Log] generateInvitation: Pasa 
+2018-12-20 14:10:49,738 INFO  [Log] End test: generateInvitation 
+2018-12-20 14:14:20,844 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:14:25,022 INFO  [Log] generateInvitation: Pasa 
+2018-12-20 14:14:25,022 INFO  [Log] End test: generateInvitation 
+2018-12-20 14:15:49,771 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:15:53,674 INFO  [Log] generateInvitation: Pasa 
+2018-12-20 14:15:53,674 INFO  [Log] End test: generateInvitation 
+2018-12-20 14:21:51,833 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:22:09,848 INFO  [Log] generateInvitation: Pasa 
+2018-12-20 14:22:09,849 INFO  [Log] End test: generateInvitation 
+2018-12-20 14:23:54,134 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:28:43,661 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:28:47,230 INFO  [Log] generateInvitation: Pasa 
+2018-12-20 14:28:47,230 INFO  [Log] End test: generateInvitation 
+2018-12-20 14:30:57,287 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:31:13,560 INFO  [Log] generateInvitation: Pasa 
+2018-12-20 14:31:13,560 INFO  [Log] End test: generateInvitation 
+2018-12-20 14:33:32,826 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:33:36,461 INFO  [Log] generateInvitation: Pasa 
+2018-12-20 14:33:36,461 INFO  [Log] End test: generateInvitation 
+2018-12-20 14:36:24,407 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:36:28,661 INFO  [Log] generateInvitation: Pasa 
+2018-12-20 14:36:28,661 INFO  [Log] End test: generateInvitation 
+2018-12-20 14:39:45,234 INFO  [Log] Start test: generateInvitation 
+2018-12-20 14:39:49,367 INFO  [Log] generateInvitation: Pasa 
+2018-12-20 14:39:49,367 INFO  [Log] End test: generateInvitation 
+2018-12-20 14:39:54,141 INFO  [Log] Sent message successfully.... 
+2018-12-20 16:57:07,141 INFO  [Log] Start test: generateInvitation 
+2018-12-20 16:57:26,130 INFO  [Log]  
+2018-12-20 16:57:26,130 INFO  [Log] End test: generateInvitation 
+2018-12-20 16:58:36,593 INFO  [Log] Start test: generateInvitation 
+2018-12-20 16:59:25,021 INFO  [Log]  
+2018-12-20 16:59:25,022 INFO  [Log] End test: generateInvitation 
+2018-12-20 17:04:21,522 INFO  [Log] Start test: generateInvitation 
+2018-12-20 17:05:38,578 INFO  [Log]  
+2018-12-20 17:05:38,578 INFO  [Log] End test: generateInvitation 
+2018-12-20 17:05:44,422 INFO  [Log] Start test: generateInvitation 
+2018-12-20 17:06:07,728 INFO  [Log]  
+2018-12-20 17:06:07,728 INFO  [Log] End test: generateInvitation 
+2018-12-20 17:08:35,135 INFO  [Log] Start test: generateInvitation 
+2018-12-20 17:08:47,354 INFO  [Log]  
+2018-12-20 17:08:47,354 INFO  [Log] End test: generateInvitation 
+2018-12-21 09:32:52,976 INFO  [Log] Start test: generateInvitation 
+2018-12-21 09:32:52,977 INFO  [Log]  
+2018-12-21 09:32:52,977 INFO  [Log] End test: generateInvitation 
+2018-12-21 09:33:34,449 INFO  [Log] Start test: generateInvitation 
+2018-12-21 09:33:34,449 INFO  [Log]  
+2018-12-21 09:33:34,449 INFO  [Log] End test: generateInvitation 
+2018-12-21 09:34:22,241 INFO  [Log] Start test: generateInvitation 
+2018-12-21 09:34:22,241 INFO  [Log]  
+2018-12-21 09:34:22,241 INFO  [Log] End test: generateInvitation 
+2018-12-21 09:35:35,544 INFO  [Log] Start test: generateInvitation 
+2018-12-21 09:35:35,545 INFO  [Log]  
+2018-12-21 09:35:35,545 INFO  [Log] End test: generateInvitation 
+2018-12-21 09:36:26,384 INFO  [Log] Start test: generateInvitation 
+2018-12-21 09:36:26,385 INFO  [Log]  
+2018-12-21 09:36:26,385 INFO  [Log] End test: generateInvitation 
+2018-12-21 14:41:46,759 INFO  [Log] Start test: generateInvitation 
+2018-12-21 14:42:09,754 INFO  [Log] End test: generateInvitation 
+2018-12-21 14:42:15,522 INFO  [Log] Sent message successfully.... 
+2018-12-21 14:42:51,723 INFO  [Log] Start test: generateInvitation 
+2018-12-21 14:42:51,724 INFO  [Log]  
+2018-12-21 14:42:51,724 INFO  [Log] End test: generateInvitation 
+2018-12-21 14:43:22,709 INFO  [Log] Start test: generateInvitation 
+2018-12-21 14:43:39,457 INFO  [Log] End test: generateInvitation 
+2018-12-21 14:43:44,989 INFO  [Log] Sent message successfully.... 
+2018-12-21 14:46:07,615 INFO  [Log] Start test: generateInvitation 
+2018-12-21 14:50:50,436 INFO  [Log] Start test: generateInvitation 
+2018-12-21 14:50:50,436 INFO  [Log]  
+2018-12-21 14:50:50,436 INFO  [Log] End test: generateInvitation 
+2018-12-21 14:52:07,831 INFO  [Log] Start test: generateInvitation 
+2018-12-21 14:52:07,832 INFO  [Log]  
+2018-12-21 14:52:07,832 INFO  [Log] End test: generateInvitation 
+2018-12-21 14:54:44,150 INFO  [Log] Start test: generateInvitation 
+2018-12-21 14:55:06,006 INFO  [Log] End test: generateInvitation 
+2018-12-21 14:55:11,514 INFO  [Log] Sent message successfully.... 
+2018-12-21 14:55:35,514 INFO  [Log] Start test: generateInvitation 
+2018-12-21 14:56:00,808 INFO  [Log] generateInvitation: Pasa 
+2018-12-21 14:56:00,808 INFO  [Log] End test: generateInvitation 
+2018-12-21 14:56:05,815 INFO  [Log] Sent message successfully.... 
+2018-12-21 15:00:25,416 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:01:37,315 INFO  [Log] generateInvitation: Pasa 
+2018-12-21 15:01:37,315 INFO  [Log] End test: generateInvitation 
+2018-12-21 15:01:44,608 INFO  [Log] Sent message successfully.... 
+2018-12-21 15:17:56,920 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:19:51,134 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:21:25,374 INFO  [Log]  
+2018-12-21 15:21:25,374 INFO  [Log] generateInvitation: Falla 
+2018-12-21 15:21:25,374 INFO  [Log] End test: generateInvitation 
+2018-12-21 15:21:59,804 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:22:12,964 INFO  [Log] no such frame: element is not a frame
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SMSL044', ip: '100.1.10.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\ntedesco\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: c702c1260f385f07eb77217510a74c2d 
+2018-12-21 15:22:12,964 INFO  [Log] generateInvitation: Falla 
+2018-12-21 15:22:12,964 INFO  [Log] End test: generateInvitation 
+2018-12-21 15:22:18,553 INFO  [Log] Sent message successfully.... 
+2018-12-21 15:22:37,998 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:23:22,546 INFO  [Log] no such frame: element is not a frame
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SMSL044', ip: '100.1.10.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\ntedesco\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: e74d556fd98c3adcf348e87a7875cd17 
+2018-12-21 15:23:22,547 INFO  [Log] generateInvitation: Falla 
+2018-12-21 15:23:22,547 INFO  [Log] End test: generateInvitation 
+2018-12-21 15:24:15,936 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:24:56,618 INFO  [Log] generateInvitation: Pasa 
+2018-12-21 15:24:56,618 INFO  [Log] End test: generateInvitation 
+2018-12-21 15:25:01,777 INFO  [Log] Sent message successfully.... 
+2018-12-21 15:26:06,890 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:27:18,624 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:29:46,268 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:31:05,010 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:39:16,878 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:53:18,216 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:54:01,828 INFO  [Log]  
+2018-12-21 15:54:01,828 INFO  [Log] generateInvitation: Falla 
+2018-12-21 15:54:01,828 INFO  [Log] End test: generateInvitation 
+2018-12-21 15:54:30,906 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:55:55,086 INFO  [Log] Expected condition failed: waiting for value to contain "Invitación Enviada.". Current value: "null" (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SMSL044', ip: '100.1.10.235', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\ntedesco\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: a8f3445826477a8c4759d220ccfb3079 
+2018-12-21 15:55:55,087 INFO  [Log] generateInvitation: Falla 
+2018-12-21 15:55:55,087 INFO  [Log] End test: generateInvitation 
+2018-12-21 15:56:01,123 INFO  [Log] Sent message successfully.... 
+2018-12-21 15:57:15,437 INFO  [Log] Start test: generateInvitation 
+2018-12-21 15:58:02,444 INFO  [Log]  
+2018-12-21 15:58:02,444 INFO  [Log] generateInvitation: Falla 
+2018-12-21 15:58:02,444 INFO  [Log] End test: generateInvitation 
+2018-12-21 15:58:28,182 INFO  [Log] Start test: generateInvitation 
+2018-12-21 16:00:14,391 INFO  [Log] Start test: generateInvitation 
+2018-12-21 16:02:32,138 INFO  [Log]  
+2018-12-21 16:02:32,138 INFO  [Log] generateInvitation: Falla 
+2018-12-21 16:02:32,138 INFO  [Log] End test: generateInvitation 
+2018-12-21 16:03:03,345 INFO  [Log] Start test: generateInvitation 
+2018-12-21 16:03:25,693 INFO  [Log] generateInvitation: Pasa 
+2018-12-21 16:03:25,693 INFO  [Log] End test: generateInvitation 
+2018-12-21 16:03:30,966 INFO  [Log] Sent message successfully.... 
