@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import base.BasePage;
+import log.Log;
 
 public class ChangePasswordPage extends BasePage {
 
@@ -14,10 +15,10 @@ public class ChangePasswordPage extends BasePage {
 	@FindBy(id = "repeatNewPassword")
 	WebElement campReingresar;
 
-	@FindBy(xpath = "//*[@id='main']/div/div[2]/footer/div/div/div/div[2]/button")
+	@FindBy(xpath = "//div[@id='main']/div/div[2]/footer/div/div/div/div[2]/button")
 	WebElement btnCambiar;
 
-	@FindBy(xpath = "//footer[@className='container-fluid']/div/div/div/div[1]/button")
+	@FindBy(xpath = "//div[@id='main']/div/div[2]/footer/div/div/div/div[1]/button")
 	WebElement btnCancelar;
 
 	@FindBy(className = "toast-message")
@@ -33,6 +34,7 @@ public class ChangePasswordPage extends BasePage {
 	WebElement mensajeValidacionReingreso;
 
 	public void CancelChange() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnCancelar));
 		btnCancelar.click();
 
 	}
@@ -47,21 +49,46 @@ public class ChangePasswordPage extends BasePage {
 		wait.until(ExpectedConditions.textToBePresentInElement(toastMessage, "Su contraseña ha sido cambiada."));
 	}
 
-	public String validateMessage(WebElement element) {
-		String mensaje = element.getText();
-		switch (mensaje) {
-		case "El campo es muy corto":
-			return "Validación de campo corto";
-
-		case "El campo es requerido":
-			return "Validación de campo requerido";
-
-		case "Confirmación del campo debe coincidir":
-			return "Validación de campo que nos coinciden";
-			
-		default:
-			return "No hubo un mensaje de validación";
+	
+	public boolean ChangePasswordShortFieldError(String newPass) {
+		wait.until(ExpectedConditions.elementToBeClickable(campNueva));
+		campNueva.click();
+		campNueva.sendKeys(newPass);
+		if (validateMessage(mensajeValidacion).equals("El campo es muy corto")) {
+			Log.info("Validación de campo correcta");
+			return true;
 		}
+		return false;
 	}
-
+	
+	public boolean ChangePasswordObligatoryFieldError(String newPass, String reEnterPass) {
+		wait.until(ExpectedConditions.elementToBeClickable(campNueva));
+		campNueva.click();
+		campNueva.sendKeys(newPass);
+		campReingresar.click();
+		campReingresar.sendKeys(reEnterPass);
+		if (validateMessage(mensajeValidacion).equals("El campo es requerido")) {
+			Log.info("Validación de campo correcta");
+			return true;
+		}
+		return false;
+	}
+	
+	public boolean ChangePasswordDoNotMatchFieldsError() {
+		wait.until(ExpectedConditions.elementToBeClickable(campNueva));
+		campNueva.click();
+		campReingresar.click();
+		if (validateMessage(mensajeValidacionReingreso).equals("Confirmación del campo debe coincidir")) {
+			Log.info("Validación de campo correcta");
+			return true;
+		}
+		return false;
+	}
+	
+	
+	
+	public String validateMessage(WebElement element) {
+		return element.getText();
+		
+	}
 }

@@ -21,7 +21,6 @@ public class PageHelper {
         Boolean r = false;
         int ite = 0;
         while (ite <= 15) {
-            Thread.sleep(500);
             r = wait.until(new ExpectedCondition<Boolean>() {
                 public Boolean apply(WebDriver driver) {
                     JavascriptExecutor js = (JavascriptExecutor) driver;

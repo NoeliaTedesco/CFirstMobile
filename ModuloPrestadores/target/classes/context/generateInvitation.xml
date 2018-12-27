@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <objects>
     <asignado>Noelia</asignado>
-    <estado>Pasa</estado>
+    <estado>Falla</estado>
     <nombreDeLaPrueba>generateInvitation</nombreDeLaPrueba>
     <pasos>
         <entry>
             <key>generateInvitation</key>
-            <value>Pasa</value>
+            <value>Falla</value>
         </entry>
         <entry>
             <key>testName</key>
@@ -17,7 +17,7 @@
     <referencia>Referencia</referencia>
     <sprint>Sprint 11</sprint>
     <tiempoFinal>TiempoFinal</tiempoFinal>
-    <tiempoInicio>15454149349</tiempoInicio>
+    <tiempoInicio>15457894416</tiempoInicio>
     <tipoDePrueba>Regresion</tipoDePrueba>
     <usuario>
         <email>cmotest1@cmo.com</email>

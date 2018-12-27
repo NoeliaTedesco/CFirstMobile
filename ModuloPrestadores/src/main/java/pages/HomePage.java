@@ -11,7 +11,7 @@ public class HomePage extends BasePage {
 		@FindBy (css = "#main > div > div > div.container-fluid.main-full > div > div > div.col-xs-12.col-md-5 > div > div > div > button")
 		private WebElement menuInvitaciones;
 		
-		@FindBy (id = "btSalir")
+		@FindBy (xpath = "//a[@id='btSalir']")
 		private WebElement btnSalir;
 		
 		@FindBy (xpath = "//div[@id='navbar']/ul/li[2]")
@@ -27,11 +27,13 @@ public class HomePage extends BasePage {
 		}
 		
 		public void changePassword() {
+			wait.until(ExpectedConditions.visibilityOf(btnCambiarContrasena));
 			wait.until(ExpectedConditions.elementToBeClickable(btnCambiarContrasena));
 			btnCambiarContrasena.click();
 		}
 		
 		public void signOff() {
+			wait.until(ExpectedConditions.visibilityOf(btnSalir));
 			wait.until(ExpectedConditions.elementToBeClickable(btnSalir));
 			btnSalir.click();
 		}

@@ -2,14 +2,15 @@ package suiteTest;
 
 import org.junit.Test;
 import components.Hook;
-import steps.GenerarInvitacion_Step;
+import steps.ChangePasswordStep;
+import steps.GenerateInvitationStep;
 
 public class Regression extends Hook {
 
-		
-		@Test
-	    public void generateInvitation() {
-	       GenerarInvitacion_Step.Run(testName.getMethodName());
-	    }
-	
+
+	@Test
+	public void generateInvitation() {
+		GenerateInvitationStep.Run(testName.getMethodName());
+	}
+
 }
