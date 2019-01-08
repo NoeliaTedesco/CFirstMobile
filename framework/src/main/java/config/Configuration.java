@@ -9,31 +9,55 @@ public class Configuration {
 	private String ambiente_testing;
 	private String ambiente_desarrollo;
 	private String ambiente_homologacion;
-	private String chromeDriverPath;
+	private String driverPath;
 	private String log4jPath;
 	private String delivery;
 	private String deliveryPath;
 	private String reportPath;
 	private String reportRepository;
 	private String imageRepository;
+	private String urlDriver;
+	private String pruebaRemota;
 
 	public Configuration() {
 	}
 
-	public Configuration(String browser, String ambiente_testing, String ambiente_desarrollo, String ambiente_homologacion, String chromeDriverPath,
+	public Configuration(String browser, String ambiente_testing, String ambiente_desarrollo, String ambiente_homologacion, String driverPath,
 			String log4jPath, String delivery, String reportPath, String reportRepository, String imageRepository,
-			String deliveryPath) {
+			String deliveryPath, String urlDriver, String pruebaRemota) {
 		this.browser = browser;
 		this.ambiente_testing = ambiente_testing;
 		this.ambiente_desarrollo = ambiente_desarrollo;
 		this.ambiente_homologacion = ambiente_homologacion;
-		this.chromeDriverPath = chromeDriverPath;
+		this.driverPath = driverPath;
 		this.log4jPath = log4jPath;
 		this.delivery = delivery;
 		this.reportPath = reportPath;
 		this.reportRepository = reportRepository;
 		this.imageRepository = imageRepository;
 		this.deliveryPath = deliveryPath;
+		this.urlDriver = urlDriver;
+		this.pruebaRemota = pruebaRemota;
+	}
+
+	
+	
+	public String getPruebaRemota() {
+		return pruebaRemota;
+	}
+
+	@XmlElement
+	public void setPruebaRemota(String pruebaRemota) {
+		this.pruebaRemota = pruebaRemota;
+	}
+
+	public String getUrlDriver() {
+		return urlDriver;
+	}
+	
+	@XmlElement
+	public void setUrlDriver(String urlDriver) {
+		this.urlDriver = urlDriver;
 	}
 
 	public String getDeliveryPath() {
@@ -81,13 +105,13 @@ public class Configuration {
 		this.ambiente_homologacion = ambiente_homologacion;
 	}
 
-	public String getChromeDriverPath() {
-		return chromeDriverPath;
+	public String getDriverPath() {
+		return driverPath;
 	}
 
 	@XmlElement
-	public void setChromeDriverPath(String chromeDriverPath) {
-		this.chromeDriverPath = chromeDriverPath;
+	public void setDriverPath(String driverPath) {
+		this.driverPath = driverPath;
 	}
 
 	public String getLog4jPath() {

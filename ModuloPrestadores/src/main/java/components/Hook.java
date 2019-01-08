@@ -1,28 +1,24 @@
 package components;
 
 import initializer.InitilizeHook;
-import org.junit.AfterClass;
-
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.lang.reflect.Method;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.ClassRule;
-import org.junit.Rule;
-import org.junit.rules.TestName;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 
 public class Hook extends InitilizeHook {
 	
-    @Rule
-    public TestName testName = new TestName();
+	 String testName;
     
     
 	public Hook() {
 	}
 	
-	@BeforeClass
+	@BeforeTest
 	public static void setUpClass() {
 		OpenConfiguration();
 		OpenLogger();
@@ -30,20 +26,21 @@ public class Hook extends InitilizeHook {
 		OpenReport("Reporte");
 	}
 	
-	@Before
-	public void setUp() throws FileNotFoundException, IOException {
+	@BeforeMethod
+	public void setUp(Method method) throws FileNotFoundException, IOException {
+		testName = method.getName();
 		OpenBrowser();
-		OpenContextData(testName.getMethodName());
+		OpenContextData(testName);
 		
 	}
 	
-	@After
+	@AfterMethod
 	public void tearDown() {
-		CloseContextData(testName.getMethodName());
+		CloseContextData(testName);
 		
 	}
 	
-	@AfterClass
+	@AfterTest
 	public static void tearDownClass() {
 		CloseBrowser();
 		CloseReport();

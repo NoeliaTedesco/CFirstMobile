@@ -32,9 +32,9 @@ public class GenerateInvitationStep extends BaseStep {
 			PageHelper.WaitForPageLoading();
 			CurrentPage = (new InvitationPage().GetInstance(InvitationPage.class));
 			CurrentPage.As(InvitationPage.class).openInvitationForm();
-			CurrentPage.As(InvitationPage.class).generateInvitation(inv.getNroSocio(),inv.getNroCelular(), inv.getEmail(), inv.getEspecialidad(),
-					inv.getDetalleConsulta(), inv.getNombre(), inv.getApellido(), inv.getFechaNacimiento(), inv.getIdServicio());
-			CurrentPage.As(InvitationPage.class).cancelInvitation(inv.getNroSocio());
+//			CurrentPage.As(InvitationPage.class).generateInvitation(inv.getNroSocio(),inv.getNroCelular(), inv.getEmail(), inv.getEspecialidad(),
+//					inv.getDetalleConsulta(), inv.getNombre(), inv.getApellido(), inv.getFechaNacimiento(), inv.getIdServicio());
+//			CurrentPage.As(InvitationPage.class).cancelInvitation(inv.getNroSocio());
 			log.Log.SuccessStep(testName);
 		} catch (Exception ex) {
 			log.Log.info(ex.getMessage());

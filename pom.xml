@@ -56,7 +56,12 @@
 			<artifactId>poiji</artifactId>
 			<version>1.19.1</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.11</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 	<modules>
 		<module>framework</module>

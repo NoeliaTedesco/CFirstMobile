@@ -536,3 +536,16 @@ Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCach
 Session ID: fae2ffb46ca50c4dd79a0ade9f332384 
 2018-12-25 22:58:35,538 INFO  [Log] generateInvitation: Falla 
 2018-12-25 22:58:35,538 INFO  [Log] End test: generateInvitation 
+2019-01-08 10:38:43,567 INFO  [Log] Start test: generateInvitation 
+2019-01-08 10:39:14,746 INFO  [Log] El socio se encuentra en el panel de invitaciones 
+2019-01-08 10:39:15,390 INFO  [Log] generateInvitation: Pasa 
+2019-01-08 10:39:15,390 INFO  [Log] End test: generateInvitation 
+2019-01-08 10:39:20,793 INFO  [Log] Sent message successfully.... 
+2019-01-08 11:04:10,797 INFO  [Log] Start test: generateInvitation 
+2019-01-08 11:04:28,154 INFO  [Log] generateInvitation: Pasa 
+2019-01-08 11:04:28,154 INFO  [Log] End test: generateInvitation 
+2019-01-08 11:04:33,070 INFO  [Log] Sent message successfully.... 
+2019-01-08 11:13:07,965 INFO  [Log] Start test: generateInvitation 
+2019-01-08 11:13:27,507 INFO  [Log] generateInvitation: Pasa 
+2019-01-08 11:13:27,507 INFO  [Log] End test: generateInvitation 
+2019-01-08 11:13:32,897 INFO  [Log] Sent message successfully.... 

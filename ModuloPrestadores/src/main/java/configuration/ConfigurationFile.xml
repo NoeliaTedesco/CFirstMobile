@@ -4,7 +4,7 @@
     <ambiente_homologacion>https://cconsultamedica.osde.com.ar/prestadores</ambiente_homologacion>
     <ambiente_testing>https://tconsultamedica.osde.com.ar/prestadores</ambiente_testing>
     <browser>Chrome</browser>
-    <chromeDriverPath>C:/ChromeDriver/chromedriver.exe</chromeDriverPath>
+    <driverPath>C:/ChromeDriver/chromedriver.exe</driverPath>
 	<IEDriverPath>C:/ChromeDriver/chromedriver.exe</IEDriverPath>
     <delivery>False</delivery>
     <imagePath>C:/screenshot</imagePath>
@@ -13,4 +13,6 @@
     <reportPath>C:/Users/ntedesco/workspace/ConsultaMedicaOnline/framework/src/main/java/report/JReportAdvancedConfiguration.xml</reportPath>
     <reportRepository>C:/Report/myReport.pdf</reportRepository>
     <deliveryPath>C:/Users/ntedesco/workspace/ConsultaMedicaOnline/framework/src/main/java/delivery/emailSenderConfiguration.xml</deliveryPath>
+    <pruebaRemota>NO</pruebaRemota>
+    <urlDriver>http://192.168.99.100:4444/wd/hub</urlDriver>
 </configuration>
