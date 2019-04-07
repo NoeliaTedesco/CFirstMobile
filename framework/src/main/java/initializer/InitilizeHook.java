@@ -78,6 +78,8 @@ public class InitilizeHook extends Base {
 					ChromeOptions options = new ChromeOptions();
 					options.addArguments("--start-maximized");
 					options.addArguments("--disable-extensions");
+					options.addArguments("--enable-notifications");
+					options.addArguments("use-fake-ui-for-media-stream");
 					setDriver(new ChromeDriver(options));
 					driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 					driver.manage().timeouts().setScriptTimeout(120, TimeUnit.SECONDS);

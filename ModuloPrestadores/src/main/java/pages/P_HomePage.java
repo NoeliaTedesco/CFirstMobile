@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import base.BasePage;
 
-public class HomePage extends BasePage {
+public class P_HomePage extends BasePage {
 	
 		@FindBy (css = "#main > div > div > div.container-fluid.main-full > div > div > div.col-xs-12.col-md-5 > div > div > div > button")
 		private WebElement menuInvitaciones;

@@ -15,8 +15,8 @@ public class EmailSenderConfiguration {
     private String mailStarttls;
     private String smptHost;
     private String port;
-    private String user;
-    private String password;
+    private static String user;
+    private static String password;
     private List<String> attachedFilePath;
 
     public EmailSenderConfiguration() {
@@ -30,8 +30,8 @@ public class EmailSenderConfiguration {
         this.mailStarttls = mailStarttls;
         this.smptHost = smptHost;
         this.port = port;
-        this.user = user;
-        this.password = password;
+        EmailSenderConfiguration.user = user;
+        EmailSenderConfiguration.password = password;
         this.attachedFilePath = attachedFilePath;
     }
 
@@ -89,22 +89,22 @@ public class EmailSenderConfiguration {
         this.port = port;
     }
 
-    public String getUser() {
+    public static String getUser() {
         return user;
     }
 
     @XmlElement
     public void setUser(String user) {
-        this.user = user;
+        EmailSenderConfiguration.user = user;
     }
 
-    public String getPassword() {
+    public static String getPassword() {
         return password;
     }
 
     @XmlElement
     public void setPassword(String password) {
-        this.password = password;
+        EmailSenderConfiguration.password = password;
     }
 
     public List<String> getAttachedFilePath() {

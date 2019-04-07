@@ -6,9 +6,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Configuration {
 	private String browser;
-	private String ambiente_testing;
-	private String ambiente_desarrollo;
-	private String ambiente_homologacion;
+	private String urlPrestadores;
+	private String urlMedico;
+	private String urlAdmin;
+	private String urlSocio;
+	private String correo;
 	private String driverPath;
 	private String log4jPath;
 	private String delivery;
@@ -22,13 +24,10 @@ public class Configuration {
 	public Configuration() {
 	}
 
-	public Configuration(String browser, String ambiente_testing, String ambiente_desarrollo, String ambiente_homologacion, String driverPath,
+	public Configuration(String browser, String urlPrestadores, String urlMedico, String urlAdmin, String urlSocio, String driverPath,
 			String log4jPath, String delivery, String reportPath, String reportRepository, String imageRepository,
-			String deliveryPath, String urlDriver, String pruebaRemota) {
+			String deliveryPath, String urlDriver, String pruebaRemota, String correo) {
 		this.browser = browser;
-		this.ambiente_testing = ambiente_testing;
-		this.ambiente_desarrollo = ambiente_desarrollo;
-		this.ambiente_homologacion = ambiente_homologacion;
 		this.driverPath = driverPath;
 		this.log4jPath = log4jPath;
 		this.delivery = delivery;
@@ -38,6 +37,11 @@ public class Configuration {
 		this.deliveryPath = deliveryPath;
 		this.urlDriver = urlDriver;
 		this.pruebaRemota = pruebaRemota;
+		this.urlPrestadores = urlPrestadores;
+		this.urlMedico = urlMedico;
+		this.urlAdmin = urlAdmin;
+		this.urlSocio = urlSocio;
+		this.correo = correo;
 	}
 
 	
@@ -77,34 +81,6 @@ public class Configuration {
 	public void setBrowser(String browser) {
 		this.browser = browser;
 	}
-
-	public String getambiente_testing() {
-		return ambiente_testing;
-	}
-
-	@XmlElement
-	public void setambiente_testing(String ambiente_testing) {
-		this.ambiente_testing = ambiente_testing;
-	}
-
-	public String getambiente_desarrollo() {
-		return ambiente_desarrollo;
-	}
-
-	@XmlElement
-	public void setambiente_desarrollo(String ambiente_desarrollo) {
-		this.ambiente_desarrollo = ambiente_desarrollo;
-	}
-
-	public String getambiente_homologacion() {
-		return ambiente_homologacion;
-	}
-
-	@XmlElement
-	public void setambiente_homologacion(String ambiente_homologacion) {
-		this.ambiente_homologacion = ambiente_homologacion;
-	}
-
 	public String getDriverPath() {
 		return driverPath;
 	}
@@ -158,5 +134,59 @@ public class Configuration {
 	public void setImageRepository(String imageRepository) {
 		this.imageRepository = imageRepository;
 	}
+
+	public String geturlAdmin() {
+		return urlAdmin;
+	}
+
+	@XmlElement
+	public void seturlPrestadores(String urlPrestadores) {
+		this.urlPrestadores = urlPrestadores;
+	}
+
+	@XmlElement
+	public void seturlMedico(String urlMedico) {
+		this.urlMedico = urlMedico;
+	}
+
+	@XmlElement
+	public void seturlAdmin(String urlAdmin) {
+		this.urlAdmin = urlAdmin;
+	}
+
+	public String getUrlPrestadores() {
+		return urlPrestadores;
+	}
+
+	public String getUrlMedico() {
+		return urlMedico;
+	}
+
+	public String getUrlAdmin() {
+		return urlAdmin;
+	}
+
+	public String getUrlSocio() {
+		return urlSocio;
+	}
+
+	public String geturlSocio() {
+		return urlSocio;
+	}
+	@XmlElement
+	public void seturlSocio(String urlSocio) {
+		this.urlSocio = urlSocio;
+	}
+
+	public String getCorreo() {
+		return correo;
+	}
+
+	@XmlElement
+	public void setCorreo(String correo) {
+		this.correo = correo;
+	}
+	
+	
 
 }

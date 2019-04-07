@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configuration>
-    <ambiente_desarrollo>https://dconsultamedica.osde.com.ar/prestadores</ambiente_desarrollo>
-    <ambiente_homologacion>https://cconsultamedica.osde.com.ar/prestadores</ambiente_homologacion>
-    <ambiente_testing>https://tconsultamedica.osde.com.ar/prestadores</ambiente_testing>
     <browser>Chrome</browser>
     <driverPath>C:/ChromeDriver/chromedriver.exe</driverPath>
 	<IEDriverPath>C:/ChromeDriver/chromedriver.exe</IEDriverPath>
@@ -15,4 +12,9 @@
     <deliveryPath>C:/Users/ntedesco/workspace/ConsultaMedicaOnline/framework/src/main/java/delivery/emailSenderConfiguration.xml</deliveryPath>
     <pruebaRemota>NO</pruebaRemota>
     <urlDriver>http://192.168.99.100:4444/wd/hub</urlDriver>
+	<urlAdmin>https://tconsultamedica.osde.com.ar/admin</urlAdmin>
+    <urlMedico>https://tconsultamedica.osde.com.ar/medico</urlMedico>
+    <urlPrestadores>https://tconsultamedica.osde.com.ar/prestadores</urlPrestadores>
+    <urlSocio>https://tconsultamedica.osde.com.ar/paciente/</urlSocio>
+    <correo>http://gmail.com</correo>
 </configuration>

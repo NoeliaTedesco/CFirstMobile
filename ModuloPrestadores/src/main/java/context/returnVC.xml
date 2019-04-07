@@ -2,10 +2,14 @@
 <objects>
     <asignado>Noelia</asignado>
     <estado>Pasa</estado>
-    <nombreDeLaPrueba>generateInvitation</nombreDeLaPrueba>
+    <nombreDeLaPrueba>returnVC</nombreDeLaPrueba>
     <pasos>
         <entry>
             <key>generateInvitation</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>returnVC</key>
             <value>Pasa</value>
         </entry>
         <entry>
@@ -17,7 +21,7 @@
     <referencia>Referencia</referencia>
     <sprint>Sprint 11</sprint>
     <tiempoFinal>TiempoFinal</tiempoFinal>
-    <tiempoInicio>15545809671</tiempoInicio>
+    <tiempoInicio>15537379052</tiempoInicio>
     <tipoDePrueba>Regresion</tipoDePrueba>
     <usuario>
         <email>cmotest1@cmo.com</email>

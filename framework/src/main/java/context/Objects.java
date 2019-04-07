@@ -20,7 +20,6 @@ public class Objects {
 	private String Sprint;
 	private String Version;
 	private HashMap<String, String> Pasos = new HashMap<String, String>();
-
 	private String NombreDeLaPrueba;
 
 	public Objects() {
@@ -34,7 +33,7 @@ public class Objects {
 		this.Invitacion = invitacion;
 	}
 	
-	public Objects (Invitaciones inv, Usuario usser, String TipoDePrueba, String Prioridad, String Referencia, String Asignado, String TiempoInicio,
+	public Objects (Usuario usser, String TipoDePrueba, String Prioridad, String Referencia, String Asignado, String TiempoInicio,
 			String TiempoFinal, String Estado, String Sprint, String Version, String NombreDeLaPrueba) {
 		this.TipoDePrueba = TipoDePrueba;
 		this.Prioridad = Prioridad;
@@ -47,7 +46,6 @@ public class Objects {
 		this.Version = Version;
 		this.NombreDeLaPrueba = NombreDeLaPrueba;
 		this.Usuario = usser;
-		this.Invitacion = inv;
 		
 	}
 	
@@ -57,6 +55,7 @@ public class Objects {
 		return Invitacion;
 	}
 	
+
 	public void setInvitacion(Invitaciones invitacion) {
 		Invitacion = invitacion;
 	}

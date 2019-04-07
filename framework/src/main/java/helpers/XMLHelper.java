@@ -52,7 +52,7 @@ public class XMLHelper {
 
     public static void generarXml() {
     	Usuario usuario = new Usuario("prueba", "PASSTEST");
-		Objects obj = new Objects(null,usuario, "TipoPrueba","Prioridad", "Referencia", "Asignado",
+		Objects obj = new Objects(usuario, "TipoPrueba","Prioridad", "Referencia", "Asignado",
 				"TiempoInicio", "TiempoFinal", "Estado", "Sprint", "version", "nombrePrueba");
 
         try {
