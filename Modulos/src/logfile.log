@@ -1386,3 +1386,313 @@ Session ID: 7dfe101819e89d4b3f60682935874042
 2019-04-10 06:21:29,709 INFO  [Log] generateInvitation: Pasa 
 2019-04-10 06:21:29,709 INFO  [Log] End test: generateInvitation 
 2019-04-10 06:21:35,229 INFO  [Log] Sent message successfully.... 
+2019-04-10 06:28:22,503 INFO  [Log] Start test: generateInvitation 
+2019-04-10 06:28:31,908 INFO  [Log] Se inicio sesión correctamente 
+2019-04-10 06:28:38,831 INFO  [Log] 
+                                
+                                    0
+                                    
+                                        Pacientes en Espera
+                                        
+                                            Total de Pacientes en Espera: 0
+                                       
+                                    
+                                
+                                
+                             
+2019-04-10 06:28:39,029 INFO  [Log] Se ingreso a la gurdia correctamente 
+2019-04-10 06:28:43,489 INFO  [Log] Se inicio sesión correctamente 
+2019-04-10 06:28:57,063 INFO  [Log] Invitación enviada correctamente 
+2019-04-10 06:29:09,461 INFO  [Log] Se inicio correctamente la sesión 
+2019-04-10 06:29:18,663 INFO  [Log] Se encontró el correo de invitación 
+2019-04-10 06:29:31,914 INFO  [Log] Se logro ingresar al link 
+2019-04-10 06:29:38,690 INFO  [Log] Se ingreso correctamente a los términos y condiciones 
+2019-04-10 06:29:51,383 INFO  [Log] 
+                                        Test Test
+                                        
+                                            18 años, 
+                                            SOCIO 62470794506 (MET20190327000008R001SA001)
+                                            
+                                        
+                                        
+                                            
+                                            Plan 2 210
+                                            
+                                            
+                                                - Localización: 
+                                                BARRIO1, AGRELO, MENDOZA
+                                            
+                                        
+                                        
+                                            
+                                            
+                                            
+                                            
+                                            
+                                        
+                                     
+2019-04-10 06:29:51,413 INFO  [Log] 
+                                                
+                                                    Consultas anteriores: 19 / Tiempo Promedio de atención:  8 min
+                                                
+                                                
+                                                    
+                                                        
+                                                            
+                                                                
+                                                                Fecha
+                                                                
+                                                                Diagnóstico
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                
+                                                                10/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                10/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                10/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                10/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            VÓMITOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                10/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            VÓMITOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                09/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                09/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                09/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                09/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                09/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                09/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                09/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                08/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                08/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                05/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            DOLOR ABDOMINAL
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                            VÓMITOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                04/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                04/04/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                28/03/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            TOS
+                                                                        
+                                                                            VÓMITOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                                
+                                                                13/03/2019
+                                                                
+                                                                
+                                                                    
+                                                                        
+                                                                            VÓMITOS
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                            
+                                                        
+                                                    
+                                                
+                                             
+2019-04-10 06:29:51,413 INFO  [Log] Se recupera información de la preview 
+2019-04-10 06:30:04,236 INFO  [Log] Se logro ingresar a la CMO correctamente 
+2019-04-10 06:30:07,459 INFO  [Log] Se envio correctamente el chat 
+2019-04-10 06:30:14,097 INFO  [Log] Se finalizó correctamente la VC 
+2019-04-10 06:30:26,384 INFO  [Log] Se logro seleccionar el diagnostico 
+2019-04-10 06:30:33,783 INFO  [Log] Se completo el registro médico correctamente 
+2019-04-10 06:30:37,792 INFO  [Log] Se continua atendiendo exitosamente 
+2019-04-10 06:30:44,952 INFO  [Log] Se salio de la gurdia correctamente 
+2019-04-10 06:30:45,057 INFO  [Log] generateInvitation: Pasa 
+2019-04-10 06:30:45,057 INFO  [Log] End test: generateInvitation 
+2019-04-10 06:30:50,296 INFO  [Log] Sent message successfully.... 
