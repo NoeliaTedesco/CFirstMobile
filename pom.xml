@@ -65,6 +65,6 @@
 	</dependencies>
 	<modules>
 		<module>framework</module>
-		<module>ModuloPrestadores</module>
+		<module>Modulos</module>
 	</modules>
 </project>

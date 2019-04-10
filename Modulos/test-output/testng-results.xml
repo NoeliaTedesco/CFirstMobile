@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="167509" started-at="2019-04-10T09:18:47Z" finished-at="2019-04-10T09:21:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="167509" started-at="2019-04-10T09:18:47Z" finished-at="2019-04-10T09:21:35Z">
+      <class name="suiteTest.Regression">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:suiteTest.Regression@3abbfa04]" name="setUpClass" is-config="true" duration-ms="480" started-at="2019-04-10T06:18:47Z" finished-at="2019-04-10T06:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regression@3abbfa04]" name="setUp" is-config="true" duration-ms="5291" started-at="2019-04-10T06:18:48Z" finished-at="2019-04-10T06:18:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suiteTest.Regression.generateInvitation(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="generateInvitation(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regression@3abbfa04]" name="generateInvitation" duration-ms="156180" started-at="2019-04-10T06:18:53Z" finished-at="2019-04-10T06:21:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suiteTest.Regression.generateInvitation(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateInvitation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suiteTest.Regression@3abbfa04]" name="tearDown" is-config="true" duration-ms="144" started-at="2019-04-10T06:21:29Z" finished-at="2019-04-10T06:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:suiteTest.Regression@3abbfa04]" name="tearDownClass" is-config="true" duration-ms="5371" started-at="2019-04-10T06:21:29Z" finished-at="2019-04-10T06:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- suiteTest.Regression -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
