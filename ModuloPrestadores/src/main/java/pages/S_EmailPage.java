@@ -87,13 +87,13 @@ public class S_EmailPage extends BasePage {
 				wait.until(ExpectedConditions.elementToBeClickable(linkInvitation));
 				PageHelper.ScrollToTheBottom();
 				linkInvitation.click();
-			} else {
-				linkInvitation.click();
 			}
 			Log.info("Se logro ingresar al link");
 		} catch (Exception e) {
-			System.out.println(e.getMessage());
-			Log.info("No se logro ingresar al link");
+			wait.until(ExpectedConditions.elementToBeClickable(linkInvitation));
+			linkInvitation.click();
+			Log.info(e.getMessage());
+			Log.info("Se logro ingresar al link");
 		}
 	}
 

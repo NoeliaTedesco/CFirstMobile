@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import base.BasePage;
+import helpers.PageHelper;
 import log.Log;
 
 public class S_TermsPage extends BasePage {
@@ -20,10 +21,10 @@ public class S_TermsPage extends BasePage {
 
 	public void EnterTerms() {
 		try {
-			//wait.until(ExpectedConditions.elementToBeClickable(checkAcept));
 			checkAcept.click();
 			wait.until(ExpectedConditions.elementToBeClickable(btnEnter));
 			btnEnter.click();
+			PageHelper.WaitForPageLoading();
 			Log.info("Se ingreso correctamente a los términos y condiciones");
 		} catch (Exception e) {
 			Log.info(e.getMessage());

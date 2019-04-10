@@ -12,16 +12,19 @@ import helpers.StepHelper;
 import helpers.XMLHelper;
 import pages.A_LoginPage;
 import pages.ChangePasswordPage;
+import pages.M_EndCMOPage;
 import pages.M_GuardPage;
 import pages.M_HomePage;
 import pages.M_LoginPage;
 import pages.M_PreviewPage;
+import pages.M_VideoCallPage;
 import pages.P_HomePage;
 import pages.P_InvitationPage;
 import pages.P_LoginPage;
 import pages.S_CallToTheOfficePage;
 import pages.S_EmailPage;
 import pages.S_TermsPage;
+import pages.S_VideoCallPage;
 
 public class GenerateInvitationStep extends BaseStep {
 	
@@ -63,22 +66,37 @@ public class GenerateInvitationStep extends BaseStep {
 			CurrentPage.As(S_EmailPage.class).loginGmail(EmailSenderConfiguration.getUser(), EmailSenderConfiguration.getPassword());
 			PageHelper.waitImplicit();
 			CurrentPage.As(S_EmailPage.class).openEmail();
-			PageHelper.WaitForPageLoading();
+			PageHelper.waitImplicit();
 			CurrentPage.As(S_EmailPage.class).goToTheLink();
 			PageHelper.waitImplicit();
 			switchToTab(configuration.geturlSocio());
 			CurrentPage = (new S_TermsPage().GetInstance(S_TermsPage.class));
 			CurrentPage.As(S_TermsPage.class).EnterTerms();			
-			PageHelper.WaitForPageLoading();
 			switchToTab(configuration.getUrlMedico());
 			CurrentPage = (new M_GuardPage().GetInstance(M_GuardPage.class));
 			CurrentPage.As(M_GuardPage.class).attendPatient();
 			CurrentPage = (new M_PreviewPage().GetInstance(M_PreviewPage.class));
 			CurrentPage.As(M_PreviewPage.class).callPatient();
+			PageHelper.waitImplicit();
 			switchToTab(configuration.geturlSocio());
 			CurrentPage = (new S_CallToTheOfficePage().GetInstance(S_CallToTheOfficePage.class));
-			CurrentPage.As(S_CallToTheOfficePage.class).enterCMO();			
-//			CurrentPage.As(M_GuardPage.class).singOffGuard();
+			CurrentPage.As(S_CallToTheOfficePage.class).enterCMO();
+			CurrentPage = (new S_VideoCallPage().GetInstance(S_VideoCallPage.class));
+			CurrentPage.As(S_VideoCallPage.class).sendChat("PRUEBA");
+			CurrentPage.As(S_VideoCallPage.class).closeVideoCall();
+			PageHelper.waitImplicit();
+			switchToTab(configuration.getUrlMedico());
+			CurrentPage = (new M_VideoCallPage().GetInstance(M_VideoCallPage.class));
+			CurrentPage.As(M_VideoCallPage.class).completeRecord(inv.getMotivoExtendido(), inv.getEnfermedadActual(),
+					inv.getDiagnostico(), inv.getIndicaciones(), inv.getReposo(), inv.getSignos());
+			PageHelper.WaitForPageLoading();
+			CurrentPage = (new M_EndCMOPage().GetInstance(M_EndCMOPage.class));	
+			CurrentPage.As(M_EndCMOPage.class).continueAttending();
+			PageHelper.WaitForPageLoading();
+			CurrentPage = (new M_GuardPage().GetInstance(M_GuardPage.class));
+			CurrentPage.As(M_GuardPage.class).singOffGuard();
+			PageHelper.WaitForPageLoading();
+//			CurrentPage.As(M_VideoCallPage.class).
 //			CurrentPage = (new A_LoginPage().GetInstance(A_LoginPage.class));
 //			CurrentPage.As(A_LoginPage.class).loginUsser(usr.getEmail(), usr.getPassword());
 			log.Log.SuccessStep(testName);

@@ -62,8 +62,8 @@ public class EmailSender {
 
         Session session = Session.getInstance(props, new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(emailConfiguration.getUser(),
-                        emailConfiguration.getPassword());
+                return new PasswordAuthentication(EmailSenderConfiguration.getUser(),
+                        EmailSenderConfiguration.getPassword());
             }
         });
 

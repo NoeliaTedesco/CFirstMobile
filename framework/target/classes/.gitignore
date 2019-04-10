@@ -1,6 +1,4 @@
-/META-INF/
-/config/
-/base/
-/delivery/
-/helpers/
 /initializer/
+/META-INF/
+/delivery/
+/context/

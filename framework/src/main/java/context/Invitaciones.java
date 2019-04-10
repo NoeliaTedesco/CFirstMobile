@@ -63,7 +63,24 @@ public class Invitaciones {
 	
 	@ExcelCell(value = 18)
 	public String marcaPMI;
+
+	@ExcelCell(value = 19)
+	public String motivoExtendido;
 	
+	@ExcelCell(value = 20)	
+	public String enfermedadActual;
+	
+	@ExcelCell(value = 21)	
+	public String diagnostico;
+	
+	@ExcelCell(value = 22)
+	public String indicaciones;
+	
+	@ExcelCell(value = 23)
+	public String reposo;
+	
+	@ExcelCell(value = 24)
+	public String signos;
 	
 	public Invitaciones() {
 
@@ -72,7 +89,8 @@ public class Invitaciones {
 	public Invitaciones(String nroSocio, String nroCelular, String especialidad, String detalleConsulta, String nombre,
 			String apellido, String fechaNacimiento, String idServicio, String email, String plan, String mesaOperativa,
 			String provincia, String localidad, String barrio, String marcaCI, String marcaDiscapacidad, String marcaID, String marcaCX, 
-			String marcaPMI) {
+			String marcaPMI, String motivoExtendido, String enfermedadActual, String diagnostico, String indicaciones,
+			String reposo, String signos) {
 		this.nroSocio = nroSocio;
 		this.nroCelular = nroCelular;
 		this.especialidad = especialidad;
@@ -92,6 +110,12 @@ public class Invitaciones {
 		this.marcaID = marcaID;
 		this.marcaCX = marcaCX;
 		this.marcaPMI = marcaPMI;
+		this.motivoExtendido = motivoExtendido;
+		this.enfermedadActual = enfermedadActual;
+		this.diagnostico = diagnostico;
+		this.indicaciones = indicaciones;
+		this.reposo = reposo;
+		this.signos = signos;
 	}
 
 	public String getEmail() {
@@ -168,6 +192,30 @@ public class Invitaciones {
 
 	public String getMarcaPMI() {
 		return marcaPMI;
+	}
+
+	public String getMotivoExtendido() {
+		return motivoExtendido;
+	}
+
+	public String getEnfermedadActual() {
+		return enfermedadActual;
+	}
+
+	public String getDiagnostico() {
+		return diagnostico;
+	}
+
+	public String getIndicaciones() {
+		return indicaciones;
+	}
+
+	public String getReposo() {
+		return reposo;
+	}
+
+	public String getSignos() {
+		return signos;
 	}
 
 }
