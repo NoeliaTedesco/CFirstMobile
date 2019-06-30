@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+	<platformName>Android</platformName>
+	<apkPath>..\\src\\apk\\apk37.apk</apkPath>
+	<portAppium>4723</portAppium>
+	<ipAppium>192.168.1.105</ipAppium>
+	<platformVersion>8.0.0</platformVersion>
+	<deviceName>G3123</deviceName>
+	<delivery>False</delivery>
+	<imagePath>\\src\\\ResultadosTest\\screenshot</imagePath>
+	<imageRepository>C:/imageRepository</imageRepository>
+	<log4jPath>..\\frameworkMobile\\src\\log4j.xml</log4jPath>
+	<reportPath>..\\frameworkMobile\\src\\main\\java\\report\\JReportAdvancedConfiguration.xml
+	</reportPath>
+	<reportRepository>\\src\\ResultadosTest\\Report\\Reporte.pdf
+	</reportRepository>
+	<deliveryPath>..\\frameworkMobile\\src\\main\\java\\delivery\\emailSenderConfiguration.xml
+	</deliveryPath>
+</configuration>

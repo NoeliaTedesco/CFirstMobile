@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.sms.framework.CMO</groupId>
-	<artifactId>ConsultaMedicaOnline</artifactId>
+	<groupId>com.sms.framework.CMOMobile</groupId>
+	<artifactId>ConsultaMedicaOnlineMobile</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<name>ConsultaMedicaOnlineMobile</name>
 
-	<name>ConsultaMedicaOnline</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -62,9 +62,19 @@
 			<version>6.11</version>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+		<dependency>
+    		<groupId>org.jfree</groupId>
+    		<artifactId>jfreechart</artifactId>
+    		<version>1.0.19</version>
+		</dependency>
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>4.1.2</version>
+			</dependency>
+</dependencies>
 	<modules>
-		<module>framework</module>
-		<module>Modulos</module>
+		<module>frameworkMobile</module>
+		<module>Android</module>
 	</modules>
 </project>
