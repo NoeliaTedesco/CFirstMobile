@@ -1,6 +1,5 @@
 package initializer;
 
-import base.Base;
 import config.DataSetter;
 import static config.DataSetter.configuration;
 import static delivery.EmailSender.InitializeEmailDeliveryConfiguration;
@@ -20,6 +19,8 @@ import java.net.URL;
 import log.Log;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
+
+import base.Base;
 import report.ReportConfiguration;
 
 public class InitilizeHook extends Base {

@@ -1,6 +1,5 @@
 package components;
 
-import initializer.InitilizeHook;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -13,6 +12,7 @@ import org.testng.annotations.BeforeTest;
 
 import helpers.StepHelper;
 import helpers.XMLHelper;
+import initializer.InitilizeHook;
 
 public class Hook extends InitilizeHook {
 	

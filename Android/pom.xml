@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.sms.framework.CMO.Android</groupId>
 	<artifactId>Android</artifactId>
-	<version>37.0.0</version>
+	<version>43.0.0</version>
 	<name>Android</name>
 	<url>http://maven.apache.org</url>
 	<properties>
