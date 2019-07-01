@@ -47,12 +47,12 @@ public class Configuration {
 		this.portAppium = portAppium;
 	}
 
-	public String getIPAppium() {
+	public String getIpAppium() {
 		return ipAppium;
 	}
 
 	@XmlElement
-	public void setIPAppium(String ipAppium) {
+	public void setIpAppium(String ipAppium) {
 		this.ipAppium = ipAppium;
 	}
 

@@ -1,19 +1,23 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import base.BasePage;
 import helpers.PageHelper;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import log.Log;
 
 public class S_HomePage extends BasePage {
 
-	@FindBy(xpath = "//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.Button[1]")
+	@FindBy (id = "ar.com.portalsalud.osde:id/callNow1Btt")
 	private WebElement btnPrimerTelefono;
 
-	@FindBy(xpath = "//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.Button[2]")
+	@AndroidFindBy(id = "ar.com.portalsalud.osde:id/callNow2Btt")
 	private WebElement btnSegundoTelefono;
 
 	@FindBy(xpath = "//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[1]")
@@ -66,11 +70,13 @@ public class S_HomePage extends BasePage {
 	public Boolean esVisiblePrimerTelefono() {
 		Boolean esVisible = false;
 		try {
-			wait.until(ExpectedConditions.elementToBeClickable(btnPrimerTelefono));
+			action.click(btnPrimerTelefono);
+			action.perform();
 			esVisible = btnPrimerTelefono.isDisplayed();
 			Log.info("Se obtuvo el elemento btnPrimerTelefono");
 		} catch (Exception e) {
 			Log.info("Fallo al obtener el elemento btnPrimerTelefono");
+			e.printStackTrace();
 		}
 		return esVisible;
 	}

@@ -7,8 +7,8 @@ import steps.S_Visualizar_Elementos_HomeStep;
 
 public class Regresion_Android extends Hook {
 	
-	@Test (priority = 0)
-	public void S_Home01(Method method) {
+	@Test 
+	public void S_Home_01(Method method) {
 		S_Visualizar_Elementos_HomeStep.Run(method.getName());
 	}
 

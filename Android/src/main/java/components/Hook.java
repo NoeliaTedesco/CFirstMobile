@@ -36,27 +36,25 @@ public class Hook extends InitilizeHook {
 	
 	@BeforeMethod
 	public void setUp(Method method) throws FileNotFoundException, IOException {
-		testName = method.getName();
-		OpenContextData(testName);
-		
+		testName = method.getName();		
 	}
 	
 	@AfterMethod 
 	public void stepFail(ITestResult testResult) { 
 		if (testResult.getStatus() == ITestResult.FAILURE) { 
 			String pathImgScreen = StepHelper.takeScreenShot("FALLA_" + testName);
-			XMLHelper.object.setImgFalla(pathImgScreen);
+//			XMLHelper.object.setImgFalla(pathImgScreen);
 		} 
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		CloseContextData(testName);
 	}
 
 	@AfterTest
 	public static void tearDownClass() {
 		CloseDriver();
+		StopAppiumService();
 		CloseReport();
 		CloseDelivery();
 		CloseConfiguration();

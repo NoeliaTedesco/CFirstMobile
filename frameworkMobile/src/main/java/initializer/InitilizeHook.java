@@ -1,7 +1,6 @@
 package initializer;
 
 import config.DataSetter;
-import static config.DataSetter.configuration;
 import static delivery.EmailSender.InitializeEmailDeliveryConfiguration;
 import static delivery.EmailSender.exitDelivery;
 
@@ -24,20 +23,18 @@ import base.Base;
 import report.ReportConfiguration;
 
 public class InitilizeHook extends Base {
-
-	private static String ipAppium = configuration.getIPAppium();
-	private static int puertoAppium = configuration.getPortAppium();
-	private static String platformName = configuration.getPlatformName();
-	private static String deviceName = configuration.getDeviceName();
-	private static String platformVersion = configuration.getPlatformVersion();
+	
+	static AppiumDriverLocalService service;
 
 	public static void StartAppiumService() {
+		String ipAppium = DataSetter.configuration.getIpAppium();
+		int puertoAppium = DataSetter.configuration.getPortAppium();
 
 		try {
 			AppiumServiceBuilder build = new AppiumServiceBuilder();
 			build.withIPAddress(ipAppium);
 			build.usingPort(puertoAppium);
-			AppiumDriverLocalService service = AppiumDriverLocalService.buildService(build);
+			service = AppiumDriverLocalService.buildService(build);
 			service.start();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -47,23 +44,29 @@ public class InitilizeHook extends Base {
 
 	@SuppressWarnings("rawtypes")
 	public static void OpenApplication() {
+		String platformName = DataSetter.configuration.getPlatformName();
+		String deviceName = DataSetter.configuration.getDeviceName();
+		String platformVersion = DataSetter.configuration.getPlatformVersion();
+		String ipAppium = DataSetter.configuration.getIpAppium();
+		int puertoAppium = DataSetter.configuration.getPortAppium();
+		
 		try {
 			DesiredCapabilities capability = new DesiredCapabilities();
 			capability.setCapability("deviceName", deviceName);
 			capability.setCapability("platformVersion", platformVersion);
 			capability.setCapability("platformName", platformName);
-			File file = new File(configuration.getApkPath());
-			capability.setCapability("app", file.getAbsolutePath());
+			File file = new File(System.getProperty("user.dir")+DataSetter.configuration.getApkPath());
+			capability.setCapability("app",file.getAbsolutePath());
 			switch (platformName) {
 			case "Android":
 				driver = new AndroidDriver(new URL("http://" + ipAppium + ":" + puertoAppium + "/wd/hub"), capability);
-
+				break;
 			case "iOS":
 				iOSdriver = new IOSDriver(new URL("http://" + ipAppium + ":" + puertoAppium + "/wd/hub"), capability);
-
+				break;
 			default:
 				driver = new AndroidDriver(new URL("http://" + ipAppium + ":" + puertoAppium + "/wd/hub"), capability);
-
+				break;
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -92,7 +95,7 @@ public class InitilizeHook extends Base {
 	}
 
 	public static void CreateFolder() {
-		File imagePath = new File(configuration.getImageRepository());
+		File imagePath = new File(DataSetter.configuration.getImageRepository());
 		if (!imagePath.exists()) {
 			imagePath.mkdirs();
 		}
@@ -115,8 +118,12 @@ public class InitilizeHook extends Base {
 		Log.intilizedLogger();
 	}
 
+	public static void StopAppiumService() {
+		service.stop();
+	}
+	
 	public static void CloseDriver() {
-		switch (platformName) {
+		switch (DataSetter.configuration.getPlatformName()) {
 		case "Android":
 			driver.close();
 			driver.quit();
