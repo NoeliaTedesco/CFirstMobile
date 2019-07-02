@@ -99,7 +99,7 @@ public class EmailSender {
             String filename = System.getProperty("user.dir") + DataSetter.configuration.getReportRepository();
             DataSource source = new FileDataSource(filename);
             messageBodyPart.setDataHandler(new DataHandler(source));
-            messageBodyPart.setFileName("ReporteTestSuite.pdf");
+            messageBodyPart.setFileName("Reporte.pdf");
             multipart.addBodyPart(messageBodyPart);
          
             

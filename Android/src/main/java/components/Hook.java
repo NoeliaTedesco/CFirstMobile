@@ -22,7 +22,7 @@ public class Hook extends InitilizeHook {
 	public Hook() {
 	}
 	
-	@BeforeTest
+	@BeforeTest(alwaysRun = true) 
 	public static void setUpClass() {
 		OpenConfiguration();
 		OpenLogger();
@@ -36,19 +36,22 @@ public class Hook extends InitilizeHook {
 	
 	@BeforeMethod
 	public void setUp(Method method) throws FileNotFoundException, IOException {
-		testName = method.getName();		
+		testName = method.getName();
+		OpenContextData(testName);
+
 	}
 	
 	@AfterMethod 
 	public void stepFail(ITestResult testResult) { 
 		if (testResult.getStatus() == ITestResult.FAILURE) { 
 			String pathImgScreen = StepHelper.takeScreenShot("FALLA_" + testName);
-//			XMLHelper.object.setImgFalla(pathImgScreen);
+			XMLHelper.object.setImgFalla(pathImgScreen);
 		} 
 	}
 	
 	@AfterMethod
-	public void tearDown() {
+	public void tearDown(Method method) {
+		CloseContextData(testName);
 	}
 
 	@AfterTest

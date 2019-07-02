@@ -10,7 +10,6 @@ import org.apache.http.auth.UsernamePasswordCredentials;
 @XmlRootElement
 public class Objects {
 	
-	private Invitaciones Invitacion;
 	private Usuario Usuario;
 	private String TipoDePrueba;
 	private String Prioridad;
@@ -23,12 +22,9 @@ public class Objects {
 	private String Version;
 	private HashMap<String, String> Pasos = new HashMap<String, String>();
 	private String NombreDeLaPrueba;
-	private Contrasenias contrasenia;
 	private String Modulo;
 	private String Descripcion;
 	private String ImgFalla;
-	private MesasOperativas mesas;
-	private Fechas fechas;
 	
 	public Objects() {
 	}
@@ -37,21 +33,9 @@ public class Objects {
 		this.Usuario = usuario;
 	}
 	
-	public Objects (Invitaciones invitacion) {
-		this.Invitacion = invitacion;
-	}
-	
-	public Objects (MesasOperativas mesas) {
-		this.mesas = mesas;
-	}
-	
-	public Objects (Fechas fecha) {
-		this.fechas = fecha;
-	}
-	
 	public Objects (Usuario usser, String TipoDePrueba, String Prioridad, String Referencia, String Asignado, String TiempoInicio,
-			String TiempoFinal, String Estado, String Sprint, String Version, String NombreDeLaPrueba, Contrasenias contrasenia,
-			String Modulo, String Descripcion, String ImgFalla, MesasOperativas mesas, Fechas Fechas) {
+			String TiempoFinal, String Estado, String Sprint, String Version, String NombreDeLaPrueba,
+			String Modulo, String Descripcion, String ImgFalla) {
 		this.TipoDePrueba = TipoDePrueba;
 		this.Prioridad = Prioridad;
 		this.Referencia = Referencia;
@@ -63,24 +47,11 @@ public class Objects {
 		this.Version = Version;
 		this.NombreDeLaPrueba = NombreDeLaPrueba;
 		this.Usuario = usser;
-		this.contrasenia = contrasenia;
 		this.Modulo = Modulo;
 		this.Descripcion = Descripcion;
 		this.ImgFalla = ImgFalla;
-		this.mesas = mesas;
-		this.fechas = Fechas;
 	}
 	
-	
-
-	public Invitaciones getInvitacion() {
-		return Invitacion;
-	}
-	
-
-	public void setInvitacion(Invitaciones invitacion) {
-		Invitacion = invitacion;
-	}
 
 	public Usuario getUsuario() {
 		return Usuario;
@@ -190,33 +161,6 @@ public class Objects {
 		this.Pasos = Pasos;
 	}
 
-	public Contrasenias getContrasenia() {
-		return contrasenia;
-	}
-
-	@XmlElement
-	public void setContrasenia(Contrasenias contrasenia) {
-		this.contrasenia = contrasenia;
-	}
-	
-	public MesasOperativas getMesasOperativas() {
-		return mesas;
-	}
-
-	@XmlElement
-	public void setMesasOperativas(MesasOperativas mesas) {
-		this.mesas = mesas;
-	}
-	
-	public Fechas getFechas() {
-		return fechas;
-	}
-
-	@XmlElement
-	public void setFechas(Fechas fechas) {
-		this.fechas = fechas;
-	}
-	
 	public String getModulo() {
 		return Modulo;
 	}

@@ -13,8 +13,10 @@ public class S_Visualizar_Elementos_HomeStep extends BaseStep {
 		try {
 			log.Log.startTestCase(testName);
 
+//			new S_HomePage().GetInstanceMobile(S_HomePage.class);
+//			StepHelper.takeScreenShot(testName);
+			
 			CurrentPage = (new S_HomePage().GetInstance(S_HomePage.class));
-			StepHelper.takeScreenShot(testName);
 
 			nombrePaso = "01_Se verifica que se muestre el primer telefono";
 			Assert.assertTrue(CurrentPage.As(S_HomePage.class).esVisiblePrimerTelefono());

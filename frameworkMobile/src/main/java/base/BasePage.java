@@ -35,8 +35,8 @@ public class BasePage extends Base {
 		return null;
 	}
 
-	public <TPage extends BasePage> void GetInstanceMobile(Class<TPage> page) {
-		PageFactory.initElements(new AppiumFieldDecorator(driver, 30, TimeUnit.SECONDS), page);
-	}
+//	public <TPage extends BasePage> void GetInstanceMobile(Class<TPage> page) {
+//		PageFactory.initElements(driver, page);
+//	}
 	
 }

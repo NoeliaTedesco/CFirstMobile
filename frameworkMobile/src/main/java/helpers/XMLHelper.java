@@ -2,17 +2,11 @@ package helpers;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
 import context.ContextManager;
-import context.Contrasenias;
-import context.Fechas;
-import context.MesasOperativas;
 import context.Objects;
 import context.PreObjects;
 import context.Usuario;
@@ -58,11 +52,8 @@ public class XMLHelper {
 
     public static void generarXml() {
     	Usuario usuario = new Usuario("prueba", "PASSTEST");
-    	Contrasenias contrasenia = new Contrasenias ("cmo", "cmotest1" , "cmotest5"); 	
-    	MesasOperativas mesas = new MesasOperativas("MDQ", "MZA" , "MET","NEU", "ROS" , "TUC");
-    	Fechas fecha = new Fechas("10/10/2006", "10/10/2016");
 		Objects obj = new Objects(usuario, "TipoPrueba","Prioridad", "Referencia", "Asignado",
-				"TiempoInicio", "TiempoFinal", "Estado", "Sprint", "version", "nombrePrueba", contrasenia, "modulo", "descripcion","imgFalla",mesas, fecha);
+				"TiempoInicio", "TiempoFinal", "Estado", "Sprint", "version", "nombrePrueba","modulo", "descripcion","imgFalla");
 
         try {
             File file = new File("src/main/java/context/Objects.xml");

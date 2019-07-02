@@ -41,7 +41,7 @@ import org.jfree.chart.JFreeChart;
 
 
 public class Report {
-	private static String FILE = System.getProperty("user.dir")+ DataSetter.configuration.getReportRepository();
+	private static String FILE = System.getProperty("user.dir") + DataSetter.configuration.getReportRepository();
 	private static Font catFont = new Font(Font.FontFamily.TIMES_ROMAN, 18,
 			Font.BOLD);
 	private static Font redFont = new Font(Font.FontFamily.TIMES_ROMAN, 12,

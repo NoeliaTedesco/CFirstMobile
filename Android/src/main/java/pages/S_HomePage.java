@@ -17,22 +17,37 @@ public class S_HomePage extends BasePage {
 	@FindBy (id = "ar.com.portalsalud.osde:id/callNow1Btt")
 	private WebElement btnPrimerTelefono;
 
-	@AndroidFindBy(id = "ar.com.portalsalud.osde:id/callNow2Btt")
+	@FindBy(id = "ar.com.portalsalud.osde:id/callNow2Btt")
 	private WebElement btnSegundoTelefono;
 
-	@FindBy(xpath = "//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[1]")
+	@FindBy(id = "ar.com.portalsalud.osde:id/tv_communicate")
 	private WebElement labelTxtAcceder;
 
-	@FindBy(xpath = "//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[2]")
+	@FindBy(id = "ar.com.portalsalud.osde:id/tv_communicate_info")
 	private WebElement labelTxtServicioUrgencias;
 
-	@FindBy(xpath = "//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[3]")
+	@FindBy(id = "ar.com.portalsalud.osde:id/versionName")
 	private WebElement labelTxtVersion;
 	
-	@FindBy(xpath = "//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[4]")
+	@FindBy(id = "ar.com.portalsalud.osde:id/tv_rights_reserved")
 	private WebElement labelTxtOSDE;
 	
 
+	public  Boolean esVisiblePrimerTelefono() {
+		Boolean esVisible = false;
+		try {
+			wait.until(ExpectedConditions.visibilityOf(btnPrimerTelefono));
+			esVisible = btnPrimerTelefono.isDisplayed();
+			Log.info("Se obtuvo el elemento btnPrimerTelefono");
+		} catch (Exception e) {
+			e.printStackTrace();
+			e.getMessage();
+			Log.info("Fallo al obtener el elemento btnPrimerTelefono");
+		}
+		return esVisible;
+	}
+	
+	
 	public void clicPrimerTelefono() {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnPrimerTelefono));
@@ -55,7 +70,7 @@ public class S_HomePage extends BasePage {
 		}
 	}
 
-	public Boolean esVisibleSegundoTelefono() {
+	public  Boolean esVisibleSegundoTelefono() {
 		Boolean esVisible = false;
 		try {
 			wait.until(ExpectedConditions.visibilityOf(btnSegundoTelefono));
@@ -67,19 +82,7 @@ public class S_HomePage extends BasePage {
 		return esVisible;
 	}
 
-	public Boolean esVisiblePrimerTelefono() {
-		Boolean esVisible = false;
-		try {
-			action.click(btnPrimerTelefono);
-			action.perform();
-			esVisible = btnPrimerTelefono.isDisplayed();
-			Log.info("Se obtuvo el elemento btnPrimerTelefono");
-		} catch (Exception e) {
-			Log.info("Fallo al obtener el elemento btnPrimerTelefono");
-			e.printStackTrace();
-		}
-		return esVisible;
-	}
+
 
 	public Boolean esVisibleLabelTxtAcceder() {
 		Boolean esVisible = false;
@@ -129,7 +132,7 @@ public class S_HomePage extends BasePage {
 		return esVisible;
 	}
 
-	public String recuperarPrimerTelefono() {
+	public  String recuperarPrimerTelefono() {
 		String texto = null;
 		try {
 			texto = btnPrimerTelefono.getText();
@@ -140,7 +143,7 @@ public class S_HomePage extends BasePage {
 		return texto;
 	}
 	
-	public String recuperarSegundoTelefono() {
+	public  String recuperarSegundoTelefono() {
 		String texto = null;
 		try {
 			texto = btnSegundoTelefono.getText();

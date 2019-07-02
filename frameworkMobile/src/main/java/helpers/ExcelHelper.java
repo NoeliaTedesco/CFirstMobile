@@ -18,7 +18,6 @@ import com.poiji.exception.PoijiExcelType;
 import com.poiji.option.PoijiOptions;
 import com.poiji.option.PoijiOptions.PoijiOptionsBuilder;
 
-import context.Invitaciones;
 import context.Objects;
 
 public class ExcelHelper {
@@ -34,14 +33,14 @@ public class ExcelHelper {
 
 	}
 
-	public static void leerExcelCargado(String testName) throws IOException {
-		InputStream fs = new FileInputStream("src\\datapool\\" + testName + ".xls");
-		PoijiOptions options = PoijiOptionsBuilder.settings(0).build(); 
-		List<Invitaciones> inv = Poiji.fromExcel(fs, PoijiExcelType.XLS, Invitaciones.class, options);
-		Objects obj = new Objects (inv.get(0));
-		objectExcel = obj;
-		fs.close();
-	}
+//	public static void leerExcelCargado(String testName) throws IOException {
+//		InputStream fs = new FileInputStream("src\\datapool\\" + testName + ".xls");
+//		PoijiOptions options = PoijiOptionsBuilder.settings(0).build(); 
+//		List<Invitaciones> inv = Poiji.fromExcel(fs, PoijiExcelType.XLS, Invitaciones.class, options);
+//		Objects obj = new Objects (inv.get(0));
+//		objectExcel = obj;
+//		fs.close();
+//	}
 
 	public static List<HashMap<String, String>> cargarExcel(String testName) throws FileNotFoundException, IOException {
 
