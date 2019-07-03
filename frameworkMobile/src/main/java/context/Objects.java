@@ -25,12 +25,18 @@ public class Objects {
 	private String Modulo;
 	private String Descripcion;
 	private String ImgFalla;
-	
+	private Invitaciones invitacion;
+
+
 	public Objects() {
 	}
 	
 	public Objects (Usuario usuario) {
 		this.Usuario = usuario;
+	}
+	
+	public Objects (Invitaciones invitacion) {
+		this.invitacion = invitacion;
 	}
 	
 	public Objects (Usuario usser, String TipoDePrueba, String Prioridad, String Referencia, String Asignado, String TiempoInicio,
@@ -186,6 +192,15 @@ public class Objects {
 	@XmlElement
 	public void setImgFalla(String imgFalla) {
 		ImgFalla = imgFalla;
+	}
+	
+	public Invitaciones getInvitacion() {
+		return invitacion;
+	}
+	
+	@XmlElement
+	public void setInvitacion(Invitaciones invitacion) {
+		this.invitacion = invitacion;
 	}
 
 }

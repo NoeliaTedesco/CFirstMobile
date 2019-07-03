@@ -103,6 +103,7 @@ public class InitilizeHook extends Base {
 
 	public static void OpenContextData(String testName) throws FileNotFoundException, IOException {
 		XMLHelper.leerXml(testName);
+		ExcelHelper.leerExcelCargado(testName);
 	}
 
 	public static void CloseConfiguration() {

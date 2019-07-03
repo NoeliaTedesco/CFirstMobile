@@ -1,15 +1,10 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import base.BasePage;
-import helpers.PageHelper;
-import io.appium.java_client.MobileElement;
-import io.appium.java_client.android.AndroidElement;
-import io.appium.java_client.pagefactory.AndroidFindBy;
 import log.Log;
 
 public class S_HomePage extends BasePage {

@@ -1,6 +1,7 @@
 package helpers;
 
 import static base.Base.driver;
+import static base.BasePage.actionTouch;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,9 +11,23 @@ import java.util.ArrayList;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import javax.swing.Action;
+
 import org.jfree.util.Log;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.support.ui.ExpectedCondition;
+
+import base.BasePage;
+
+import java.time.Duration;
+
+import static io.appium.java_client.touch.TapOptions.tapOptions;
+import static io.appium.java_client.touch.WaitOptions.waitOptions;
+import static io.appium.java_client.touch.offset.ElementOption.element;
+import static io.appium.java_client.touch.offset.PointOption.point;
+import static java.time.Duration.ofMillis;
+import static java.time.Duration.ofSeconds;
 
 public class PageHelper {
 
@@ -29,6 +44,16 @@ public class PageHelper {
 
 	public static void ScrollToTheBottom() {
 		((JavascriptExecutor) driver).executeScript(("window.scrollTo(0, document.body.scrollHeight)"));
+	}
+
+	public static void ScrollToElementMobile(WebElement element) {
+		try {
+			System.out.println(element.getLocation());
+			BasePage.action.moveByOffset(510,1382).pause(Duration.ofMillis(3000)).build();
+			BasePage.action.perform();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	public static void WaitForPageLoading() throws InterruptedException {
@@ -146,7 +171,7 @@ public class PageHelper {
 
 	public static void closeTabs() {
 		tabs = new ArrayList<String>(driver.getWindowHandles());
-		String tabPrincipal= tabs.get(0);
+		String tabPrincipal = tabs.get(0);
 		tabs.remove(0);
 		try {
 			while (!tabs.isEmpty()) {
@@ -162,10 +187,10 @@ public class PageHelper {
 		}
 		driver.switchTo().window(tabPrincipal);
 	}
-	
-    public static int countTabs() {
-    	tabs = new ArrayList<String>(driver.getWindowHandles());
-    	int cantVentanas = tabs.size();
-    	return cantVentanas;
-    }
+
+	public static int countTabs() {
+		tabs = new ArrayList<String>(driver.getWindowHandles());
+		int cantVentanas = tabs.size();
+		return cantVentanas;
+	}
 }

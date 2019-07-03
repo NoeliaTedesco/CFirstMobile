@@ -7,17 +7,22 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.TouchAction;
+
 
 public class BasePage extends Base {
 
 	public static WebDriverWait wait;
 	public static Actions action;
 	public static Select select;
-
+	public static TouchAction actionTouch;
+	
+	@SuppressWarnings("rawtypes")
 	public BasePage() {
 		wait = new WebDriverWait(driver, 5);
 		action = new Actions(driver);
+		TouchAction actionTouch = new TouchAction(driver);
+
 	}
 
 	public <TPage extends BasePage> TPage GetInstance(Class<TPage> page) {

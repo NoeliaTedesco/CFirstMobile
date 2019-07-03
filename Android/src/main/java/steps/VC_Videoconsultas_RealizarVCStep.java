@@ -35,7 +35,7 @@
 //			log.Log.startTestCase(testName);
 //			Usuario usr = XMLHelper.object.getUsuario();
 //			try {
-//				ExcelHelper.leerExcelCargado(testName);
+//				ExcelHelper.mostrarExcelCargado(testName);
 //			} catch (IOException e) {
 //				log.Log.info(e.getMessage());
 //				log.Log.FailStep("error al leer el excel");
