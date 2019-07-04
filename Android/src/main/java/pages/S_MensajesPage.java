@@ -10,7 +10,7 @@ import log.Log;
 
 public class S_MensajesPage<WebElements> extends BasePage {
 
-	@FindBy(xpath = "//*[contains(text(), 'https://bpr3.test-app.link')][last()]")
+	@FindBy(className = "android.widget.TextView")
 	private WebElement txtMensaje;
 
 	
@@ -30,8 +30,7 @@ public class S_MensajesPage<WebElements> extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(txtMensaje));
 			String txt = txtMensaje.getText().substring(36, 73);	
-			WebElement link = driver.findElementByAndroidUIAutomator(String.format("new UiSelector().text(\"%s\")", txt));
-			link.click();
+			txtMensaje.click();
 			Log.info("Se encontro el link de la invitacion");
 		} catch (Exception e) {
 			e.printStackTrace();
