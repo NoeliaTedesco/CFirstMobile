@@ -3,6 +3,7 @@ package helpers;
 import static base.Base.driver;
 import static base.BasePage.actionTouch;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import static base.BasePage.wait;
@@ -19,6 +20,8 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 
 import base.BasePage;
+import io.appium.java_client.touch.TapOptions;
+import io.appium.java_client.touch.offset.PointOption;
 
 import java.time.Duration;
 
@@ -56,6 +59,11 @@ public class PageHelper {
 		}
 	}
 
+	public static void ClickOnTextElement(WebElement element) {
+		
+		
+	}
+	
 	public static void WaitForPageLoading() throws InterruptedException {
 		Boolean r = false;
 		int ite = 0;

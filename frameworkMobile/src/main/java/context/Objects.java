@@ -25,7 +25,6 @@ public class Objects {
 	private String Modulo;
 	private String Descripcion;
 	private String ImgFalla;
-	private Invitaciones invitacion;
 
 
 	public Objects() {
@@ -35,9 +34,6 @@ public class Objects {
 		this.Usuario = usuario;
 	}
 	
-	public Objects (Invitaciones invitacion) {
-		this.invitacion = invitacion;
-	}
 	
 	public Objects (Usuario usser, String TipoDePrueba, String Prioridad, String Referencia, String Asignado, String TiempoInicio,
 			String TiempoFinal, String Estado, String Sprint, String Version, String NombreDeLaPrueba,
@@ -194,13 +190,5 @@ public class Objects {
 		ImgFalla = imgFalla;
 	}
 	
-	public Invitaciones getInvitacion() {
-		return invitacion;
-	}
-	
-	@XmlElement
-	public void setInvitacion(Invitaciones invitacion) {
-		this.invitacion = invitacion;
-	}
 
 }

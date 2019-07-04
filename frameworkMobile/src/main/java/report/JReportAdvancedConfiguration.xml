@@ -13,10 +13,10 @@
 	</titleIntroDetails>
 	<titleReportBy>Reporte generado por: </titleReportBy>
 	<titleSecondTitle>Objetivo</titleSecondTitle>
-	<titleSecondDetails>Automatizar los escenarios funcionales
+	<titleSecondDetails>Automatizar los escenarios funcionales de la aplicacion Android
 	</titleSecondDetails>
 	<titleThirdDetails> Automatizacion de pruebas funcionales. Pruebas
-		Automatizadas sobre: * Flujo positivo Login Despacho * Flujo negativo Login despacho  </titleThirdDetails>
+		Automatizadas sobre: Aplicacion nativa Android Consulta Medica Online </titleThirdDetails>
 	<titleThirdTitle>Alcance</titleThirdTitle>
 	<titleTitle>FRAMEWORK - AUTOMATIZACIÓN</titleTitle>
 </reportConfiguration>
