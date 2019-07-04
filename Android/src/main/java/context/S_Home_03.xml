@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+    <asignado>Noelia</asignado>
+    <descripcion>Aplicacion Android - Realizar VC</descripcion>
+    <estado>Pasa</estado>
+    <imgFalla></imgFalla>
+    <modulo>Socio</modulo>
+    <nombreDeLaPrueba>S_Home_03</nombreDeLaPrueba>
+    <pasos>
+        <entry>
+            <key>03_Se abre la notificacion de la invitacion</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>01_Se verifica que sean visibles los elementos de la home</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>02_Se abren las notificaciones del dispositivo</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>04_Se ingresa al link de la invitacion</key>
+            <value>Pasa</value>
+        </entry>
+    </pasos>
+    <prioridad>Alta</prioridad>
+    <referencia>Referencia</referencia>
+    <sprint>Ciclo 0</sprint>
+    <tiempoFinal>285</tiempoFinal>
+    <tiempoInicio>1562178887</tiempoInicio>
+    <tipoDePrueba>Regresión</tipoDePrueba>
+    <usuario>
+        <email>cmotest5@cmo.com</email>
+        <password>Cmotest5!</password>
+    </usuario>
+    <version>4.2.0</version>
+</objects>
