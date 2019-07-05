@@ -41,17 +41,24 @@ public class PageHelper {
 
 	public static void ScrollToBottomMobile(WebElement element) {
 		try {
-			BasePage.actionTouch.press(PointOption.point(550, 640)).waitAction().moveTo(PointOption.point(550, 60)).release().perform();
+			int x = element.getLocation().getX();
+			int y = element.getLocation().getY();
+			BasePage.actions.scroll(x,y);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
-	public static void ClickOnElementMobile(WebElement element) {
+	public static void ScrollToElementMobile(WebElement element) {
 		try {
-			WebElement el = element;
-				BasePage.actionTouch.tap((TapOptions) element);
+			String elementID = element.getText();
+			HashMap<String, String> scrollObject = new HashMap<String, String>();
+			scrollObject.put("element", elementID);
+			scrollObject.put("toVisible", "not an empty string");
+			js.executeScript("mobile:scroll", scrollObject);
+				
 		}catch (Exception e) {
+				e.printStackTrace();
 				Log.info("Fallo al hacer clic en el element mobile");
 		}
 		

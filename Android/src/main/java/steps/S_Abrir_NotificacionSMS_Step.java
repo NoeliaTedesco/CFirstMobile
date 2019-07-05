@@ -50,6 +50,9 @@ public class S_Abrir_NotificacionSMS_Step extends BaseStep {
 			CurrentPage.As(S_TerminosYCondicionesPage.class).aceptarTerminosYCondiciones();
 			CurrentPage.As(S_TerminosYCondicionesPage.class).clicIngresarConsultorio();
 			log.Log.SuccessStep(nombrePaso);
+			
+			
+			nombrePaso = "05_Se ingresa a la videoconsulta";
 
 			StepHelper.takeScreenShot(testName);
 

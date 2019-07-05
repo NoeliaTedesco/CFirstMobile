@@ -45,7 +45,6 @@ public class S_NotificacionPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(containerNotificaciones));
 			for (WebElement notification : txtNotificaciones) {
-				Log.info(notification.getText());
 				if (notification.getText().contains("OSDE Consulta") || notification.getText().contains("OSDE CMOnLine.") ) {
 							notificacion = notification;
 							Log.info("Se encontro la notificacion");	

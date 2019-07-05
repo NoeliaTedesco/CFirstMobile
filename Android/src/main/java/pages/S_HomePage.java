@@ -36,7 +36,6 @@ public class S_HomePage extends BasePage {
 			Log.info("Se obtuvo el elemento btnPrimerTelefono");
 		} catch (Exception e) {
 			e.printStackTrace();
-			e.getMessage();
 			Log.info("Fallo al obtener el elemento btnPrimerTelefono");
 		}
 		return esVisible;
