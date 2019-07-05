@@ -1,6 +1,5 @@
 package pages;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
@@ -9,7 +8,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import base.BasePage;
 import helpers.PageHelper;
-import io.appium.java_client.android.AndroidElement;
 import log.Log;
 
 public class S_GmailPage extends BasePage {
@@ -69,30 +67,6 @@ public class S_GmailPage extends BasePage {
 		}
 		return linkInvitacion;
 	}
-
-	// public void visibleMostrarTextoCitado() {
-	// WebElement ultTextoCitado = null;
-	// try {
-	// List<WebElement> textCitado = new ArrayList<WebElement>();
-	// wait.until(ExpectedConditions.elementToBeClickable(containerCorreo));
-	// for (WebElement txt : txtCorreo) {
-	// if (txt.getText().equals("Mostrar texto citado")) {
-	// textCitado.add(txt);
-	// }
-	// }
-	// if (!textCitado.isEmpty()) {
-	// ultTextoCitado = textCitado.get(textCitado.size() - 1);
-	// ultTextoCitado.click();
-	// } else {
-	// Log.info("No se encontro ningun texto Mostrar Texto citado");
-	// }
-	// Log.info("Se hizo clic en el texto Mostrar Texto citado");
-	// } catch (Exception e) {
-	// e.printStackTrace();
-	// Log.info("No se encontro el texto Mostrar Texto citado");
-	//
-	// }
-	// }
 
 	public void visibleSeMuestraTextoCitado() {
 		try {
