@@ -17,9 +17,6 @@ public class S_NotificacionPage extends BasePage {
 
 	@FindBy(className = "android.widget.TextView")
 	private List<WebElement> txtNotificaciones;
-
-//	@FindBy(id = "android:id/text")
-//	private List<WebElement> txtNotificaciones;
 	
 	@FindBy(id = "android:id/big_text")
 	private WebElement txtNotificacionesBig;
@@ -42,37 +39,6 @@ public class S_NotificacionPage extends BasePage {
 			Log.info("Fallo al abrir la notificacion");
 		}
 	}
-
-//	public WebElement encontrarNotificacionInvitacionCorreo() {
-//		WebElement notificacion = null;
-//		try {
-//			wait.until(ExpectedConditions.elementToBeClickable(containerNotificaciones));
-//			for (WebElement notification : tituloNotificaciones) {
-//				Log.info(notification.getText());
-//				if (notification.getText().contains("OSDE Consulta")) {
-//					for (WebElement txtNotification : txtNotificaciones) {
-//						Log.info(txtNotification.getText());
-//						if (txtNotification.getText().contains("Invitación a Consulta")) {
-//							notificacion = notification;
-//							break;
-//						}
-//					}
-//					if (txtNotificacionesBig.isDisplayed()) {
-//						if (txtNotificacionesBig.getText().contains("Invitación a Consulta")) {
-//							notificacion = notification;
-//							break;
-//					}
-//				}
-//			}
-//		}
-//			Log.info("Se encontro la notificacion");
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			Log.info("No se encontro la notificacion");
-//		}
-//		return notificacion;
-//	}
-	
 	
 	public WebElement encontrarNotificacionInvitacion() {
 		WebElement notificacion = null;
