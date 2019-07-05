@@ -1,7 +1,6 @@
 package helpers;
 
 import static base.Base.driver;
-import static base.BasePage.actionTouch;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -9,14 +8,12 @@ import org.openqa.selenium.WebElement;
 import static base.BasePage.wait;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import javax.swing.Action;
-
 import org.jfree.util.Log;
 import org.openqa.selenium.Cookie;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 
 import base.BasePage;
@@ -24,13 +21,6 @@ import io.appium.java_client.touch.TapOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
 import java.time.Duration;
-
-import static io.appium.java_client.touch.TapOptions.tapOptions;
-import static io.appium.java_client.touch.WaitOptions.waitOptions;
-import static io.appium.java_client.touch.offset.ElementOption.element;
-import static io.appium.java_client.touch.offset.PointOption.point;
-import static java.time.Duration.ofMillis;
-import static java.time.Duration.ofSeconds;
 
 public class PageHelper {
 
@@ -49,21 +39,25 @@ public class PageHelper {
 		((JavascriptExecutor) driver).executeScript(("window.scrollTo(0, document.body.scrollHeight)"));
 	}
 
-	public static void ScrollToElementMobile(WebElement element) {
+	public static void ScrollToBottomMobile(WebElement element) {
 		try {
-			System.out.println(element.getLocation());
-			BasePage.action.moveByOffset(510,1382).pause(Duration.ofMillis(3000)).build();
-			BasePage.action.perform();
+			BasePage.actionTouch.press(PointOption.point(550, 640)).waitAction().moveTo(PointOption.point(550, 60)).release().perform();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
-	public static void ClickOnTextElement(WebElement element) {
+	public static void ClickOnElementMobile(WebElement element) {
+		try {
+			WebElement el = element;
+				BasePage.actionTouch.tap((TapOptions) element);
+		}catch (Exception e) {
+				Log.info("Fallo al hacer clic en el element mobile");
+		}
 		
 		
 	}
-	
+
 	public static void WaitForPageLoading() throws InterruptedException {
 		Boolean r = false;
 		int ite = 0;

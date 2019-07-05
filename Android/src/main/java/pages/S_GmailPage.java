@@ -50,7 +50,7 @@ public class S_GmailPage extends BasePage {
 			for (WebElement txt : txtCorreo) {
 				if (txt.getText().equals("aquí")) {
 					linkInvitacion = txt;
-					PageHelper.ScrollToElementMobile(linkInvitacion);
+					PageHelper.ScrollToBottomMobile(linkInvitacion);
 					break;
 				}
 			}

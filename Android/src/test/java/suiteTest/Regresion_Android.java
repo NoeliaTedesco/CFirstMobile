@@ -19,15 +19,15 @@ public class Regresion_Android extends Hook {
 //		S_Visualizar_Elementos_HomeStep.Run(method.getName());
 //	}
 //	
-//	@Test
-//	public void S_Home_03(Method method) {
-//		S_Abrir_NotificacionStep.Run(method.getName());
-//	}
-	
 	@Test
-	public void S_Home_04(Method method) {
-		S_Abrir_NotificacionSMS_Step.Run(method.getName());
+	public void S_Home_03(Method method) {
+	S_Abrir_NotificacionStep.Run(method.getName());
 	}
+	
+//	@Test
+//	public void S_Home_04(Method method) {
+//		S_Abrir_NotificacionSMS_Step.Run(method.getName());
+//	}
 	
 	
 
