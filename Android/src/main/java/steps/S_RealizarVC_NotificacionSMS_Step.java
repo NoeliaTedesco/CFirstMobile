@@ -3,13 +3,17 @@ package steps;
 import org.testng.Assert;
 import base.BaseStep;
 import helpers.StepHelper;
+import pages.S_CalificarPage;
 import pages.S_GmailPage;
 import pages.S_HomePage;
+import pages.S_MensajesPage;
 import pages.S_NotificacionPage;
+import pages.S_SalaEsperaPage;
 import pages.S_TerminosYCondicionesPage;
+import pages.S_VideoconsultaPage;
 
 
-public class S_Abrir_NotificacionStep extends BaseStep {
+public class S_RealizarVC_NotificacionSMS_Step extends BaseStep {
 
 	public static void Run(String testName) {
 		String nombrePaso = "";
@@ -39,15 +43,32 @@ public class S_Abrir_NotificacionStep extends BaseStep {
 			log.Log.SuccessStep(nombrePaso);
 			
 			nombrePaso = "04_Se ingresa al link de la invitacion";
-			CurrentPage = (new S_GmailPage().GetInstance(S_GmailPage.class));
-			CurrentPage.As(S_GmailPage.class).abrirLinkInvitacion();
+			CurrentPage = (new S_MensajesPage().GetInstance(S_MensajesPage.class));
+			CurrentPage.As(S_MensajesPage.class).abrirLinkInvitacion();
 			log.Log.SuccessStep(nombrePaso);
-
+			
 			nombrePaso = "05_Se ingresa a la sala de espera";
 			CurrentPage = (new S_TerminosYCondicionesPage().GetInstance(S_TerminosYCondicionesPage.class));
 			CurrentPage.As(S_TerminosYCondicionesPage.class).quitarPopUpNotificacion();
 			CurrentPage.As(S_TerminosYCondicionesPage.class).aceptarTerminosYCondiciones();
 			CurrentPage.As(S_TerminosYCondicionesPage.class).clicIngresarConsultorio();
+			log.Log.SuccessStep(nombrePaso);
+
+			nombrePaso = "06_Sala de espera - Ingresar al consultorio";
+			CurrentPage = (new S_SalaEsperaPage().GetInstance(S_SalaEsperaPage.class));
+			CurrentPage.As(S_SalaEsperaPage.class).aceptarTiempoEspera();
+			CurrentPage.As(S_SalaEsperaPage.class).aceptarLlamadaConsultorio();
+			log.Log.SuccessStep(nombrePaso);
+			
+			nombrePaso = "07_Videoconsulta - Finalizar VC";
+			CurrentPage = (new S_VideoconsultaPage().GetInstance(S_VideoconsultaPage.class));
+			CurrentPage.As(S_VideoconsultaPage.class).clicIBtnFinalizar();
+			CurrentPage.As(S_VideoconsultaPage.class).aceptarFinalizarPopUp();
+			log.Log.SuccessStep(nombrePaso);
+			
+			nombrePaso = "08_Calificar - Calificar VC";
+			CurrentPage = (new S_CalificarPage().GetInstance(S_CalificarPage.class));
+			CurrentPage.As(S_CalificarPage.class).calificar("tres");
 			log.Log.SuccessStep(nombrePaso);
 
 			StepHelper.takeScreenShot(testName);

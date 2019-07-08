@@ -3,7 +3,7 @@
 	<platformName>Android</platformName>
 	<apkPath>\\src\\apk\\v43.apk</apkPath>
 	<portAppium>4723</portAppium>
-	<ipAppium>192.168.0.203</ipAppium>
+	<ipAppium>192.168.0.161</ipAppium>
 	<platformVersion>8.0.0</platformVersion>
 	<deviceName>RQ30059PKM</deviceName>
 	<delivery>False</delivery>

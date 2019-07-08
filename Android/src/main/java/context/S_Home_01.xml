@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <objects>
     <asignado>Noelia</asignado>
-    <descripcion>Aplicacion Android - Realizar VC</descripcion>
+    <descripcion>Aplicacion Android - Visualizar elementos de la Home</descripcion>
     <estado>Pasa</estado>
-    <imgFalla>C:\imageRepository\FALLA_S_Home_01_20190702121648.png</imgFalla>
+    <imgFalla></imgFalla>
     <modulo>Socio</modulo>
     <nombreDeLaPrueba>S_Home_01</nombreDeLaPrueba>
     <pasos/>

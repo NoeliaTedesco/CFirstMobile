@@ -2,8 +2,11 @@ package helpers;
 
 import static base.Base.driver;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.touch.TouchActions;
+
 import static base.BasePage.wait;
 
 import java.util.ArrayList;
@@ -51,7 +54,6 @@ public class PageHelper {
 			.release().perform();
 			
 		} catch (Exception e) {
-			Log.info(e.getMessage());
 			Log.info("Fallo al scrollear hasta abajo");
 		}
 	}
@@ -62,13 +64,29 @@ public class PageHelper {
 				ScrollDown();
 			}
 		}catch (Exception e) {
-				e.printStackTrace();
 				Log.info("Fallo al scrollear hasta el elemento");
 		}
 		
 		
 	}
 
+	public static void tapScreen(WebElement element, WebElement elementToTap) {
+		try {
+			while (!elementStillPresent(element)) {
+				int x = elementToTap.getLocation().getX();
+				int y = elementToTap.getLocation().getY();				
+				PointOption point = new PointOption();
+				point.withCoordinates(x, y);
+				BasePage.actionTouch.tap(point);
+				BasePage.actionTouch.perform();
+			}
+			Log.info("Se hace clic en la pantalla");
+		} catch (Exception e){
+			e.printStackTrace();
+			Log.info("Fallo al hacer clic en la pantalla");
+		}
+	}
+	
 	public static void WaitForPageLoading() throws InterruptedException {
 		Boolean r = false;
 		int ite = 0;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <objects>
     <asignado>Noelia</asignado>
-    <descripcion>Aplicacion Android - Realizar VC</descripcion>
+    <descripcion>Aplicacion Android - Realizar VC - Notificacion SMS</descripcion>
     <estado>Pasa</estado>
     <imgFalla></imgFalla>
     <modulo>Socio</modulo>
@@ -20,11 +20,23 @@
             <value>Pasa</value>
         </entry>
         <entry>
+            <key>08_Calificar - Calificar VC</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
             <key>02_Se abren las notificaciones del dispositivo</key>
             <value>Pasa</value>
         </entry>
         <entry>
+            <key>07_Videoconsulta - Finalizar VC</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
             <key>04_Se ingresa al link de la invitacion</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>06_Sala de espera - Ingresar al consultorio</key>
             <value>Pasa</value>
         </entry>
     </pasos>
@@ -32,7 +44,7 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1562603215</tiempoInicio>
+    <tiempoInicio>1562619644</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest5@cmo.com</email>

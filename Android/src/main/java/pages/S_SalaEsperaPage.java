@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import base.BasePage;
@@ -39,21 +40,39 @@ public class S_SalaEsperaPage extends BasePage {
 	@FindBy(id = "com.android.packageinstaller:id/permission_deny_button")
 	private WebElement txtRechazarPermisos;
 
+	@FindBy(id = "ar.com.portalsalud.osde:id/btn_accept_waiting_time")
+	private WebElement btnAceptarTiempo;
+
 	public void aceptarLlamadaConsultorio() {
 		try {
-			wait.until(ExpectedConditions.visibilityOf(btnIngresarConsultorio));
+			while (!PageHelper.elementStillPresent(btnIngresarConsultorio)) {
+				waitFluent.until(ExpectedConditions.elementToBeClickable(btnIngresarConsultorio));
+			}
 			if (btnIngresarConsultorio.isEnabled()) {
 				btnIngresarConsultorio.click();
-				wait.until(ExpectedConditions.stalenessOf(btnIngresarConsultorio));
+				aceptarPermisos();
 			}
 			Log.info("Se ingresa correctamente al consultorio");
 		} catch (Exception e) {
+			e.printStackTrace();
 			Log.info("No se ingresa correctamente al consultorio");
 		}
+	}
+	
+	public boolean esVisibleBtnIngresar() {
+		boolean esVisible = false;
+		try {
+			esVisible = btnIngresarConsultorio.isEnabled();
+			Log.info("Se encontro el elemento btnIngresarConsultorio");
+		}catch (Exception e) {
+			Log.info("No se encontro el elemento btnIngresarConsultorio");
+		}
+		return esVisible;
 	}
 
 	public void aceptarPermisos() {
 		try {
+			wait.until(ExpectedConditions.elementToBeClickable(txtPermitirPermisos));
 			while (PageHelper.elementStillPresent(txtPermitirPermisos)) {
 				txtPermitirPermisos.click();
 			}
@@ -62,5 +81,15 @@ public class S_SalaEsperaPage extends BasePage {
 			Log.info("Falla el aceptar los permisos");
 		}
 	}
-	
+
+	public void aceptarTiempoEspera() {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(btnAceptarTiempo));
+			btnAceptarTiempo.click();
+			Log.info("Se acepta el tiempo de espera");
+		} catch (Exception e) {
+			Log.info("Falla el aceptar el tiempo de espera");
+		}
+
+	}
 }
