@@ -32,7 +32,7 @@ public class S_TerminosYCondicionesPage extends BasePage {
 			wait.until(ExpectedConditions.visibilityOf(popUpNotificacion));
 			if (popUpNotificacion.isDisplayed()) {
 				btnNotificacionNo.click();
-				wait.until(ExpectedConditions.stalenessOf(popUpNotificacion));
+				wait.until(ExpectedConditions.elementToBeClickable(checkTerminos));
 			}
 			Log.info("Se quita el mensaje para habilitar notificaciones");
 		} catch (Exception e){

@@ -1,9 +1,6 @@
 package base;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,14 +14,11 @@ public class BasePage extends Base {
 	public static Actions action;
 	public static Select select;
 	public static TouchAction actionTouch;
-	public static TouchActions actions;
 	
-	@SuppressWarnings("rawtypes")
 	public BasePage() {
 		wait = new WebDriverWait(driver, 5);
 		action = new Actions(driver);
-		TouchAction actionTouch = new TouchAction(driver);
-		TouchAction actions = new TouchAction(driver);
+		actionTouch = new TouchAction(driver);
 	}
 
 	public <TPage extends BasePage> TPage GetInstance(Class<TPage> page) {
@@ -41,9 +35,5 @@ public class BasePage extends Base {
 		}
 		return null;
 	}
-
-//	public <TPage extends BasePage> void GetInstanceMobile(Class<TPage> page) {
-//		PageFactory.initElements(driver, page);
-//	}
 	
 }

@@ -30,17 +30,18 @@ public class S_GmailPage extends BasePage {
 	@FindBy(id = "ar.com.portalsalud.osde:id/versionName")
 	private WebElement labelMostrarTextoCitado;
 
-	@FindBy(className = "android.webkit.WebView")
+	@FindBy(xpath = "//*[@class = 'android.webkit.WebView' and @index= '0']")
 	private WebElement layoutCorreo;
 
-	@FindBy(xpath = "//*[@package = 'com.google.android.gm']")
+	@FindBy(xpath = "//*[@package = 'com.google.android.gm' and @class = 'android.view.View']")
 	private List<WebElement> correosGmail;
+	
 
 	public void abrirLinkInvitacion() {
 		try {
+			visibleBandejaEntrada();
 			visibleSeMuestraTextoCitado();
 			encontrarLinkInvitacion().click();
-			wait.until(ExpectedConditions.invisibilityOf(containerCorreo));
 			Log.info("Se abrio correctamente el link de la invitacion");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -51,16 +52,15 @@ public class S_GmailPage extends BasePage {
 	public WebElement encontrarLinkInvitacion() {
 		WebElement linkInvitacion = null;
 		try {
-			visibleBandejaEntrada();
 			wait.until(ExpectedConditions.elementToBeClickable(containerCorreo));
 			for (WebElement txt : txtCorreo) {
 				if (txt.getText().equals("aquí")) {
 					linkInvitacion = txt;
-					PageHelper.ScrollToElementMobile(linkInvitacion);
+					PageHelper.ScrollDown();
+					Log.info("Se encontro el link de la invitacion");
 					break;
 				}
 			}
-			Log.info("Se encontro el link de la invitacion");
 		} catch (Exception e) {
 			e.printStackTrace();
 			Log.info("No se encontro el link de la invitacion");
@@ -74,21 +74,21 @@ public class S_GmailPage extends BasePage {
 			txtCitado.click();
 			Log.info("Se hace clic en el boton Muestra texto citado");
 		} catch (Exception e) {
-			Log.info("Falla al hacer clic en el boton muestra texto citado");
+			Log.info("No se muestra el boton para mostrar texto citado");
 		}
 	}
 
 	public void visibleBandejaEntrada() {
 		try {
-			// wait.until(ExpectedConditions.attributeContains(element, attribute, value))
 			wait.until(ExpectedConditions.visibilityOfAllElements(correosGmail));
 			for (WebElement correo : correosGmail) {
-				if (correo.getAttribute("content-desc").contains("OSDE Consulta Médica OnLine")) {
+				if (correo.getAttribute("name").contains("OSDE Consulta Médica OnLine")) {
 					correo.click();
+					Log.info("Se abre el gmail");
+					break;
 				}
 
 			}
-			Log.info("Se abre el gmail");
 		} catch (Exception e) {
 			Log.info("No es visible la Bandeja de Entrada");
 		}

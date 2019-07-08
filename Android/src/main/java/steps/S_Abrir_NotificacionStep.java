@@ -6,6 +6,7 @@ import helpers.StepHelper;
 import pages.S_GmailPage;
 import pages.S_HomePage;
 import pages.S_NotificacionPage;
+import pages.S_TerminosYCondicionesPage;
 
 
 public class S_Abrir_NotificacionStep extends BaseStep {
@@ -41,7 +42,13 @@ public class S_Abrir_NotificacionStep extends BaseStep {
 			CurrentPage = (new S_GmailPage().GetInstance(S_GmailPage.class));
 			CurrentPage.As(S_GmailPage.class).abrirLinkInvitacion();
 			log.Log.SuccessStep(nombrePaso);
-			
+
+			nombrePaso = "05_Se ingresa a la sala de espera";
+			CurrentPage = (new S_TerminosYCondicionesPage().GetInstance(S_TerminosYCondicionesPage.class));
+			CurrentPage.As(S_TerminosYCondicionesPage.class).quitarPopUpNotificacion();
+			CurrentPage.As(S_TerminosYCondicionesPage.class).aceptarTerminosYCondiciones();
+			CurrentPage.As(S_TerminosYCondicionesPage.class).clicIngresarConsultorio();
+			log.Log.SuccessStep(nombrePaso);
 
 			StepHelper.takeScreenShot(testName);
 

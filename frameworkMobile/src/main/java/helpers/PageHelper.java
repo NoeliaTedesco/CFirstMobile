@@ -2,22 +2,21 @@ package helpers;
 
 import static base.Base.driver;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import static base.BasePage.wait;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.jfree.util.Log;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 
 import base.BasePage;
-import io.appium.java_client.touch.TapOptions;
+import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
 import java.time.Duration;
@@ -39,27 +38,32 @@ public class PageHelper {
 		((JavascriptExecutor) driver).executeScript(("window.scrollTo(0, document.body.scrollHeight)"));
 	}
 
-	public static void ScrollToBottomMobile(WebElement element) {
+	public static void ScrollDown() {
 		try {
-			int x = element.getLocation().getX();
-			int y = element.getLocation().getY();
-			BasePage.actions.scroll(x,y);
+			Dimension dimensions = driver.manage().window().getSize();
+			Double screenHeightStart = dimensions.getHeight() * 0.5;
+			int scrollStart = screenHeightStart.intValue();
+			Double screenHeightEnd = dimensions.getHeight() * 0.2;
+			int scrollEnd = screenHeightEnd.intValue();			
+			BasePage.actionTouch.press(PointOption.point(0, scrollStart))
+			.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1)))
+			.moveTo(PointOption.point(0, scrollEnd))
+			.release().perform();
+			
 		} catch (Exception e) {
-			e.printStackTrace();
+			Log.info(e.getMessage());
+			Log.info("Fallo al scrollear hasta abajo");
 		}
 	}
 
 	public static void ScrollToElementMobile(WebElement element) {
 		try {
-			String elementID = element.getText();
-			HashMap<String, String> scrollObject = new HashMap<String, String>();
-			scrollObject.put("element", elementID);
-			scrollObject.put("toVisible", "not an empty string");
-			js.executeScript("mobile:scroll", scrollObject);
-				
+			while(!element.isDisplayed()) {
+				ScrollDown();
+			}
 		}catch (Exception e) {
 				e.printStackTrace();
-				Log.info("Fallo al hacer clic en el element mobile");
+				Log.info("Fallo al scrollear hasta el elemento");
 		}
 		
 		

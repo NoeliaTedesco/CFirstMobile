@@ -27,24 +27,4 @@ public class S_MensajesPage<WebElements> extends BasePage {
 			Log.info("Fallo al abrir el link de la invitacion");
 		}
 	}
-
-//	public WebElement encontrarLinkInvitacion() {
-//		WebElement linkInvitacion = null;
-//		wait.until(ExpectedConditions.visibilityOfAllElements(mensajes));
-//		try {
-//			for (WebElement list: mensajes) {
-//				if(list.getText().contains("https://bpr3.test-app.link")){	
-//					System.out.println(list.getLocation());
-//					linkInvitacion = list;
-//					list.click();
-//
-//				}
-//			}
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			Log.info("No se encontro el link de la invitacion");
-//		}
-//		return linkInvitacion;
-//	}
-
 }

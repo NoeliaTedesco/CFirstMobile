@@ -12,6 +12,10 @@
             <value>Pasa</value>
         </entry>
         <entry>
+            <key>05_Se ingresa a la sala de espera</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
             <key>01_Se verifica que sean visibles los elementos de la home</key>
             <value>Pasa</value>
         </entry>
@@ -28,7 +32,7 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1562357451</tiempoInicio>
+    <tiempoInicio>1562603215</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest5@cmo.com</email>
