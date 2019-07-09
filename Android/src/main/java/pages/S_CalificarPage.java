@@ -3,6 +3,8 @@ package pages;
 import org.jfree.util.Log;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import base.BasePage;
 
 public class S_CalificarPage extends BasePage {
@@ -56,9 +58,11 @@ public class S_CalificarPage extends BasePage {
 		}
 	}
 	
-	public void calificar(String estrellas) {
+	public void calificar(String estrellas, String comentario) {
 		try {
 			seleccionarEstrella(estrellas);
+			ingresarComentario(comentario);
+			wait.until(ExpectedConditions.elementToBeClickable(btnCalificar));
 			btnCalificar.click();
 			Log.info("Se logro calificar la VC");
 		} catch (Exception e) {
@@ -67,4 +71,55 @@ public class S_CalificarPage extends BasePage {
 		}
 	}
 	
+	public  Boolean esVisibleBtnCalificar() {
+		Boolean esVisible = false;
+		try {
+			wait.until(ExpectedConditions.visibilityOf(btnCalificar));
+			esVisible = btnCalificar.isDisplayed();
+			Log.info("Se obtuvo el elemento btnCalificar");
+		} catch (Exception e) {
+			e.printStackTrace();
+			Log.info("Fallo al obtener el elemento btnCalificar");
+		}
+		return esVisible;
+	}	
+	
+	public  Boolean esVisibleInputComentario() {
+		Boolean esVisible = false;
+		try {
+			wait.until(ExpectedConditions.visibilityOf(inputComentario));
+			esVisible = inputComentario.isDisplayed();
+			Log.info("Se obtuvo el elemento inputComentario");
+		} catch (Exception e) {
+			e.printStackTrace();
+			Log.info("Fallo al obtener el elemento inputComentario");
+		}
+		return esVisible;
+	}	
+	
+	
+	public void clicCampoComentario() {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(inputComentario));
+			inputComentario.click();
+			Log.info("Se hace clic en el campo inputComentario");
+		} catch (Exception e){
+			Log.info(e.getMessage());
+			Log.info("Falla al hacer clic en el inputComentario");
+		}
+		
+	}
+	
+	public void ingresarComentario(String comentario) {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(inputComentario));
+			inputComentario.sendKeys(comentario);
+			wait.until(ExpectedConditions.textToBePresentInElement(inputComentario, comentario));
+			driver.navigate().back();
+			Log.info("Se carga un valor en el campo inputComentario");
+		} catch (Exception e){
+			Log.info(e.getMessage());
+			Log.info("Falla al cargar un valor en el inputComentario");
+		}
+	}
 }

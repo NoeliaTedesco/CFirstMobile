@@ -36,6 +36,10 @@
             <value>Pasa</value>
         </entry>
         <entry>
+            <key>09_Pantalla Agradecimiento - Visualizar</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
             <key>06_Sala de espera - Ingresar al consultorio</key>
             <value>Pasa</value>
         </entry>
@@ -44,7 +48,7 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1562619644</tiempoInicio>
+    <tiempoInicio>1562701071</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest5@cmo.com</email>

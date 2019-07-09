@@ -3,6 +3,7 @@ package steps;
 import org.testng.Assert;
 import base.BaseStep;
 import helpers.StepHelper;
+import pages.S_AgradecimientosPage;
 import pages.S_CalificarPage;
 import pages.S_GmailPage;
 import pages.S_HomePage;
@@ -67,16 +68,14 @@ public class S_RealizarVC_NotificacionStep extends BaseStep {
 			
 			nombrePaso = "08_Calificar - Calificar VC";
 			CurrentPage = (new S_CalificarPage().GetInstance(S_CalificarPage.class));
-			CurrentPage.As(S_CalificarPage.class).calificar("tres");
+			CurrentPage.As(S_CalificarPage.class).calificar("tres", "Comentario VC");
 			log.Log.SuccessStep(nombrePaso);
 
-			
-
-
-			
-
-
-
+			nombrePaso = "09_Pantalla Agradecimiento - Visualizar";
+			CurrentPage = (new S_AgradecimientosPage().GetInstance(S_AgradecimientosPage.class));
+			Assert.assertTrue(CurrentPage.As(S_AgradecimientosPage.class).esVisibleTxtAgradecimiento());
+			Assert.assertEquals(CurrentPage.As(S_AgradecimientosPage.class).recuperarTxtAgradecimiento(), "¡Gracias por utilizar nuestro servicio!");
+			log.Log.SuccessStep(nombrePaso);
 			
 			StepHelper.takeScreenShot(testName);
 

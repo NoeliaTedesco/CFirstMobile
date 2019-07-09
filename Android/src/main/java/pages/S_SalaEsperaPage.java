@@ -1,5 +1,7 @@
 package pages;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
@@ -58,13 +60,30 @@ public class S_SalaEsperaPage extends BasePage {
 			Log.info("No se ingresa correctamente al consultorio");
 		}
 	}
-	
+
+	public void recuperarTextoSalaEspera() {
+		List <String> textos = new ArrayList <String>();
+		try {
+			wait.until(ExpectedConditions.visibilityOfAllElements(txtSalaEspera));
+			for (WebElement txt : txtSalaEspera) {
+				textos.add(txt.getText());
+			}
+			Iterator txtIt = textos.iterator();
+			while (txtIt.hasNext()) {
+				Log.info(textos.toString());
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			Log.info("Fallo al recuperar el texto de los sliders de sala de espera");
+		}
+	}
+
 	public boolean esVisibleBtnIngresar() {
 		boolean esVisible = false;
 		try {
-			esVisible = btnIngresarConsultorio.isEnabled();
+			esVisible = btnIngresarConsultorio.isDisplayed();
 			Log.info("Se encontro el elemento btnIngresarConsultorio");
-		}catch (Exception e) {
+		} catch (Exception e) {
 			Log.info("No se encontro el elemento btnIngresarConsultorio");
 		}
 		return esVisible;
@@ -92,4 +111,53 @@ public class S_SalaEsperaPage extends BasePage {
 		}
 
 	}
+
+	public boolean esVisibleBtnCancelarSalaEspera() {
+		boolean esVisible = false;
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(btnCancelarVC));
+			esVisible = btnCancelarVC.isDisplayed();
+			Log.info("Se encontro el elemento btnCancelarVC");
+		} catch (Exception e) {
+			Log.info("No se encontro el elemento btnCancelarVC");
+		}
+		return esVisible;
+	}
+
+	public boolean esVisibleBtnCancelarVC() {
+		boolean esVisible = false;
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(btnCancelarConsulta));
+			esVisible = btnCancelarConsulta.isDisplayed();
+			Log.info("Se encontro el elemento btnCancelarConsulta");
+		} catch (Exception e) {
+			Log.info("No se encontro el elemento btnCancelarConsulta");
+		}
+		return esVisible;
+	}
+
+	public void clicRechazarConsulta() {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(btnCancelarConsulta));
+			btnCancelarConsulta.click();
+			Log.info("Se cancela la consulta");
+		} catch (Exception e) {
+			e.printStackTrace();
+			Log.info("Falla al cancelar la consulta");
+		}
+
+	}
+
+	public void clicCancelarSalaEspera() {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(btnCancelarVC));
+			btnCancelarVC.click();
+			Log.info("Se cancela la consulta en sala de espera");
+		} catch (Exception e) {
+			e.printStackTrace();
+			Log.info("Falla al cancelar la consulta en sala de espera");
+		}
+
+	}
+
 }

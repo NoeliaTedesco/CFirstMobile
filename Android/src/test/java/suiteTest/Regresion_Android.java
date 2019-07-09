@@ -16,12 +16,12 @@ public class Regresion_Android extends Hook {
 
 //	@Test
 //	public void S_Home_02(Method method) {
-//	S_Abrir_NotificacionStep.Run(method.getName());
+//	S_RealizarVC_NotificacionSMSStep.Run(method.getName());
 //	}
 	
 	@Test
 	public void S_Home_03(Method method) {
-		S_RealizarVC_NotificacionSMS_Step.Run(method.getName());
+		S_RealizarVC_NotificacionStep.Run(method.getName());
 	}
 	
 

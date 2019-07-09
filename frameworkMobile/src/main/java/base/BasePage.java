@@ -26,7 +26,7 @@ public class BasePage extends Base {
 	public BasePage() {
 		wait = new WebDriverWait(driver, 5);
 		waitFluent = new FluentWait(driver)
-				.withTimeout(Duration.ofSeconds(60))
+				.withTimeout(Duration.ofSeconds(300))
 				.pollingEvery(Duration.ofSeconds(2))
 				.ignoring(NoSuchElementException.class);
 		action = new Actions(driver);
