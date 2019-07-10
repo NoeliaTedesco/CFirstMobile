@@ -1,10 +1,11 @@
 package pages;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-
 import base.BasePage;
 import log.Log;
 
@@ -43,6 +44,9 @@ public class S_TerminosYCondicionesPage extends BasePage {
 	@FindBy (id = "ar.com.portalsalud.osde:id/spMinorRelationship")
 	private WebElement campoRelacionMenor;
 	
+	@FindBy (id = "ar.com.portalsalud.osde:id/txt_item")
+	private List<WebElement> opcionesRelacionMenor;
+	
 	
 	
 	
@@ -59,9 +63,11 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		}
 	}
 	
-	public void aceptarTerminosYCondiciones() {
+	public void aceptarTerminosYCondiciones(String nombre, String apellido,
+			String dni, String relacion) {
 		try {
-			wait.until(ExpectedConditions.visibilityOf(checkTerminos));
+			wait.until(ExpectedConditions.elementToBeClickable(checkTerminos));
+			completarCamposRelacionMenor(nombre,apellido,dni,relacion);
 			checkTerminos.click();
 			Log.info("Se aceptan los terminos y condiciones");
 		} catch (Exception e){
@@ -70,6 +76,9 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		}
 		
 	}
+	
+	
+	
 	
 	public void clicIngresarConsultorio() {
 		try {
@@ -213,6 +222,7 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(campoNombre));
 			campoNombre.sendKeys(nombre);
+			driver.navigate().back();
 			Log.info("Se carga un valor en el campo campoNombre");
 		} catch (Exception e){
 			Log.info(e.getMessage());
@@ -224,6 +234,7 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(campoApellido));
 			campoApellido.sendKeys(apellido);
+			driver.navigate().back();
 			Log.info("Se carga un valor en el campo campoApellido");
 		} catch (Exception e){
 			Log.info(e.getMessage());
@@ -235,6 +246,7 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(campoDNI));
 			campoDNI.sendKeys(dni);
+			driver.navigate().back();
 			Log.info("Se carga un valor en el campo campoDNI");
 		} catch (Exception e){
 			Log.info(e.getMessage());
@@ -245,8 +257,14 @@ public class S_TerminosYCondicionesPage extends BasePage {
 	public void seleccionarRelacionMenor(String Relacion) {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(campoRelacionMenor));
-			Select select = new Select(campoRelacionMenor);
-			select.selectByVisibleText(Relacion);
+			campoRelacionMenor.click();
+			wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("ar.com.portalsalud.osde:id/txt_item")));
+			for (WebElement op : opcionesRelacionMenor) {
+				if (op.getText().equals(Relacion)) {
+					op.click();
+					break;
+				}
+			}
 			Log.info("Se carga un valor en el campo campoRelacionMenor");
 		} catch (Exception e){
 			Log.info(e.getMessage());
@@ -280,4 +298,17 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		return estaHbilitado;
 	}	
 	
+	public void completarCamposRelacionMenor(String nombre, String Apellido, String DNI, String Relacion) {
+		try {
+			if (campoNombre.isDisplayed()) {
+				completarNombre(nombre);
+				completarApellido(Apellido);
+				completarDNI(DNI);
+				seleccionarRelacionMenor(Relacion);
+			}
+			Log.info("Se completan los campos de los terminos y condiciones");
+		} catch (Exception e){
+			Log.info("No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18");
+		}
+	}
 }

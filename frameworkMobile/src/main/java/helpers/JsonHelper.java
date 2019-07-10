@@ -1,6 +1,6 @@
 package helpers;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+// import com.fasterxml.jackson.databind.ObjectMapper;
 import context.Objects;
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.List;
 
 public class JsonHelper {
 
-
+/*
     public static Objects objects;
     public static ObjectMapper mapper;
 
@@ -26,6 +26,6 @@ public class JsonHelper {
         Objects tmp = mapper.readValue(file, Objects.class);
         objects = tmp;
     }
-
+*/
 	
 }

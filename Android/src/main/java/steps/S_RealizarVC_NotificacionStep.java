@@ -50,7 +50,7 @@ public class S_RealizarVC_NotificacionStep extends BaseStep {
 			nombrePaso = "05_Se ingresa a la sala de espera";
 			CurrentPage = (new S_TerminosYCondicionesPage().GetInstance(S_TerminosYCondicionesPage.class));
 			CurrentPage.As(S_TerminosYCondicionesPage.class).quitarPopUpNotificacion();
-			CurrentPage.As(S_TerminosYCondicionesPage.class).aceptarTerminosYCondiciones();
+			CurrentPage.As(S_TerminosYCondicionesPage.class).aceptarTerminosYCondiciones("Juan", "Perez", "35645678", "Abuelo / Abuela");
 			CurrentPage.As(S_TerminosYCondicionesPage.class).clicIngresarConsultorio();
 			log.Log.SuccessStep(nombrePaso);
 
@@ -75,6 +75,7 @@ public class S_RealizarVC_NotificacionStep extends BaseStep {
 			CurrentPage = (new S_AgradecimientosPage().GetInstance(S_AgradecimientosPage.class));
 			Assert.assertTrue(CurrentPage.As(S_AgradecimientosPage.class).esVisibleTxtAgradecimiento());
 			Assert.assertEquals(CurrentPage.As(S_AgradecimientosPage.class).recuperarTxtAgradecimiento(), "¡Gracias por utilizar nuestro servicio!");
+			CurrentPage.As(S_AgradecimientosPage.class).clicBtnSalir();
 			log.Log.SuccessStep(nombrePaso);
 			
 			StepHelper.takeScreenShot(testName);
