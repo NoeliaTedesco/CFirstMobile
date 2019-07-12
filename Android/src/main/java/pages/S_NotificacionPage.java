@@ -7,11 +7,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import base.BasePage;
-import helpers.PageHelper;
-import log.Log;
+import base.BasePageMobile;
+import helpers.PageHelperMobile;
+import log.LogMobile;
 
-public class S_NotificacionPage extends BasePage {
+public class S_NotificacionPage extends BasePageMobile {
 
 	@FindBy(id = "android:id/statusBarBackground")
 	private WebElement barraNotificaciones;
@@ -29,10 +29,10 @@ public class S_NotificacionPage extends BasePage {
 	public void abrirNotificacion() {
 		try {
 			encontrarNotificacionInvitacion().click();
-			Log.info("Se abrio correctamente la notificacion");
+			LogMobile.info("Se abrio correctamente la notificacion");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al abrir la notificacion");
+			LogMobile.info("Fallo al abrir la notificacion");
 		}
 	}
 
@@ -47,7 +47,7 @@ public class S_NotificacionPage extends BasePage {
 					if (notification.getText().contains("OSDE Consulta")
 							|| notification.getText().contains("OSDE CMOnLine.")) {
 						element.add(notification);
-						Log.info("Se encontro la notificacion");
+						LogMobile.info("Se encontro la notificacion");
 						break;
 					}
 				}
@@ -57,7 +57,7 @@ public class S_NotificacionPage extends BasePage {
 				}
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("No se encontro la notificacion");
+			LogMobile.info("No se encontro la notificacion");
 		}
 		return notificacion;
 	}
@@ -66,9 +66,9 @@ public class S_NotificacionPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(barraNotificaciones));
 			driver.openNotifications();
-			Log.info("Se abre el panel de notificaciones");
+			LogMobile.info("Se abre el panel de notificaciones");
 		} catch (Exception e) {
-			Log.info("Fallo al abrir el panel de notificaciones");
+			LogMobile.info("Fallo al abrir el panel de notificaciones");
 		}
 	}
 

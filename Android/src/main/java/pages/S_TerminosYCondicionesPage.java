@@ -6,10 +6,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import base.BasePage;
-import log.Log;
+import base.BasePageMobile;
+import log.LogMobile;
 
-public class S_TerminosYCondicionesPage extends BasePage {
+public class S_TerminosYCondicionesPage extends BasePageMobile {
 
 	@FindBy (id = "android:id/message")
 	private WebElement popUpNotificacion;
@@ -57,9 +57,9 @@ public class S_TerminosYCondicionesPage extends BasePage {
 				btnNotificacionNo.click();
 				wait.until(ExpectedConditions.elementToBeClickable(checkTerminos));
 			}
-			Log.info("Se quita el mensaje para habilitar notificaciones");
+			LogMobile.info("Se quita el mensaje para habilitar notificaciones");
 		} catch (Exception e){
-			Log.info("No se muestra el mensaje para habilitar notificaciones");
+			LogMobile.info("No se muestra el mensaje para habilitar notificaciones");
 		}
 	}
 	
@@ -69,10 +69,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 			wait.until(ExpectedConditions.elementToBeClickable(checkTerminos));
 			completarCamposRelacionMenor(nombre,apellido,dni,relacion);
 			checkTerminos.click();
-			Log.info("Se aceptan los terminos y condiciones");
+			LogMobile.info("Se aceptan los terminos y condiciones");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla el aceptar los terminos y condiciones");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla el aceptar los terminos y condiciones");
 		}
 		
 	}
@@ -84,10 +84,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnIngresarConsultorio));
 			btnIngresarConsultorio.click();
-			Log.info("Se ingresa correctamente al consultorio");
+			LogMobile.info("Se ingresa correctamente al consultorio");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla el ingresar al consultorio");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla el ingresar al consultorio");
 		}
 		
 	}
@@ -97,8 +97,8 @@ public class S_TerminosYCondicionesPage extends BasePage {
 			wait.until(ExpectedConditions.elementToBeClickable(btnTerminosCondiciones));
 			btnTerminosCondiciones.click();
 		} catch (Exception e) {
-			Log.info(e.getMessage());
-			Log.info("Falla el abrir los terminos y condiciones");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla el abrir los terminos y condiciones");
 		}
 	}
 	
@@ -108,10 +108,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(checkTerminos));
 			esVisible = checkTerminos.isDisplayed();
-			Log.info("Se obtuvo el elemento checkTerminos");
+			LogMobile.info("Se obtuvo el elemento checkTerminos");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento checkTerminos");
+			LogMobile.info("Fallo al obtener el elemento checkTerminos");
 		}
 		return esVisible;
 	}
@@ -122,10 +122,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(campoNombre));
 			esVisible = campoNombre.isDisplayed();
-			Log.info("Se obtuvo el elemento campoNombre");
+			LogMobile.info("Se obtuvo el elemento campoNombre");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento campoNombre");
+			LogMobile.info("Fallo al obtener el elemento campoNombre");
 		}
 		return esVisible;
 	}
@@ -135,10 +135,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(campoApellido));
 			esVisible = campoApellido.isDisplayed();
-			Log.info("Se obtuvo el elemento campoApellido");
+			LogMobile.info("Se obtuvo el elemento campoApellido");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento campoApellido");
+			LogMobile.info("Fallo al obtener el elemento campoApellido");
 		}
 		return esVisible;
 	}
@@ -148,10 +148,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(campoDNI));
 			esVisible = campoDNI.isDisplayed();
-			Log.info("Se obtuvo el elemento campoDNI");
+			LogMobile.info("Se obtuvo el elemento campoDNI");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento campoDNI");
+			LogMobile.info("Fallo al obtener el elemento campoDNI");
 		}
 		return esVisible;
 	}
@@ -161,10 +161,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(campoRelacionMenor));
 			esVisible = campoRelacionMenor.isDisplayed();
-			Log.info("Se obtuvo el elemento campoRelacionMenor");
+			LogMobile.info("Se obtuvo el elemento campoRelacionMenor");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento campoRelacionMenor");
+			LogMobile.info("Fallo al obtener el elemento campoRelacionMenor");
 		}
 		return esVisible;
 	}
@@ -174,10 +174,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(campoNombre));
 			campoNombre.click();
-			Log.info("Se hace clic en el campo campoNombre");
+			LogMobile.info("Se hace clic en el campo campoNombre");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al hacer clic en el campoNombre");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al hacer clic en el campoNombre");
 		}
 		
 	}
@@ -186,10 +186,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(campoApellido));
 			campoApellido.click();
-			Log.info("Se hace clic en el campo campoApellido");
+			LogMobile.info("Se hace clic en el campo campoApellido");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al hacer clic en el campoApellido");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al hacer clic en el campoApellido");
 		}
 		
 	}
@@ -198,10 +198,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(campoDNI));
 			campoDNI.click();
-			Log.info("Se hace clic en el campo campoDNI");
+			LogMobile.info("Se hace clic en el campo campoDNI");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al hacer clic en el campoDNI");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al hacer clic en el campoDNI");
 		}
 		
 	}
@@ -210,10 +210,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(campoRelacionMenor));
 			campoRelacionMenor.click();
-			Log.info("Se hace clic en el campo campoRelacionMenor");
+			LogMobile.info("Se hace clic en el campo campoRelacionMenor");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al hacer clic en el campoRelacionMenor");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al hacer clic en el campoRelacionMenor");
 		}
 		
 	}
@@ -223,10 +223,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 			wait.until(ExpectedConditions.elementToBeClickable(campoNombre));
 			campoNombre.sendKeys(nombre);
 			driver.navigate().back();
-			Log.info("Se carga un valor en el campo campoNombre");
+			LogMobile.info("Se carga un valor en el campo campoNombre");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al cargar un valor en el campoNombre");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al cargar un valor en el campoNombre");
 		}
 	}
 	
@@ -235,10 +235,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 			wait.until(ExpectedConditions.elementToBeClickable(campoApellido));
 			campoApellido.sendKeys(apellido);
 			driver.navigate().back();
-			Log.info("Se carga un valor en el campo campoApellido");
+			LogMobile.info("Se carga un valor en el campo campoApellido");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al cargar un valor en el campoApellido");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al cargar un valor en el campoApellido");
 		}
 	}
 	
@@ -247,10 +247,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 			wait.until(ExpectedConditions.elementToBeClickable(campoDNI));
 			campoDNI.sendKeys(dni);
 			driver.navigate().back();
-			Log.info("Se carga un valor en el campo campoDNI");
+			LogMobile.info("Se carga un valor en el campo campoDNI");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al cargar un valor en el campoDNI");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al cargar un valor en el campoDNI");
 		}
 	}
 	
@@ -265,10 +265,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 					break;
 				}
 			}
-			Log.info("Se carga un valor en el campo campoRelacionMenor");
+			LogMobile.info("Se carga un valor en el campo campoRelacionMenor");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al cargar un valor en el campoRelacionMenor");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al cargar un valor en el campoRelacionMenor");
 		}
 	}
 	
@@ -278,9 +278,9 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(txtTituloTerminos));
 			txtTitulo = txtTituloTerminos.getText();
-			Log.info("Se logra recuperar el titulo de los terminos y condiciones");
+			LogMobile.info("Se logra recuperar el titulo de los terminos y condiciones");
 		} catch (Exception e) {
-			Log.info("Falla el recupear el titulo de los terminos y condiciones");
+			LogMobile.info("Falla el recupear el titulo de los terminos y condiciones");
 		}
 		return txtTitulo;
 	}
@@ -290,10 +290,10 @@ public class S_TerminosYCondicionesPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(btnIngresarConsultorio));
 			estaHbilitado = btnIngresarConsultorio.isDisplayed();
-			Log.info("Se obtuvo el elemento btnIngresarConsultorio");
+			LogMobile.info("Se obtuvo el elemento btnIngresarConsultorio");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento btnIngresarConsultorio");
+			LogMobile.info("Fallo al obtener el elemento btnIngresarConsultorio");
 		}
 		return estaHbilitado;
 	}	
@@ -306,9 +306,9 @@ public class S_TerminosYCondicionesPage extends BasePage {
 				completarDNI(DNI);
 				seleccionarRelacionMenor(Relacion);
 			}
-			Log.info("Se completan los campos de los terminos y condiciones");
+			LogMobile.info("Se completan los campos de los terminos y condiciones");
 		} catch (Exception e){
-			Log.info("No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18");
+			LogMobile.info("No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18");
 		}
 	}
 }

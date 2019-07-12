@@ -4,10 +4,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import base.BasePage;
-import log.Log;
+import base.BasePageMobile;
+import log.LogMobile;
 
-public class S_HomePage extends BasePage {
+public class S_HomePage extends BasePageMobile {
 
 	@FindBy (id = "ar.com.portalsalud.osde:id/callNow1Btt")
 	private WebElement btnPrimerTelefono;
@@ -33,10 +33,10 @@ public class S_HomePage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(btnPrimerTelefono));
 			esVisible = btnPrimerTelefono.isDisplayed();
-			Log.info("Se obtuvo el elemento btnPrimerTelefono");
+			LogMobile.info("Se obtuvo el elemento btnPrimerTelefono");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento btnPrimerTelefono");
+			LogMobile.info("Fallo al obtener el elemento btnPrimerTelefono");
 		}
 		return esVisible;
 	}
@@ -46,9 +46,9 @@ public class S_HomePage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnPrimerTelefono));
 			action.moveToElement(btnPrimerTelefono).click().build().perform();
-			Log.info("Se hizo click en el boton btnPrimerTelefono");
+			LogMobile.info("Se hizo click en el boton btnPrimerTelefono");
 		} catch (Exception e) {
-			Log.info("Fallo el hacer click en el boton btnPrimerTelefono");
+			LogMobile.info("Fallo el hacer click en el boton btnPrimerTelefono");
 			e.printStackTrace();
 		}
 	}
@@ -57,9 +57,9 @@ public class S_HomePage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnSegundoTelefono));
 			action.moveToElement(btnSegundoTelefono).click().build().perform();
-			Log.info("Se hizo click en el elemento btnSegundoTelefono");
+			LogMobile.info("Se hizo click en el elemento btnSegundoTelefono");
 		} catch (Exception e) {
-			Log.info("Fallo el hacer click en el elemento btnSegundoTelefono");
+			LogMobile.info("Fallo el hacer click en el elemento btnSegundoTelefono");
 			e.printStackTrace();
 		}
 	}
@@ -69,9 +69,9 @@ public class S_HomePage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(btnSegundoTelefono));
 			esVisible = btnSegundoTelefono.isDisplayed();
-			Log.info("Se obtuvo el elemento btnSegundoTelefono");
+			LogMobile.info("Se obtuvo el elemento btnSegundoTelefono");
 		} catch (Exception e) {
-			Log.info("Fallo al obtener el elemento btnSegundoTelefono");
+			LogMobile.info("Fallo al obtener el elemento btnSegundoTelefono");
 		}
 		return esVisible;
 	}
@@ -83,9 +83,9 @@ public class S_HomePage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(labelTxtAcceder));
 			esVisible = labelTxtAcceder.isDisplayed();
-			Log.info("Se obtuvo el elemento labelTxtAcceder");
+			LogMobile.info("Se obtuvo el elemento labelTxtAcceder");
 		} catch (Exception e) {
-			Log.info("Fallo al obtener el elemento labelTxtAcceder");
+			LogMobile.info("Fallo al obtener el elemento labelTxtAcceder");
 		}
 		return esVisible;
 	}
@@ -95,9 +95,9 @@ public class S_HomePage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(labelTxtServicioUrgencias));
 			esVisible = labelTxtServicioUrgencias.isDisplayed();
-			Log.info("Se obtuvo el elemento labelTxtServicioUrgencias");
+			LogMobile.info("Se obtuvo el elemento labelTxtServicioUrgencias");
 		} catch (Exception e) {
-			Log.info("Fallo al obtener el elemento labelTxtServicioUrgencias");
+			LogMobile.info("Fallo al obtener el elemento labelTxtServicioUrgencias");
 		}
 		return esVisible;
 	}
@@ -107,9 +107,9 @@ public class S_HomePage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(labelTxtVersion));
 			esVisible = labelTxtVersion.isDisplayed();
-			Log.info("Se obtuvo el elemento labelTxtVersion");
+			LogMobile.info("Se obtuvo el elemento labelTxtVersion");
 		} catch (Exception e) {
-			Log.info("Fallo al obtener el elemento labelTxtVersion");
+			LogMobile.info("Fallo al obtener el elemento labelTxtVersion");
 		}
 		return esVisible;
 	}
@@ -119,9 +119,9 @@ public class S_HomePage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(labelTxtOSDE));
 			esVisible = labelTxtOSDE.isDisplayed();
-			Log.info("Se obtuvo el elemento labelTxtOSDE");
+			LogMobile.info("Se obtuvo el elemento labelTxtOSDE");
 		} catch (Exception e) {
-			Log.info("Fallo al obtener el elemento labelTxtOSDE");
+			LogMobile.info("Fallo al obtener el elemento labelTxtOSDE");
 		}
 		return esVisible;
 	}
@@ -130,9 +130,9 @@ public class S_HomePage extends BasePage {
 		String texto = null;
 		try {
 			texto = btnPrimerTelefono.getText();
-			Log.info("Se recupera texto del elemento");
+			LogMobile.info("Se recupera texto del elemento");
 		} catch (Exception e){
-			Log.info("Fallo el recuperar el texto del elemento");
+			LogMobile.info("Fallo el recuperar el texto del elemento");
 		}
 		return texto;
 	}
@@ -141,9 +141,9 @@ public class S_HomePage extends BasePage {
 		String texto = null;
 		try {
 			texto = btnSegundoTelefono.getText();
-			Log.info("Se recupera texto del elemento");
+			LogMobile.info("Se recupera texto del elemento");
 		} catch (Exception e){
-			Log.info("Fallo el recuperar el texto del elemento");
+			LogMobile.info("Fallo el recuperar el texto del elemento");
 		}
 		return texto;
 	}
@@ -152,9 +152,9 @@ public class S_HomePage extends BasePage {
 		String texto = null;
 		try {
 			texto = labelTxtAcceder.getText();
-			Log.info("Se recupera texto del elemento");
+			LogMobile.info("Se recupera texto del elemento");
 		} catch (Exception e){
-			Log.info("Fallo el recuperar el texto del elemento");
+			LogMobile.info("Fallo el recuperar el texto del elemento");
 		}
 		return texto;
 	}
@@ -163,9 +163,9 @@ public class S_HomePage extends BasePage {
 		String texto = null;
 		try {
 			texto = labelTxtServicioUrgencias.getText();
-			Log.info("Se recupera texto del elemento");
+			LogMobile.info("Se recupera texto del elemento");
 		} catch (Exception e){
-			Log.info("Fallo el recuperar el texto del elemento");
+			LogMobile.info("Fallo el recuperar el texto del elemento");
 		}
 		return texto;
 	}
@@ -174,9 +174,9 @@ public class S_HomePage extends BasePage {
 		String texto = null;
 		try {
 			texto = labelTxtVersion.getText();
-			Log.info("Se recupera texto del elemento");
+			LogMobile.info("Se recupera texto del elemento");
 		} catch (Exception e){
-			Log.info("Fallo el recuperar el texto del elemento");
+			LogMobile.info("Fallo el recuperar el texto del elemento");
 		}
 		return texto;
 	}
@@ -185,9 +185,9 @@ public class S_HomePage extends BasePage {
 		String texto = null;
 		try {
 			texto = labelTxtOSDE.getText();
-			Log.info("Se recupera texto del elemento");
+			LogMobile.info("Se recupera texto del elemento");
 		} catch (Exception e){
-			Log.info("Fallo el recuperar el texto del elemento");
+			LogMobile.info("Fallo el recuperar el texto del elemento");
 		}
 		return texto;
 	}

@@ -9,11 +9,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import base.BasePage;
-import helpers.PageHelper;
-import log.Log;
+import base.BasePageMobile;
+import helpers.PageHelperMobile;
+import log.LogMobile;
 
-public class S_SalaEsperaPage extends BasePage {
+public class S_SalaEsperaPage extends BasePageMobile {
 
 	@FindBy(id = "ar.com.portalsalud.osde:id/bannerTitle")
 	private List<WebElement> txtSalaEspera;
@@ -47,17 +47,17 @@ public class S_SalaEsperaPage extends BasePage {
 
 	public void aceptarLlamadaConsultorio() {
 		try {
-			while (!PageHelper.elementStillPresent(btnIngresarConsultorio)) {
+			while (!PageHelperMobile.elementStillPresent(btnIngresarConsultorio)) {
 				waitFluent.until(ExpectedConditions.elementToBeClickable(btnIngresarConsultorio));
 			}
 			if (btnIngresarConsultorio.isEnabled()) {
 				btnIngresarConsultorio.click();
 				aceptarPermisos();
 			}
-			Log.info("Se ingresa correctamente al consultorio");
+			LogMobile.info("Se ingresa correctamente al consultorio");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("No se ingresa correctamente al consultorio");
+			LogMobile.info("No se ingresa correctamente al consultorio");
 		}
 	}
 
@@ -70,11 +70,11 @@ public class S_SalaEsperaPage extends BasePage {
 			}
 			Iterator txtIt = textos.iterator();
 			while (txtIt.hasNext()) {
-				Log.info(textos.toString());
+				LogMobile.info(textos.toString());
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al recuperar el texto de los sliders de sala de espera");
+			LogMobile.info("Fallo al recuperar el texto de los sliders de sala de espera");
 		}
 	}
 
@@ -82,9 +82,9 @@ public class S_SalaEsperaPage extends BasePage {
 		boolean esVisible = false;
 		try {
 			esVisible = btnIngresarConsultorio.isDisplayed();
-			Log.info("Se encontro el elemento btnIngresarConsultorio");
+			LogMobile.info("Se encontro el elemento btnIngresarConsultorio");
 		} catch (Exception e) {
-			Log.info("No se encontro el elemento btnIngresarConsultorio");
+			LogMobile.info("No se encontro el elemento btnIngresarConsultorio");
 		}
 		return esVisible;
 	}
@@ -92,12 +92,12 @@ public class S_SalaEsperaPage extends BasePage {
 	public void aceptarPermisos() {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(txtPermitirPermisos));
-			while (PageHelper.elementStillPresent(txtPermitirPermisos)) {
+			while (PageHelperMobile.elementStillPresent(txtPermitirPermisos)) {
 				txtPermitirPermisos.click();
 			}
-			Log.info("Se aceptan los permisos");
+			LogMobile.info("Se aceptan los permisos");
 		} catch (Exception e) {
-			Log.info("Falla el aceptar los permisos");
+			LogMobile.info("Falla el aceptar los permisos");
 		}
 	}
 
@@ -105,9 +105,9 @@ public class S_SalaEsperaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnAceptarTiempo));
 			btnAceptarTiempo.click();
-			Log.info("Se acepta el tiempo de espera");
+			LogMobile.info("Se acepta el tiempo de espera");
 		} catch (Exception e) {
-			Log.info("Falla el aceptar el tiempo de espera");
+			LogMobile.info("Falla el aceptar el tiempo de espera");
 		}
 
 	}
@@ -117,9 +117,9 @@ public class S_SalaEsperaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnCancelarVC));
 			esVisible = btnCancelarVC.isDisplayed();
-			Log.info("Se encontro el elemento btnCancelarVC");
+			LogMobile.info("Se encontro el elemento btnCancelarVC");
 		} catch (Exception e) {
-			Log.info("No se encontro el elemento btnCancelarVC");
+			LogMobile.info("No se encontro el elemento btnCancelarVC");
 		}
 		return esVisible;
 	}
@@ -129,9 +129,9 @@ public class S_SalaEsperaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnCancelarConsulta));
 			esVisible = btnCancelarConsulta.isDisplayed();
-			Log.info("Se encontro el elemento btnCancelarConsulta");
+			LogMobile.info("Se encontro el elemento btnCancelarConsulta");
 		} catch (Exception e) {
-			Log.info("No se encontro el elemento btnCancelarConsulta");
+			LogMobile.info("No se encontro el elemento btnCancelarConsulta");
 		}
 		return esVisible;
 	}
@@ -140,10 +140,10 @@ public class S_SalaEsperaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnCancelarConsulta));
 			btnCancelarConsulta.click();
-			Log.info("Se cancela la consulta");
+			LogMobile.info("Se cancela la consulta");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Falla al cancelar la consulta");
+			LogMobile.info("Falla al cancelar la consulta");
 		}
 
 	}
@@ -152,10 +152,10 @@ public class S_SalaEsperaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnCancelarVC));
 			btnCancelarVC.click();
-			Log.info("Se cancela la consulta en sala de espera");
+			LogMobile.info("Se cancela la consulta en sala de espera");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Falla al cancelar la consulta en sala de espera");
+			LogMobile.info("Falla al cancelar la consulta en sala de espera");
 		}
 
 	}

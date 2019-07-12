@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import base.BasePage;
+import base.BasePageMobile;
 
-public class S_CalificarPage extends BasePage {
+public class S_CalificarPage extends BasePageMobile {
 
 	@FindBy(id = "ar.com.portalsalud.osde:id/platformDetail")
 	private WebElement inputComentario;

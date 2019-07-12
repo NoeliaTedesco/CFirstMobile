@@ -6,11 +6,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import base.BasePage;
-import helpers.PageHelper;
-import log.Log;
+import base.BasePageMobile;
+import helpers.PageHelperMobile;
+import log.LogMobile;
 
-public class S_GmailPage extends BasePage {
+public class S_GmailPage extends BasePageMobile {
 
 	@FindBy(id = "com.google.android.gm:id/subject_and_folder_view")
 	private WebElement asuntoCorreo;
@@ -42,10 +42,10 @@ public class S_GmailPage extends BasePage {
 			visibleBandejaEntrada();
 			visibleSeMuestraTextoCitado();
 			encontrarLinkInvitacion().click();
-			Log.info("Se abrio correctamente el link de la invitacion");
+			LogMobile.info("Se abrio correctamente el link de la invitacion");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al abrir el link de la invitacion");
+			LogMobile.info("Fallo al abrir el link de la invitacion");
 		}
 	}
 
@@ -56,14 +56,14 @@ public class S_GmailPage extends BasePage {
 			for (WebElement txt : txtCorreo) {
 				if (txt.getText().equals("aquí")) {
 					linkInvitacion = txt;
-					PageHelper.ScrollDown();
-					Log.info("Se encontro el link de la invitacion");
+					PageHelperMobile.ScrollDown();
+					LogMobile.info("Se encontro el link de la invitacion");
 					break;
 				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("No se encontro el link de la invitacion");
+			LogMobile.info("No se encontro el link de la invitacion");
 		}
 		return linkInvitacion;
 	}
@@ -72,9 +72,9 @@ public class S_GmailPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(txtCitado));
 			txtCitado.click();
-			Log.info("Se hace clic en el boton Muestra texto citado");
+			LogMobile.info("Se hace clic en el boton Muestra texto citado");
 		} catch (Exception e) {
-			Log.info("No se muestra el boton para mostrar texto citado");
+			LogMobile.info("No se muestra el boton para mostrar texto citado");
 		}
 	}
 
@@ -84,13 +84,13 @@ public class S_GmailPage extends BasePage {
 			for (WebElement correo : correosGmail) {
 				if (correo.getAttribute("name").contains("OSDE Consulta Médica OnLine")) {
 					correo.click();
-					Log.info("Se abre el gmail");
+					LogMobile.info("Se abre el gmail");
 					break;
 				}
 
 			}
 		} catch (Exception e) {
-			Log.info("No es visible la Bandeja de Entrada");
+			LogMobile.info("No es visible la Bandeja de Entrada");
 		}
 	}
 

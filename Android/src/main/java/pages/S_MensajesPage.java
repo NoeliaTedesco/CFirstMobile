@@ -8,11 +8,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import base.BasePage;
-import helpers.PageHelper;
-import log.Log;
+import base.BasePageMobile;
+import helpers.PageHelperMobile;
+import log.LogMobile;
 
-public class S_MensajesPage<WebElements> extends BasePage {
+public class S_MensajesPage<WebElements> extends BasePageMobile {
 
 	@FindBy (xpath = "(//*[contains(@text, 'https://bpr3.test-app.link')])[last()]")
 	private WebElement txtMensaje;
@@ -21,10 +21,10 @@ public class S_MensajesPage<WebElements> extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(txtMensaje));
 			txtMensaje.click();
-			Log.info("Se abrio correctamente el link de la invitacion");
+			LogMobile.info("Se abrio correctamente el link de la invitacion");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al abrir el link de la invitacion");
+			LogMobile.info("Fallo al abrir el link de la invitacion");
 		}
 	}
 }

@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import base.BasePage;
+import base.BasePageMobile;
 
-public class S_AgradecimientosPage extends BasePage {
+public class S_AgradecimientosPage extends BasePageMobile {
 
 	@FindBy(xpath = "//*[@class ='android.widget.TextView' and @package='ar.com.portalsalud.osde']")
 	private WebElement txtAgradecimiento;

@@ -4,11 +4,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import base.BasePage;
-import helpers.PageHelper;
-import log.Log;
+import base.BasePageMobile;
+import helpers.PageHelperMobile;
+import log.LogMobile;
 
-public class S_VideoconsultaPage extends BasePage {
+public class S_VideoconsultaPage extends BasePageMobile {
 
 	@FindBy(id = "ar.com.portalsalud.osde:id/btn_chat")
 	private WebElement btnChat;
@@ -42,10 +42,10 @@ public class S_VideoconsultaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnChat));
 			btnChat.click();
-			Log.info("Se hace clic en el elemento btnChat");
+			LogMobile.info("Se hace clic en el elemento btnChat");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al hacer clic en el elemento btnChat");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al hacer clic en el elemento btnChat");
 		}
 		
 	}
@@ -54,10 +54,10 @@ public class S_VideoconsultaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnMas));
 			btnMas.click();
-			Log.info("Se hace clic en el elemento btnMas");
+			LogMobile.info("Se hace clic en el elemento btnMas");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al hacer clic en el elemento btnMas");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al hacer clic en el elemento btnMas");
 		}
 		
 	}
@@ -66,10 +66,10 @@ public class S_VideoconsultaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnMicrofono));
 			btnMicrofono.click();
-			Log.info("Se hace clic en el elemento btnMicrofono");
+			LogMobile.info("Se hace clic en el elemento btnMicrofono");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al hacer clic en el elemento btnMicrofono");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al hacer clic en el elemento btnMicrofono");
 		}
 		
 	}
@@ -78,23 +78,23 @@ public class S_VideoconsultaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnCamara));
 			btnCamara.click();
-			Log.info("Se hace clic en el elemento btnCamara");
+			LogMobile.info("Se hace clic en el elemento btnCamara");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al hacer clic en el elemento btnCamara");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al hacer clic en el elemento btnCamara");
 		}
 		
 	}
 	
 	public void clicIBtnFinalizar() {
 		try {
-			PageHelper.tapScreen(btnFinalizar,screenView);
+			PageHelperMobile.tapScreen(btnFinalizar,screenView);
 			wait.until(ExpectedConditions.elementToBeClickable(btnFinalizar));
 			btnFinalizar.click();
-			Log.info("Se hace clic en el elemento btnFinalizar");
+			LogMobile.info("Se hace clic en el elemento btnFinalizar");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al hacer clic en el elemento btnFinalizar");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al hacer clic en el elemento btnFinalizar");
 		}
 		
 	}
@@ -103,10 +103,10 @@ public class S_VideoconsultaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnAceptarFinalizar));
 			btnAceptarFinalizar.click();
-			Log.info("Se hace clic en el elemento btnAceptarFinalizar");
+			LogMobile.info("Se hace clic en el elemento btnAceptarFinalizar");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al hacer clic en el elemento btnAceptarFinalizar");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al hacer clic en el elemento btnAceptarFinalizar");
 		}
 		
 	}
@@ -115,10 +115,10 @@ public class S_VideoconsultaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(btnCancelarFinalizar));
 			btnCancelarFinalizar.click();
-			Log.info("Se hace clic en el elemento btnCancelarFinalizar");
+			LogMobile.info("Se hace clic en el elemento btnCancelarFinalizar");
 		} catch (Exception e){
-			Log.info(e.getMessage());
-			Log.info("Falla al hacer clic en el elemento btnCancelarFinalizar");
+			LogMobile.info(e.getMessage());
+			LogMobile.info("Falla al hacer clic en el elemento btnCancelarFinalizar");
 		}
 		
 	}
@@ -128,10 +128,10 @@ public class S_VideoconsultaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(btnChat));
 			esVisible = btnChat.isDisplayed();
-			Log.info("Se obtuvo el elemento btnChat");
+			LogMobile.info("Se obtuvo el elemento btnChat");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento btnChat");
+			LogMobile.info("Fallo al obtener el elemento btnChat");
 		}
 		return esVisible;
 	}	
@@ -143,10 +143,10 @@ public class S_VideoconsultaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(btnMas));
 			esVisible = btnMas.isDisplayed();
-			Log.info("Se obtuvo el elemento btnMas");
+			LogMobile.info("Se obtuvo el elemento btnMas");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento btnMas");
+			LogMobile.info("Fallo al obtener el elemento btnMas");
 		}
 		return esVisible;
 	}	
@@ -156,10 +156,10 @@ public class S_VideoconsultaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(btnMicrofono));
 			esVisible = btnMicrofono.isDisplayed();
-			Log.info("Se obtuvo el elemento btnMicrofono");
+			LogMobile.info("Se obtuvo el elemento btnMicrofono");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento btnMicrofono");
+			LogMobile.info("Fallo al obtener el elemento btnMicrofono");
 		}
 		return esVisible;
 	}	
@@ -169,10 +169,10 @@ public class S_VideoconsultaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(btnCamara));
 			esVisible = btnCamara.isDisplayed();
-			Log.info("Se obtuvo el elemento btnCamara");
+			LogMobile.info("Se obtuvo el elemento btnCamara");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento btnCamara");
+			LogMobile.info("Fallo al obtener el elemento btnCamara");
 		}
 		return esVisible;
 	}	
@@ -182,10 +182,10 @@ public class S_VideoconsultaPage extends BasePage {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(btnFinalizar));
 			esVisible = btnFinalizar.isDisplayed();
-			Log.info("Se obtuvo el elemento btnFinalizar");
+			LogMobile.info("Se obtuvo el elemento btnFinalizar");
 		} catch (Exception e) {
 			e.printStackTrace();
-			Log.info("Fallo al obtener el elemento btnFinalizar");
+			LogMobile.info("Fallo al obtener el elemento btnFinalizar");
 		}
 		return esVisible;
 	}	

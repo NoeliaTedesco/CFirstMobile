@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+    <asignado>Noelia</asignado>
+    <descripcion>Aplicacion Android - Visualizar elementos de la Home</descripcion>
+    <estado>Pasa</estado>
+    <imgFalla></imgFalla>
+    <modulo>Socio</modulo>
+    <nombreDeLaPrueba>M_Ingresar_01</nombreDeLaPrueba>
+    <pasos>
+        <entry>
+            <key>1_Se loguea el medico</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>3_Se ingresa al modulo Atender videoconsultas</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>4_Se verifica la visualizacion del bot�n para entrar a la guardia</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>5_Se hace clic en el boton ingresar a la guardia</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>2_Se ingresa a la home del medico</key>
+            <value>Pasa</value>
+        </entry>
+    </pasos>
+    <prioridad>Alta</prioridad>
+    <referencia>Referencia</referencia>
+    <sprint>Ciclo 0</sprint>
+    <tiempoFinal>285</tiempoFinal>
+    <tiempoInicio>1562961457</tiempoInicio>
+    <tipoDePrueba>Regresión</tipoDePrueba>
+    <usuario>
+        <email>cmotest1@cmo.com</email>
+        <password>Cmotest1!</password>
+    </usuario>
+    <version>4.2.0</version>
+</objects>

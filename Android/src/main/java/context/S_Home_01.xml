@@ -6,12 +6,33 @@
     <imgFalla></imgFalla>
     <modulo>Socio</modulo>
     <nombreDeLaPrueba>S_Home_01</nombreDeLaPrueba>
-    <pasos/>
+    <pasos>
+        <entry>
+            <key>01_Se ingresa a Login Despacho</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>05_Se verifica el mensaje de Invitacion Enviada</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>04_Se verifica la visualizacion del formulario de envio de invitacion</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>02_Se ingresa al modulo invitaciones</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>03_Se verifica la visualizacion del bot�n enviar invitacion</key>
+            <value>Pasa</value>
+        </entry>
+    </pasos>
     <prioridad>Alta</prioridad>
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1562037401</tiempoInicio>
+    <tiempoInicio>1562961478</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest5@cmo.com</email>
