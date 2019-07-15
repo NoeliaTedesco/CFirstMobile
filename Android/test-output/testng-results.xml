@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite Mobile Android" duration-ms="124926" started-at="2019-07-12T20:07:19Z" finished-at="2019-07-12T20:09:24Z">
+    <groups>
+    </groups>
+    <test name="Realizar VC - Web" duration-ms="124018" started-at="2019-07-12T20:07:19Z" finished-at="2019-07-12T20:09:23Z">
+      <class name="suiteTest.Regresion_Despacho">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="setUpClass" is-config="true" duration-ms="7943" started-at="2019-07-12T17:07:19Z" finished-at="2019-07-12T17:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="setUp" is-config="true" duration-ms="289" started-at="2019-07-12T17:07:27Z" finished-at="2019-07-12T17:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suiteTest.Regresion_Despacho.M_Ingresar_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="M_Ingresar_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="M_Ingresar_01" duration-ms="26911" started-at="2019-07-12T17:07:27Z" finished-at="2019-07-12T17:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suiteTest.Regresion_Despacho.M_Ingresar_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M_Ingresar_01 -->
+        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="stepFail" is-config="true" duration-ms="0" started-at="2019-07-12T17:07:54Z" finished-at="2019-07-12T17:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=M_Ingresar_01 status=SUCCESS method=Regresion_Despacho.M_Ingresar_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stepFail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="tearDown" is-config="true" duration-ms="339" started-at="2019-07-12T17:07:54Z" finished-at="2019-07-12T17:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="setUp" is-config="true" duration-ms="397" started-at="2019-07-12T17:07:55Z" finished-at="2019-07-12T17:07:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suiteTest.Regresion_Despacho.S_Home_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="S_Home_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="S_Home_01" duration-ms="19119" started-at="2019-07-12T17:07:55Z" depends-on-methods="suiteTest.Regresion_Despacho.M_Ingresar_01" finished-at="2019-07-12T17:08:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suiteTest.Regresion_Despacho.S_Home_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S_Home_01 -->
+        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="stepFail" is-config="true" duration-ms="0" started-at="2019-07-12T17:08:14Z" finished-at="2019-07-12T17:08:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=S_Home_01 status=SUCCESS method=Regresion_Despacho.S_Home_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stepFail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="tearDown" is-config="true" duration-ms="270" started-at="2019-07-12T17:08:14Z" finished-at="2019-07-12T17:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="setUp" is-config="true" duration-ms="132" started-at="2019-07-12T17:08:14Z" finished-at="2019-07-12T17:08:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suiteTest.Regresion_Despacho.M_Mobile_Atender_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="M_Mobile_Atender_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="M_Mobile_Atender_01" duration-ms="59948" started-at="2019-07-12T17:08:14Z" depends-on-methods="suiteTest.Regresion_Despacho.S_Home_01" finished-at="2019-07-12T17:09:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suiteTest.Regresion_Despacho.M_Mobile_Atender_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at steps.M_Mobile_AtenderStep.Run(M_Mobile_AtenderStep.java:79)
+	at suiteTest.Regresion_Despacho.M_Mobile_Atender_01(Regresion_Despacho.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M_Mobile_Atender_01 -->
+        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="stepFail" is-config="true" duration-ms="850" started-at="2019-07-12T17:09:14Z" finished-at="2019-07-12T17:09:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=M_Mobile_Atender_01 status=FAILURE method=Regresion_Despacho.M_Mobile_Atender_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stepFail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="tearDown" is-config="true" duration-ms="720" started-at="2019-07-12T17:09:15Z" finished-at="2019-07-12T17:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:suiteTest.Regresion_Despacho@71318ec4]" name="tearDownClass" is-config="true" duration-ms="7019" started-at="2019-07-12T17:09:16Z" finished-at="2019-07-12T17:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- suiteTest.Regresion_Despacho -->
+    </test> <!-- Realizar VC - Web -->
+    <test name="Realizar VC - Mobile" duration-ms="124926" started-at="2019-07-12T20:07:19Z" finished-at="2019-07-12T20:09:24Z">
+      <class name="suiteTest.Regresion_RealizarVC">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:suiteTest.Regresion_RealizarVC@6ee52dcd]" name="setUpClass" is-config="true" duration-ms="29170" started-at="2019-07-12T17:07:19Z" finished-at="2019-07-12T17:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_RealizarVC@6ee52dcd]" name="setUp" is-config="true" duration-ms="104" started-at="2019-07-12T17:07:48Z" finished-at="2019-07-12T17:07:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suiteTest.Regresion_RealizarVC.S_Home_02(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="S_Home_02(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_RealizarVC@6ee52dcd]" name="S_Home_02" duration-ms="93529" started-at="2019-07-12T17:07:48Z" finished-at="2019-07-12T17:09:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suiteTest.Regresion_RealizarVC.S_Home_02(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S_Home_02 -->
+        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_RealizarVC@6ee52dcd]" name="stepFail" is-config="true" duration-ms="0" started-at="2019-07-12T17:09:22Z" finished-at="2019-07-12T17:09:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=S_Home_02 status=SUCCESS method=Regresion_RealizarVC.S_Home_02(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_RealizarVC@6ee52dcd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stepFail -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_RealizarVC@6ee52dcd]" name="tearDown" is-config="true" duration-ms="94" started-at="2019-07-12T17:09:22Z" finished-at="2019-07-12T17:09:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suiteTest.Regresion_RealizarVC.S_Home_02(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="tearDownClass()[pri:0, instance:suiteTest.Regresion_RealizarVC@6ee52dcd]" name="tearDownClass" is-config="true" duration-ms="2006" started-at="2019-07-12T17:09:22Z" finished-at="2019-07-12T17:09:24Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at delivery.EmailSenderMobile.sendEmail(EmailSenderMobile.java:116)
+	at delivery.EmailSenderMobile.exitDelivery(EmailSenderMobile.java:50)
+	at initializer.InitilizeHookMobile.CloseDelivery(InitilizeHookMobile.java:90)
+	at components.HookMobile.tearDownClass(HookMobile.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.afterRun(TestRunner.java:958)
+	at org.testng.TestRunner.run(TestRunner.java:606)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at delivery.EmailSenderMobile.subjectBuilderMail(EmailSenderMobile.java:122)
+	at delivery.EmailSenderMobile.sendEmail(EmailSenderMobile.java:82)
+	... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- suiteTest.Regresion_RealizarVC -->
+    </test> <!-- Realizar VC - Mobile -->
+  </suite> <!-- Suite Mobile Android -->
+</testng-results>

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <objects>
     <asignado>Noelia</asignado>
-    <descripcion>Aplicacion Android - Visualizar elementos de la Home</descripcion>
+    <descripcion>Aplicacion Android - Realizar VC</descripcion>
     <estado>Pasa</estado>
     <imgFalla></imgFalla>
     <modulo>Socio</modulo>
-    <nombreDeLaPrueba>M_Ingresar_01</nombreDeLaPrueba>
+    <nombreDeLaPrueba>S_Home_04</nombreDeLaPrueba>
     <pasos>
         <entry>
-            <key>1_Se loguea el medico</key>
+            <key>03_Se abre la notificacion de la invitacion</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>3_Se ingresa al modulo Atender videoconsultas</key>
+            <key>05_Se ingresa a la sala de espera</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>4_Se verifica la visualizacion del bot�n para entrar a la guardia</key>
+            <key>01_Se verifica que sean visibles los elementos de la home</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>5_Se hace clic en el boton ingresar a la guardia</key>
+            <key>02_Se abren las notificaciones del dispositivo</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>2_Se ingresa a la home del medico</key>
+            <key>04_Se ingresa al link de la invitacion</key>
             <value>Pasa</value>
         </entry>
     </pasos>
@@ -32,11 +32,11 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1562962047</tiempoInicio>
+    <tiempoInicio>1562354813</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
-        <email>cmotest1@cmo.com</email>
-        <password>Cmotest1!</password>
+        <email>cmotest5@cmo.com</email>
+        <password>Cmotest5!</password>
     </usuario>
     <version>4.2.0</version>
 </objects>

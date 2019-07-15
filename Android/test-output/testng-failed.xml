@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite Mobile Android]" parallel="tests">
+  <test name="Realizar VC - Web(failed)" parallel="tests">
+    <classes>
+      <class name="suiteTest.Regresion_Despacho">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpClass"/>
+          <include name="M_Mobile_Atender_01" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="M_Ingresar_01"/>
+          <include name="stepFail"/>
+          <include name="S_Home_01"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- suiteTest.Regresion_Despacho -->
+    </classes>
+  </test> <!-- Realizar VC - Web(failed) -->
+</suite> <!-- Failed suite [Suite Mobile Android] -->

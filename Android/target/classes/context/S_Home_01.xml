@@ -3,32 +3,28 @@
     <asignado>Noelia</asignado>
     <descripcion>Aplicacion Android - Visualizar elementos de la Home</descripcion>
     <estado>Pasa</estado>
-    <imgFalla>C:\imageRepository\FALLA_M_Mobile_Atender_01_20190712050915.png</imgFalla>
+    <imgFalla></imgFalla>
     <modulo>Socio</modulo>
-    <nombreDeLaPrueba>M_Mobile_Atender_01</nombreDeLaPrueba>
+    <nombreDeLaPrueba>S_Home_01</nombreDeLaPrueba>
     <pasos>
         <entry>
-            <key>6_Se llama al socio a la videoconsulta</key>
+            <key>01_Se ingresa a Login Despacho</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>7_Se verifica que se establecio la videoconsulta</key>
+            <key>05_Se verifica el mensaje de Invitacion Enviada</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>4_Se ingresa a la previsualizacion del paciente</key>
+            <key>04_Se verifica la visualizacion del formulario de envio de invitacion</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>1_Se loguea el medico</key>
+            <key>02_Se ingresa al modulo invitaciones</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>3_Se ingresa al modulo Atender videoconsultas</key>
-            <value>Pasa</value>
-        </entry>
-        <entry>
-            <key>2_Se ingresa a la home del medico</key>
+            <key>03_Se verifica la visualizacion del bot�n enviar invitacion</key>
             <value>Pasa</value>
         </entry>
     </pasos>
@@ -36,11 +32,11 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1562962094</tiempoInicio>
+    <tiempoInicio>1562961478</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
-        <email>cmotest1@cmo.com</email>
-        <password>Cmotest1!</password>
+        <email>cmotest5@cmo.com</email>
+        <password>Cmotest5!</password>
     </usuario>
     <version>4.2.0</version>
 </objects>

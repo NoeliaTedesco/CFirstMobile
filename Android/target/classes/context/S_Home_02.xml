@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+    <asignado>Noelia</asignado>
+    <descripcion>Aplicacion Android - Realizar VC - Gmail</descripcion>
+    <estado>Pasa</estado>
+    <imgFalla>C:\imageRepository\FALLA_S_Home_02_20190712022921.png</imgFalla>
+    <modulo>Socio</modulo>
+    <nombreDeLaPrueba>S_Home_02</nombreDeLaPrueba>
+    <pasos/>
+    <prioridad>Alta</prioridad>
+    <referencia>Referencia</referencia>
+    <sprint>Ciclo 0</sprint>
+    <tiempoFinal>285</tiempoFinal>
+    <tiempoInicio>1562952558</tiempoInicio>
+    <tipoDePrueba>Regresión</tipoDePrueba>
+    <usuario>
+        <email>cmotest5@cmo.com</email>
+        <password>Cmotest5!</password>
+    </usuario>
+    <version>4.2.0</version>
+</objects>
