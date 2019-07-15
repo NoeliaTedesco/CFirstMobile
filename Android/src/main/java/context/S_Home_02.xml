@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<objects>
+<objectsMobile>
     <asignado>Noelia</asignado>
     <descripcion>Aplicacion Android - Realizar VC - Gmail</descripcion>
     <estado>Pasa</estado>
@@ -18,4 +18,4 @@
         <password>Cmotest5!</password>
     </usuario>
     <version>4.2.0</version>
-</objects>
+</objectsMobile>

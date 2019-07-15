@@ -1,1342 +1,579 @@
-2019-07-01 17:04:57,921 INFO  [Log] Start test: S_Home_01 
-2019-07-01 17:06:30,132 INFO  [Log] Fallo al obtener el elemento btnPrimerTelefono 
-2019-07-01 17:06:30,142 INFO  [Log] expected [true] but found [false] 
-2019-07-01 17:06:30,146 INFO  [Log] Error al setear paso fallido 
-2019-07-01 17:07:12,461 INFO  [Log] Start test: S_Home_01 
-2019-07-01 17:07:19,816 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://192.168.92.1:4723: The target server failed to respond 
-2019-07-01 17:07:19,816 INFO  [RetryExec] Retrying request to {}->http://192.168.92.1:4723 
-2019-07-03 15:34:04,969 INFO  [Log] Fallo el inicio del servicio de appium 
-2019-07-03 15:34:28,007 INFO  [Log] Fallo el abrir la aplicacion en el dispositivo 
-2019-07-03 15:34:28,207 INFO  [Log] Start test: S_Home_03 
-2019-07-03 15:34:47,836 INFO  [Log] Start test: S_Home_03 
-2019-07-03 15:34:51,553 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-03 15:34:51,668 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-03 15:34:51,805 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-03 15:34:51,938 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-03 15:34:52,058 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-03 15:34:52,175 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-03 15:34:52,175 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-03 15:34:52,299 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-03 15:34:53,729 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-03 15:34:54,422 INFO  [Log] Personal 
-2019-07-03 15:34:59,420 INFO  [Log] 61 % 
-2019-07-03 15:35:00,836 INFO  [Log] 15:35 
-2019-07-03 15:35:02,117 INFO  [Log] Mié., 3 jul. 
-2019-07-03 15:35:04,761 INFO  [Log] Mensajería 
-2019-07-03 15:35:06,663 INFO  [Log] • 
-2019-07-03 15:35:27,606 INFO  [Log] hace 25 minutos 
-2019-07-03 15:35:28,660 INFO  [Log] 44055 
-2019-07-03 15:35:29,867 INFO  [Log] OSDE CMOnLine. Instala la app desde https://bpr3.test-app.link/JUN0ZQvN1X y un medico te llamara 
-2019-07-03 15:35:32,214 INFO  [Log] Se encontro la notificacion 
-2019-07-03 15:35:32,569 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-03 15:35:33,677 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-03 15:35:38,775 INFO  [Log] No se encontro el texto Mostrar Texto citado 
-2019-07-03 15:35:44,151 INFO  [Log] No se encontro el link de la invitacion 
-2019-07-03 15:35:44,153 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-03 15:35:44,153 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-03 15:35:45,232 INFO  [Log] End test: S_Home_03 
-2019-07-03 15:35:54,907 INFO  [Log] Sent message successfully.... 
-2019-07-03 15:46:02,197 INFO  [Log] Start test: S_Home_04 
-2019-07-03 15:46:06,949 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-03 15:46:07,037 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-03 15:46:07,170 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-03 15:46:07,362 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-03 15:46:07,503 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-03 15:46:07,654 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-03 15:46:07,655 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-03 15:46:07,816 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-03 15:46:09,250 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-03 15:46:10,294 INFO  [Log] Personal 
-2019-07-03 15:46:19,163 INFO  [Log] 63 % 
-2019-07-03 15:46:19,311 INFO  [Log] 15:46 
-2019-07-03 15:46:19,432 INFO  [Log] Mié., 3 jul. 
-2019-07-03 15:46:20,064 INFO  [Log] Mensajería 
-2019-07-03 15:46:20,219 INFO  [Log] • 
-2019-07-03 15:46:20,326 INFO  [Log] hace 1 minuto 
-2019-07-03 15:46:20,473 INFO  [Log] 44055 
-2019-07-03 15:46:20,623 INFO  [Log] OSDE CMOnLine. Instala la app desde https://bpr3.test-app.link/MNq75K1P1X y un medico te llamara 
-2019-07-03 15:46:20,673 INFO  [Log] Se encontro la notificacion 
-2019-07-03 15:46:25,162 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-03 15:46:26,346 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-03 15:46:35,089 INFO  [Log] No se encontro el link de la invitacion 
-2019-07-03 15:46:35,090 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-03 15:46:35,091 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-03 15:46:36,126 INFO  [Log] End test: S_Home_04 
-2019-07-03 15:47:46,427 INFO  [Log] Start test: S_Home_04 
-2019-07-03 15:47:50,095 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-03 15:47:50,175 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-03 15:47:50,311 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-03 15:47:50,436 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-03 15:47:50,553 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-03 15:47:50,669 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-03 15:47:50,669 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-03 15:47:50,777 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-03 15:47:51,867 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-03 15:47:52,534 INFO  [Log] Personal 
-2019-07-03 15:47:52,653 INFO  [Log] 64 % 
-2019-07-03 15:47:52,740 INFO  [Log] 15:47 
-2019-07-03 15:47:52,847 INFO  [Log] Mié., 3 jul. 
-2019-07-03 15:47:52,959 INFO  [Log] Mensajería 
-2019-07-03 15:47:53,095 INFO  [Log] • 
-2019-07-03 15:47:53,196 INFO  [Log] ahora 
-2019-07-03 15:47:53,363 INFO  [Log] 44055 
-2019-07-03 15:47:53,482 INFO  [Log] OSDE CMOnLine. Instala la app desde https://bpr3.test-app.link/rJazXtbQ1X y un medico te llamara 
-2019-07-03 15:47:53,592 INFO  [Log] Se encontro la notificacion 
-2019-07-03 15:47:56,711 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-03 15:47:57,731 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-03 15:48:06,213 INFO  [Log] No se encontro el link de la invitacion 
-2019-07-03 15:48:06,214 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-03 15:48:06,214 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-03 15:48:07,265 INFO  [Log] End test: S_Home_04 
-2019-07-03 15:48:14,477 INFO  [Log] Sent message successfully.... 
-2019-07-03 15:51:26,931 INFO  [Log] Start test: S_Home_04 
-2019-07-03 15:51:30,756 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-03 15:51:30,943 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-03 15:51:31,109 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-03 15:51:31,242 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-03 15:51:31,356 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-03 15:51:31,497 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-03 15:51:31,497 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-03 15:51:31,637 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-03 15:51:32,821 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-03 15:51:35,120 INFO  [Log] Personal 
-2019-07-03 15:51:35,287 INFO  [Log] 64 % 
-2019-07-03 15:51:35,465 INFO  [Log] 15:51 
-2019-07-03 15:51:35,633 INFO  [Log] Mié., 3 jul. 
-2019-07-03 15:51:35,739 INFO  [Log] Mensajería 
-2019-07-03 15:51:35,836 INFO  [Log] • 
-2019-07-03 15:51:35,959 INFO  [Log] ahora 
-2019-07-03 15:51:36,048 INFO  [Log] 44055 
-2019-07-03 15:51:36,117 INFO  [Log] OSDE CMOnLine. Instala la app desde https://bpr3.test-app.link/YJO7YptQ1X y un medico te llamara 
-2019-07-03 15:51:36,183 INFO  [Log] Se encontro la notificacion 
-2019-07-03 15:51:41,972 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-03 15:51:43,131 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-03 15:57:41,081 INFO  [Log] Start test: S_Home_04 
-2019-07-03 15:57:45,026 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-03 15:57:45,125 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-03 15:57:45,267 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-03 15:57:45,397 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-03 15:57:45,525 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-03 15:57:45,662 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-03 15:57:45,662 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-03 15:57:45,800 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-03 15:57:47,195 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-03 15:57:47,872 INFO  [Log] Personal 
-2019-07-03 15:57:48,684 INFO  [Log] 65 % 
-2019-07-03 15:57:48,903 INFO  [Log] 15:57 
-2019-07-03 15:57:49,004 INFO  [Log] Mié., 3 jul. 
-2019-07-03 15:57:49,173 INFO  [Log] Mensajería 
-2019-07-03 15:57:49,786 INFO  [Log] • 
-2019-07-03 15:57:49,862 INFO  [Log] ahora 
-2019-07-03 15:57:50,011 INFO  [Log] 44055 
-2019-07-03 15:57:50,165 INFO  [Log] OSDE CMOnLine. Instala la app desde https://bpr3.test-app.link/2ywOsfTQ1X y un medico te llamara 
-2019-07-03 15:57:50,845 INFO  [Log] Se encontro la notificacion 
-2019-07-03 15:57:54,085 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-03 15:57:55,196 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-03 16:58:07,536 INFO  [Log] Start test: S_Home_04 
-2019-07-03 16:58:11,151 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-03 16:58:11,242 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-03 16:58:11,381 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-03 16:58:11,534 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-03 16:58:11,670 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-03 16:58:11,795 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-03 16:58:11,795 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-03 16:58:11,923 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-03 16:58:13,133 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-03 16:58:13,871 INFO  [Log] Personal 
-2019-07-03 16:58:13,975 INFO  [Log] 73 % 
-2019-07-03 16:58:14,075 INFO  [Log] 16:58 
-2019-07-03 16:58:14,225 INFO  [Log] Mié., 3 jul. 
-2019-07-03 16:58:14,352 INFO  [Log] Mensajería 
-2019-07-03 16:58:14,441 INFO  [Log] • 
-2019-07-03 16:58:14,548 INFO  [Log] ahora 
-2019-07-03 16:58:14,648 INFO  [Log] 44055 
-2019-07-03 16:58:14,745 INFO  [Log] OSDE CMOnLine. Instala la app desde https://bpr3.test-app.link/Dl7lzGbV1X y un medico te llamara 
-2019-07-03 16:58:14,812 INFO  [Log] Se encontro la notificacion 
-2019-07-03 16:58:18,243 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-03 16:58:19,240 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-03 16:59:02,276 INFO  [Log] No se encontro el link de la invitacion 
-2019-07-03 16:59:02,279 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-03 16:59:02,279 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-03 16:59:03,379 INFO  [Log] End test: S_Home_04 
-2019-07-03 17:01:26,160 INFO  [Log] Start test: S_Home_04 
-2019-07-03 17:01:29,907 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-03 17:01:29,999 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-03 17:01:30,124 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-03 17:01:30,248 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-03 17:01:30,360 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-03 17:01:30,481 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-03 17:01:30,481 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-03 17:01:30,597 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-03 17:01:31,773 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-03 17:01:32,650 INFO  [Log] Personal 
-2019-07-03 17:01:32,737 INFO  [Log] 73 % 
-2019-07-03 17:01:32,880 INFO  [Log] 17:01 
-2019-07-03 17:01:32,987 INFO  [Log] Mié., 3 jul. 
-2019-07-03 17:01:33,117 INFO  [Log] Broo 
-2019-07-03 17:01:33,278 INFO  [Log] Jajajajaja 
-2019-07-03 17:01:33,483 INFO  [Log] Cyn 
-2019-07-03 17:01:33,633 INFO  [Log] Veremos qué sucede 
-2019-07-03 17:01:33,894 INFO  [Log] WhatsApp 
-2019-07-03 17:01:34,058 INFO  [Log] • 
-2019-07-03 17:01:34,206 INFO  [Log] ??13 mensajes de 2 chats 
-2019-07-03 17:01:34,304 INFO  [Log] • 
-2019-07-03 17:01:34,435 INFO  [Log] hace 1 minuto 
-2019-07-03 17:01:34,576 INFO  [Log] Mensajería 
-2019-07-03 17:01:34,701 INFO  [Log] • 
-2019-07-03 17:01:34,814 INFO  [Log] hace 1 minuto 
-2019-07-03 17:01:34,919 INFO  [Log] 44055 
-2019-07-03 17:01:35,035 INFO  [Log] OSDE CMOnLine. Instala la app desde https://bpr3.test-app.link/aeOROooV1X y un medico te llamara 
-2019-07-03 17:01:35,107 INFO  [Log] Se encontro la notificacion 
-2019-07-03 17:01:39,612 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-03 17:01:40,856 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-03 17:02:17,913 INFO  [Log] No se encontro el link de la invitacion 
-2019-07-03 17:02:17,916 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-03 17:02:17,916 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-03 17:02:18,986 INFO  [Log] End test: S_Home_04 
-2019-07-03 17:04:46,331 INFO  [Log] Start test: S_Home_04 
-2019-07-03 17:04:50,491 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-03 17:04:50,573 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-03 17:04:50,703 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-03 17:04:50,824 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-03 17:04:50,952 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-03 17:04:51,063 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-03 17:04:51,063 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-03 17:04:51,175 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-03 17:04:52,318 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-03 17:04:53,291 INFO  [Log] Personal 
-2019-07-03 17:04:53,902 INFO  [Log] 73 % 
-2019-07-03 17:04:54,055 INFO  [Log] 17:04 
-2019-07-03 17:04:54,204 INFO  [Log] Mié., 3 jul. 
-2019-07-03 17:04:54,311 INFO  [Log] WhatsApp 
-2019-07-03 17:04:54,498 INFO  [Log] • 
-2019-07-03 17:04:55,213 INFO  [Log] ??13 mensajes de 2 chats 
-2019-07-03 17:04:55,378 INFO  [Log] • 
-2019-07-03 17:04:55,476 INFO  [Log] hace 4 minutos 
-2019-07-03 17:04:55,588 INFO  [Log] Mensajería 
-2019-07-03 17:04:55,702 INFO  [Log] • 
-2019-07-03 17:04:55,825 INFO  [Log] ahora 
-2019-07-03 17:04:55,941 INFO  [Log] 44055 
-2019-07-03 17:04:56,045 INFO  [Log] OSDE CMOnLine. Instala la app desde https://bpr3.test-app.link/tizt4EGV1X y un medico te llamara 
-2019-07-03 17:04:56,142 INFO  [Log] Se encontro la notificacion 
-2019-07-03 17:04:57,830 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-03 17:04:58,782 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-03 17:05:54,150 INFO  [Log] Start test: S_Home_04 
-2019-07-03 17:05:57,816 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-03 17:05:57,908 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-03 17:05:58,036 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-03 17:05:58,156 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-03 17:05:58,273 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-03 17:05:58,392 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-03 17:05:58,392 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-03 17:05:58,524 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-03 17:05:59,612 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-03 17:06:00,413 INFO  [Log] Personal 
-2019-07-03 17:06:00,568 INFO  [Log] 73 % 
-2019-07-03 17:06:00,695 INFO  [Log] 17:06 
-2019-07-03 17:06:00,800 INFO  [Log] Mié., 3 jul. 
-2019-07-03 17:06:00,901 INFO  [Log] WhatsApp 
-2019-07-03 17:06:01,033 INFO  [Log] • 
-2019-07-03 17:06:01,133 INFO  [Log] ??13 mensajes de 2 chats 
-2019-07-03 17:06:01,231 INFO  [Log] • 
-2019-07-03 17:06:01,335 INFO  [Log] hace 5 minutos 
-2019-07-03 17:06:02,040 INFO  [Log] Mensajería 
-2019-07-03 17:06:02,276 INFO  [Log] • 
-2019-07-03 17:06:02,436 INFO  [Log] ahora 
-2019-07-03 17:06:03,096 INFO  [Log] 44055 
-2019-07-03 17:06:03,296 INFO  [Log] OSDE CMOnLine. Instala la app desde https://bpr3.test-app.link/IH2oNELV1X y un medico te llamara 
-2019-07-03 17:06:03,438 INFO  [Log] Se encontro la notificacion 
-2019-07-03 17:06:41,766 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-03 17:06:42,969 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-03 17:08:04,737 INFO  [Log] No se encontro el link de la invitacion 
-2019-07-03 17:08:04,739 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-03 17:08:04,739 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-03 17:08:06,164 INFO  [Log] End test: S_Home_04 
-2019-07-03 17:09:09,887 INFO  [Log] Start test: S_Home_04 
-2019-07-03 17:09:13,788 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-03 17:09:13,874 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-03 17:09:13,991 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-03 17:09:14,100 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-03 17:09:14,212 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-03 17:09:14,327 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-03 17:09:14,327 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-03 17:09:14,437 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-03 17:09:15,570 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-03 17:09:16,335 INFO  [Log] Personal 
-2019-07-03 17:09:19,068 INFO  [Log] 17:09 
-2019-07-04 13:04:26,550 INFO  [Log] Start test: S_Home_04 
-2019-07-04 13:04:31,637 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-04 13:04:31,720 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-04 13:04:31,830 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-04 13:04:31,940 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-04 13:04:32,051 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-04 13:04:32,162 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-04 13:04:32,162 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-04 13:04:32,301 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-04 13:04:33,710 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-04 13:04:34,998 INFO  [Log] Personal 
-2019-07-04 13:04:35,169 INFO  [Log] 33 % 
-2019-07-04 13:04:35,743 INFO  [Log] 13:04 
-2019-07-04 13:04:35,889 INFO  [Log] Jue., 4 jul. 
-2019-07-04 13:04:35,994 INFO  [Log] Mensajería 
-2019-07-04 13:04:36,106 INFO  [Log] • 
-2019-07-04 13:04:36,197 INFO  [Log] hace 1 minuto 
-2019-07-04 13:04:36,302 INFO  [Log] 44055 
-2019-07-04 13:04:36,400 INFO  [Log] OSDE CMOnLine. Instala la app desde https://bpr3.test-app.link/lzLlyJkj3X y un medico te llamara 
-2019-07-04 13:04:36,503 INFO  [Log] Se encontro la notificacion 
-2019-07-04 13:04:46,554 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-04 13:04:47,615 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-04 13:05:14,094 INFO  [Log] No se encontro el link de la invitacion 
-2019-07-04 13:05:14,098 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-04 13:05:14,098 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-04 13:05:15,343 INFO  [Log] End test: S_Home_04 
-2019-07-04 13:05:23,374 INFO  [Log] Sent message successfully.... 
-2019-07-04 13:55:37,008 INFO  [Log] Start test: S_Home_04 
-2019-07-04 13:55:40,570 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-04 13:55:40,710 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-04 13:55:40,869 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-04 13:55:41,001 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-04 13:55:41,130 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-04 13:55:41,248 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-04 13:55:41,248 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-04 13:55:41,366 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-04 13:55:42,795 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-04 13:55:43,367 INFO  [Log] Personal 
-2019-07-04 13:55:43,466 INFO  [Log] 39 % 
-2019-07-04 13:55:43,585 INFO  [Log] 13:55 
-2019-07-04 13:55:43,697 INFO  [Log] Jue., 4 jul. 
-2019-07-04 13:55:43,854 INFO  [Log] Mensajería 
-2019-07-04 13:55:43,983 INFO  [Log] • 
-2019-07-04 13:55:44,114 INFO  [Log] hace 11 minutos 
-2019-07-04 13:55:44,210 INFO  [Log] 44055 
-2019-07-04 13:55:44,310 INFO  [Log] OSDE CMOnLine. Instala la app desde https://bpr3.test-app.link/zrMopEOl3X y un medico te llamara 
-2019-07-04 13:55:44,366 INFO  [Log] Se encontro la notificacion 
-2019-07-04 13:55:47,433 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-04 13:55:48,527 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-04 13:56:38,807 INFO  [Log] No se encontro el link de la invitacion 
-2019-07-04 13:56:38,813 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-04 13:56:38,813 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-04 13:56:39,892 INFO  [Log] End test: S_Home_04 
-2019-07-04 13:56:49,097 INFO  [Log] Sent message successfully.... 
-2019-07-05 11:30:55,646 INFO  [Log] Start test: S_Home_03 
-2019-07-05 11:30:59,242 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 11:30:59,337 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 11:30:59,473 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 11:30:59,617 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 11:30:59,752 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 11:30:59,888 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 11:30:59,888 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 11:31:00,029 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 11:31:01,252 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 11:31:02,342 INFO  [Log] Personal 
-2019-07-05 11:31:02,936 INFO  [Log] 96 % 
-2019-07-05 11:31:03,072 INFO  [Log] 11:31 
-2019-07-05 11:31:03,496 INFO  [Log] Vie., 5 jul. 
-2019-07-05 11:31:04,123 INFO  [Log] Gmail 
-2019-07-05 11:31:04,239 INFO  [Log] • 
-2019-07-05 11:31:04,348 INFO  [Log] ntedesco@sms-latam.com 
-2019-07-05 11:31:05,026 INFO  [Log] • 
-2019-07-05 11:31:05,192 INFO  [Log] hace 3 minutos 
-2019-07-05 11:31:05,270 INFO  [Log] OSDE Consulta Médica OnL. 
-2019-07-05 11:31:05,312 INFO  [Log] Se encontro la notificacion 
-2019-07-05 11:31:05,532 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 11:31:06,768 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 11:31:16,565 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 11:31:18,777 INFO  [Log] Se encontro el link de la invitacion 
-2019-07-05 11:31:24,139 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-05 11:31:24,139 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-05 11:31:25,509 INFO  [Log] End test: S_Home_03 
-2019-07-05 11:31:34,196 INFO  [Log] Sent message successfully.... 
-2019-07-05 11:36:58,445 INFO  [Log] Start test: S_Home_03 
-2019-07-05 11:37:03,925 INFO  [Log] Fallo al obtener el elemento btnPrimerTelefono 
-2019-07-05 11:37:03,936 INFO  [Log] expected [true] but found [false] 
-2019-07-05 11:37:03,936 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Falla 
-2019-07-05 11:37:14,753 INFO  [Log] Sent message successfully.... 
-2019-07-05 11:38:11,838 INFO  [Log] Start test: S_Home_03 
-2019-07-05 11:38:16,080 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 11:38:16,163 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 11:38:16,294 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 11:38:16,429 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 11:38:16,544 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 11:38:16,690 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 11:38:16,690 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 11:38:16,784 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 11:38:17,961 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 11:38:18,896 INFO  [Log] Personal 
-2019-07-05 11:38:19,036 INFO  [Log] 99 % 
-2019-07-05 11:38:19,599 INFO  [Log] 11:38 
-2019-07-05 11:38:19,780 INFO  [Log] Vie., 5 jul. 
-2019-07-05 11:38:19,928 INFO  [Log] Gmail 
-2019-07-05 11:38:20,628 INFO  [Log] • 
-2019-07-05 11:38:20,717 INFO  [Log] ntedesco@sms-latam.com 
-2019-07-05 11:38:20,895 INFO  [Log] • 
-2019-07-05 11:38:21,005 INFO  [Log] hace 4 minutos 
-2019-07-05 11:38:21,632 INFO  [Log] OSDE Consulta Médica OnL. 
-2019-07-05 11:38:21,659 INFO  [Log] Se encontro la notificacion 
-2019-07-05 11:38:21,838 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 11:38:22,993 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 11:38:30,172 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 11:38:32,144 INFO  [Log] Se encontro el link de la invitacion 
-2019-07-05 11:38:38,238 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-05 11:38:38,238 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-05 11:38:39,641 INFO  [Log] End test: S_Home_03 
-2019-07-05 11:38:46,542 INFO  [Log] Sent message successfully.... 
-2019-07-05 11:49:22,380 INFO  [Log] Start test: S_Home_03 
-2019-07-05 11:49:26,064 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 11:49:26,202 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 11:49:26,396 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 11:49:26,531 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 11:49:26,661 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 11:49:26,824 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 11:49:26,824 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 11:49:27,004 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 11:49:28,731 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 11:49:29,621 INFO  [Log] Personal 
-2019-07-05 11:49:29,711 INFO  [Log] 100 % 
-2019-07-05 11:49:29,808 INFO  [Log] 11:49 
-2019-07-05 11:49:29,911 INFO  [Log] Vie., 5 jul. 
-2019-07-05 11:49:30,014 INFO  [Log] Gmail 
-2019-07-05 11:49:30,107 INFO  [Log] • 
-2019-07-05 11:49:30,212 INFO  [Log] ntedesco.gruposms@gmail.com 
-2019-07-05 11:49:30,313 INFO  [Log] • 
-2019-07-05 11:49:30,403 INFO  [Log] hace 15 minutos 
-2019-07-05 11:49:30,527 INFO  [Log] OSDE Consulta Médica OnL. 
-2019-07-05 11:49:30,615 INFO  [Log] Se encontro la notificacion 
-2019-07-05 11:49:30,881 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 11:49:32,471 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 11:49:45,112 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 11:49:54,805 INFO  [Log] Se encontro el link de la invitacion 
-2019-07-05 11:49:57,543 INFO  [Log] Se abrio correctamente el link de la invitacion 
-2019-07-05 11:49:57,544 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-05 11:49:58,690 INFO  [Log] End test: S_Home_03 
-2019-07-05 11:50:06,423 INFO  [Log] Sent message successfully.... 
-2019-07-05 11:51:23,326 INFO  [Log] Start test: S_Home_03 
-2019-07-05 11:51:28,795 INFO  [Log] Fallo al obtener el elemento btnPrimerTelefono 
-2019-07-05 11:51:28,804 INFO  [Log] expected [true] but found [false] 
-2019-07-05 11:51:28,805 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Falla 
-2019-07-05 11:51:38,255 INFO  [Log] Sent message successfully.... 
-2019-07-05 11:52:33,036 INFO  [Log] Start test: S_Home_03 
-2019-07-05 11:52:36,808 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 11:52:36,913 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 11:52:37,059 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 11:52:37,236 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 11:52:37,359 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 11:52:37,492 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 11:52:37,492 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 11:52:37,599 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 11:52:38,838 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 11:52:41,763 INFO  [Log] Personal 
-2019-07-05 11:52:41,891 INFO  [Log] 100 % 
-2019-07-05 11:52:42,013 INFO  [Log] 11:52 
-2019-07-05 11:52:42,182 INFO  [Log] Vie., 5 jul. 
-2019-07-05 11:52:42,297 INFO  [Log] testing.autom.cmo 
-2019-07-05 11:52:42,406 INFO  [Log] REGRESSION :: VERSION [4.2.0] ::SPRINT [Ciclo 0] ::2019/07/05 11:50:03 
-2019-07-05 11:52:42,528 INFO  [Log] testing.autom.cmo 
-2019-07-05 11:52:42,609 INFO  [Log] REGRESSION :: VERSION [4.2.0] ::SPRINT [Ciclo 0] ::2019/07/05 11:51:34 
-2019-07-05 11:52:42,707 INFO  [Log] OSDE Consulta Médica OnL. 
-2019-07-05 11:52:42,752 INFO  [Log] Se encontro la notificacion 
-2019-07-05 11:52:42,925 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 11:52:44,057 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 11:52:49,324 INFO  [Log] No se encontro el texto Mostrar Texto citado 
-2019-07-05 12:03:43,368 INFO  [Log] Start test: S_Home_03 
-2019-07-05 12:03:47,654 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 12:03:47,763 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 12:03:47,926 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 12:03:48,090 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 12:03:48,206 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 12:03:48,367 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 12:03:48,368 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 12:03:48,492 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 12:03:49,923 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 12:03:50,542 INFO  [Log] Personal 
-2019-07-05 12:03:50,640 INFO  [Log] 100 % 
-2019-07-05 12:03:50,763 INFO  [Log] 12:03 
-2019-07-05 12:03:50,872 INFO  [Log] Vie., 5 jul. 
-2019-07-05 12:03:50,971 INFO  [Log] Sistema Android 
-2019-07-05 12:03:51,087 INFO  [Log] Depuración por USB conectada 
-2019-07-05 12:03:51,192 INFO  [Log] Presiona para inhabilitar la depuración por USB. 
-2019-07-05 12:03:51,298 INFO  [Log] Sistema Android 
-2019-07-05 12:03:51,380 INFO  [Log] No molestar activado (Solo alarmas) 
-2019-07-05 12:03:51,479 INFO  [Log] Toque suavemente aquí para desactivarlo 
-2019-07-05 12:03:51,599 INFO  [Log] Sistema Android 
-2019-07-05 12:03:51,689 INFO  [Log] • 
-2019-07-05 12:03:51,846 INFO  [Log] USB para transferir archivos 
-2019-07-05 12:03:51,909 INFO  [Log] Fallo al abrir la notificacion 
-2019-07-05 12:03:52,965 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 12:03:58,794 INFO  [Log] No se encontro el texto Mostrar Texto citado 
-2019-07-05 12:05:27,555 INFO  [Log] Start test: S_Home_03 
-2019-07-05 12:05:31,411 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 12:05:31,503 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 12:05:31,724 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 12:05:31,857 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 12:05:32,006 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 12:05:32,145 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 12:05:32,145 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 12:05:32,273 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 12:05:33,585 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 12:05:34,982 INFO  [Log] Se encontro la notificacion 
-2019-07-05 12:05:35,158 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 12:05:36,243 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 12:05:46,526 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 12:06:03,524 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 12:10:29,412 INFO  [Log] Start test: S_Home_03 
-2019-07-05 12:10:32,795 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 12:10:32,899 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 12:10:33,044 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 12:10:33,212 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 12:10:33,339 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 12:10:33,487 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 12:10:33,487 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 12:10:33,609 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 12:10:34,858 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 12:10:37,131 INFO  [Log] Fallo al abrir la notificacion 
-2019-07-05 12:10:38,076 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 12:10:43,480 INFO  [Log] No se encontro el texto Mostrar Texto citado 
-2019-07-05 12:11:18,561 INFO  [Log] Start test: S_Home_03 
-2019-07-05 12:11:22,650 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 12:11:22,810 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 12:11:23,002 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 12:11:23,269 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 12:11:23,510 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 12:11:23,657 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 12:11:23,658 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 12:11:23,863 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 12:11:25,271 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 12:11:27,343 INFO  [Log] Se encontro la notificacion 
-2019-07-05 12:11:27,515 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 12:11:28,586 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 12:11:33,987 INFO  [Log] No se encontro el texto Mostrar Texto citado 
-2019-07-05 12:13:31,716 INFO  [Log] Start test: S_Home_03 
-2019-07-05 12:13:35,522 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 12:13:35,637 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 12:13:35,786 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 12:13:35,997 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 12:13:36,130 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 12:13:36,282 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 12:13:36,283 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 12:13:36,496 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 12:13:37,825 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 12:13:39,545 INFO  [Log] Se encontro la notificacion 
-2019-07-05 12:13:39,735 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 12:13:40,972 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 12:14:28,886 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 12:14:42,262 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 12:46:34,441 INFO  [Log] Start test: S_Home_03 
-2019-07-05 12:46:38,012 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 12:46:38,098 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 12:46:38,225 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 12:46:38,371 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 12:46:38,491 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 12:46:38,617 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 12:46:38,617 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 12:46:38,732 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 12:46:40,021 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 12:46:41,974 INFO  [Log] Se encontro la notificacion 
-2019-07-05 12:46:42,149 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 12:46:43,268 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 12:46:55,345 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 12:47:08,404 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 13:01:06,016 INFO  [Log] Start test: S_Home_03 
-2019-07-05 13:01:11,815 INFO  [Log] Fallo al obtener el elemento btnPrimerTelefono 
-2019-07-05 13:01:11,824 INFO  [Log] expected [true] but found [false] 
-2019-07-05 13:01:11,824 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Falla 
-2019-07-05 13:01:23,493 INFO  [Log] Sent message successfully.... 
-2019-07-05 13:02:00,792 INFO  [Log] Start test: S_Home_03 
-2019-07-05 13:02:04,827 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 13:02:04,926 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 13:02:05,048 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 13:02:05,187 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 13:02:05,381 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 13:02:05,711 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 13:02:05,711 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 13:02:05,909 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 13:02:07,882 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 13:02:09,770 INFO  [Log] Se encontro la notificacion 
-2019-07-05 13:02:09,986 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 13:02:11,112 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 13:02:12,548 INFO  [Log] No se encontro el texto Mostrar Texto citado 
-2019-07-05 13:02:27,881 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 13:02:28,663 INFO  [Log] Se encontro el link de la invitacion 
-2019-07-05 13:02:28,665 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-05 13:02:28,665 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-05 13:02:29,793 INFO  [Log] End test: S_Home_03 
-2019-07-05 13:03:10,835 INFO  [Log] Start test: S_Home_03 
-2019-07-05 13:03:14,347 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 13:03:14,523 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 13:03:14,706 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 13:03:14,897 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 13:03:15,053 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 13:03:15,174 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 13:03:15,175 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 13:03:15,355 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 13:03:16,747 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 13:03:20,047 INFO  [Log] Fallo al abrir la notificacion 
-2019-07-05 13:03:21,475 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 13:03:26,842 INFO  [Log] No se encontro el texto Mostrar Texto citado 
-2019-07-05 13:04:25,349 INFO  [Log] Start test: S_Home_03 
-2019-07-05 13:04:29,040 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 13:04:29,138 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 13:04:29,307 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 13:04:29,584 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 13:04:29,782 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 13:04:29,975 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 13:04:29,975 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 13:04:30,164 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 13:04:31,742 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 13:04:33,093 INFO  [Log] Fallo al abrir la notificacion 
-2019-07-05 13:04:34,119 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 13:04:39,994 INFO  [Log] No se encontro el texto Mostrar Texto citado 
-2019-07-05 13:52:44,662 INFO  [Log] Start test: S_Home_03 
-2019-07-05 13:52:48,310 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 13:52:48,440 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 13:52:48,609 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 13:52:48,841 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 13:52:49,105 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 13:52:49,341 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 13:52:49,341 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 13:52:49,553 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 13:52:51,137 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 13:52:53,242 INFO  [Log] Se encontro la notificacion 
-2019-07-05 13:52:53,421 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 13:52:54,594 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 13:52:55,814 INFO  [Log] No se encontro el texto Mostrar Texto citado 
-2019-07-05 13:54:13,601 INFO  [Log] Start test: S_Home_03 
-2019-07-05 13:54:17,415 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 13:54:17,541 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 13:54:17,728 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 13:54:17,871 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 13:54:18,067 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 13:54:18,230 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 13:54:18,230 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 13:54:18,385 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 13:54:19,703 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 13:54:21,726 INFO  [Log] Se encontro la notificacion 
-2019-07-05 13:54:21,912 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 13:54:22,958 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 13:54:48,335 INFO  [Log] No se encontro el texto Mostrar Texto citado 
-2019-07-05 14:00:30,538 INFO  [Log] Start test: S_Home_03 
-2019-07-05 14:00:33,448 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 14:00:33,626 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 14:00:34,083 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 14:00:34,283 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 14:00:34,552 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 14:00:34,795 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 14:00:34,796 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 14:00:35,174 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 14:00:36,901 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 14:00:39,214 INFO  [Log] Se encontro la notificacion 
-2019-07-05 14:00:39,393 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 14:00:40,699 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 14:00:45,511 INFO  [Log] No se encontro ningun texto Mostrar Texto citado 
-2019-07-05 14:00:50,984 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 14:01:02,985 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 14:01:04,035 INFO  [Log] Se encontro el link de la invitacion 
-2019-07-05 14:01:04,040 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-05 14:01:04,041 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-05 14:01:05,498 INFO  [Log] End test: S_Home_03 
-2019-07-05 14:01:14,220 INFO  [Log] Sent message successfully.... 
-2019-07-05 14:08:14,826 INFO  [Log] Start test: S_Home_03 
-2019-07-05 14:08:18,613 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 14:08:18,743 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 14:08:18,895 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 14:08:19,028 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 14:08:19,167 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 14:08:19,307 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 14:08:19,308 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 14:08:19,452 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 14:08:21,691 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 14:08:24,529 INFO  [Log] Se encontro la notificacion 
-2019-07-05 14:08:24,725 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 14:08:26,149 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 14:08:41,704 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 14:08:55,111 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 14:13:53,649 INFO  [Log] Start test: S_Home_03 
-2019-07-05 14:13:56,730 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 14:13:56,925 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 14:13:57,427 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 14:13:57,582 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 14:13:57,745 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 14:13:57,974 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 14:13:57,975 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 14:13:58,126 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 14:13:59,966 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 14:14:01,481 INFO  [Log] Se encontro la notificacion 
-2019-07-05 14:14:01,669 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 14:14:02,914 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 14:14:29,843 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 14:14:42,536 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 14:18:55,143 INFO  [Log] Start test: S_Home_03 
-2019-07-05 14:18:58,842 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 14:18:58,945 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 14:18:59,123 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 14:18:59,258 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 14:18:59,380 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 14:18:59,532 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 14:18:59,532 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 14:18:59,652 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 14:19:01,017 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 14:19:04,050 INFO  [Log] Se encontro la notificacion 
-2019-07-05 14:19:04,266 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 14:19:05,933 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 14:19:23,755 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 14:19:36,593 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 14:21:37,994 INFO  [Log] Start test: S_Home_03 
-2019-07-05 14:21:41,717 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 14:21:41,808 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 14:21:41,984 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 14:21:42,180 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 14:21:42,327 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 14:21:42,530 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 14:21:42,530 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 14:21:42,711 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 14:21:44,208 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 14:21:47,923 INFO  [Log] Fallo al abrir la notificacion 
-2019-07-05 14:21:49,126 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 16:26:53,153 INFO  [Log] Start test: S_Home_04 
-2019-07-05 16:26:56,756 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 16:26:56,902 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 16:26:57,076 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 16:26:57,238 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 16:26:57,372 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 16:26:57,495 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 16:26:57,495 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 16:26:57,703 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 16:26:58,984 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 16:27:02,248 INFO  [Log] Se encontro la notificacion 
-2019-07-05 16:27:03,079 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 16:27:04,194 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 16:27:05,407 INFO  [Log] Se abrio correctamente el link de la invitacion 
-2019-07-05 16:27:05,407 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-05 16:27:10,729 INFO  [Log] No se muestra el mensaje para habilitar notificaciones 
-2019-07-05 16:27:16,265 INFO  [Log] Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: ar.com.portalsalud.osde:id/signupTermsCheckbox' (tried for 5 second(s) with 500 milliseconds interval) 
-2019-07-05 16:27:16,265 INFO  [Log] Falla el aceptar los terminos y condiciones 
-2019-07-05 16:27:21,469 INFO  [Log] Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: ar.com.portalsalud.osde:id/callBtt' (tried for 5 second(s) with 500 milliseconds interval) 
-2019-07-05 16:27:21,469 INFO  [Log] Falla el ingresar al consultorio 
-2019-07-05 16:27:21,469 INFO  [Log] 05_Se ingresa a la sala de espera: Pasa 
-2019-07-05 16:27:23,359 INFO  [Log] End test: S_Home_04 
-2019-07-05 16:27:31,125 INFO  [Log] Sent message successfully.... 
-2019-07-05 16:30:38,006 INFO  [Log] Start test: S_Home_03 
-2019-07-05 16:30:41,731 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 16:30:42,116 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 16:30:42,566 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 16:30:42,867 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 16:30:43,145 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 16:30:43,414 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 16:30:43,414 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 16:30:43,636 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 16:30:46,422 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 16:30:49,205 INFO  [Log] Se encontro la notificacion 
-2019-07-05 16:30:49,377 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 16:30:50,487 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 16:30:59,387 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 16:31:09,969 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 16:31:11,240 INFO  [Log] Se encontro el link de la invitacion 
-2019-07-05 16:31:11,245 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-05 16:31:11,246 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-05 16:31:12,360 INFO  [Log] End test: S_Home_03 
-2019-07-05 16:31:20,143 INFO  [Log] Sent message successfully.... 
-2019-07-05 16:32:24,493 INFO  [Log] Start test: S_Home_03 
-2019-07-05 16:32:27,917 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 16:32:27,998 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 16:32:28,138 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 16:32:28,283 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 16:32:28,395 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 16:32:28,536 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 16:32:28,537 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 16:32:28,699 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 16:32:30,219 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 16:32:31,557 INFO  [Log] Se encontro la notificacion 
-2019-07-05 16:32:31,740 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 16:32:33,061 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 16:32:38,818 INFO  [Log] No se encontro el texto Mostrar Texto citado 
-2019-07-05 16:32:44,448 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 16:32:49,988 INFO  [Log] No se encontro el link de la invitacion 
-2019-07-05 16:32:49,989 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-05 16:32:49,989 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-05 16:32:50,918 INFO  [Log] End test: S_Home_03 
-2019-07-05 16:32:58,747 INFO  [Log] Sent message successfully.... 
-2019-07-05 16:44:51,743 INFO  [Log] Start test: S_Home_03 
-2019-07-05 16:44:55,295 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 16:44:55,463 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 16:44:55,673 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 16:44:56,080 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 16:44:56,289 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 16:44:56,516 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 16:44:56,517 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 16:44:56,698 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 16:44:58,248 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 16:44:59,596 INFO  [Log] Se encontro la notificacion 
-2019-07-05 16:44:59,773 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 16:45:01,076 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 16:45:09,433 INFO  [Log] Se hizo clic en el texto Mostrar Texto citado 
-2019-07-05 16:45:18,208 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 16:45:20,303 INFO  [Log] Se encontro el link de la invitacion 
-2019-07-05 16:45:26,689 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-05 16:45:26,689 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-05 16:45:27,880 INFO  [Log] End test: S_Home_03 
-2019-07-05 16:45:36,688 INFO  [Log] Sent message successfully.... 
-2019-07-05 17:05:24,290 INFO  [Log] Start test: S_Home_03 
-2019-07-05 17:05:28,220 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 17:05:28,326 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 17:05:28,455 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 17:05:28,572 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 17:05:28,678 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 17:05:28,807 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 17:05:28,808 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 17:05:28,922 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 17:05:30,727 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 17:05:32,899 INFO  [Log] Se encontro la notificacion 
-2019-07-05 17:05:33,081 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 17:05:34,560 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 17:05:41,358 INFO  [Log] Se hace clic en el boton Muestra texto citado 
-2019-07-05 17:05:49,614 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 17:05:51,331 INFO  [Log] Se encontro el link de la invitacion 
-2019-07-05 17:05:53,595 INFO  [Log] Se abrio correctamente el link de la invitacion 
-2019-07-05 17:05:53,595 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-05 17:05:54,610 INFO  [Log] End test: S_Home_03 
-2019-07-05 17:06:02,490 INFO  [Log] Sent message successfully.... 
-2019-07-05 17:10:51,752 INFO  [Log] Start test: S_Home_03 
-2019-07-05 17:10:55,410 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-05 17:10:55,564 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-05 17:10:55,722 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-05 17:10:55,846 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-05 17:10:55,996 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-05 17:10:56,143 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-05 17:10:56,143 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-05 17:10:56,265 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-05 17:10:57,569 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-05 17:10:59,185 INFO  [Log] Se encontro la notificacion 
-2019-07-05 17:10:59,370 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-05 17:11:00,402 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-05 17:11:07,863 INFO  [Log] Se hace clic en el boton Muestra texto citado 
-2019-07-05 17:11:17,494 INFO  [Log] No es visible la Bandeja de Entrada 
-2019-07-05 17:11:19,201 INFO  [Log] Se encontro el link de la invitacion 
-2019-07-05 17:11:25,057 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-05 17:11:25,058 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-05 17:11:26,271 INFO  [Log] End test: S_Home_03 
-2019-07-05 17:11:33,509 INFO  [Log] Sent message successfully.... 
-2019-07-10 08:50:04,099 INFO  [Log] Start test: S_Home_02 
-2019-07-10 08:50:07,436 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-10 08:50:07,636 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-10 08:50:07,933 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-10 08:50:08,284 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-10 08:50:08,587 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-10 08:50:08,913 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-10 08:50:08,913 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-10 08:50:09,282 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-10 08:50:13,331 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-10 08:50:17,785 INFO  [Log] Se encontro la notificacion 
-2019-07-10 08:50:18,012 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-10 08:50:21,167 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-10 08:50:33,315 INFO  [Log] Se hace clic en el boton Muestra texto citado 
-2019-07-10 08:50:37,265 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-10 08:50:37,265 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-10 08:50:42,830 INFO  [Log] No se muestra el mensaje para habilitar notificaciones 
-2019-07-10 08:50:48,212 INFO  [Log] Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: ar.com.portalsalud.osde:id/signupTermsCheckbox' (tried for 5 second(s) with 500 milliseconds interval) 
-2019-07-10 08:50:48,212 INFO  [Log] Falla el aceptar los terminos y condiciones 
-2019-07-10 08:50:53,780 INFO  [Log] Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: ar.com.portalsalud.osde:id/callBtt' (tried for 5 second(s) with 500 milliseconds interval) 
-2019-07-10 08:50:53,780 INFO  [Log] Falla el ingresar al consultorio 
-2019-07-10 08:50:53,780 INFO  [Log] 05_Se ingresa a la sala de espera: Pasa 
-2019-07-10 08:50:59,026 INFO  [Log] Falla el aceptar el tiempo de espera 
-2019-07-10 08:54:22,611 INFO  [Log] Start test: S_Home_02 
-2019-07-10 08:54:26,113 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-10 08:54:26,287 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-10 08:54:26,485 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-10 08:54:26,649 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-10 08:54:26,826 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-10 08:54:27,017 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-10 08:54:27,017 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-10 08:54:27,232 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-10 08:54:29,667 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-10 08:54:32,366 INFO  [Log] Se encontro la notificacion 
-2019-07-10 08:54:32,552 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-10 08:54:35,553 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-10 08:54:42,025 INFO  [Log] Se hace clic en el boton Muestra texto citado 
-2019-07-10 08:54:44,926 INFO  [Log] Se encontro el link de la invitacion 
-2019-07-10 08:54:46,293 INFO  [Log] Se abrio correctamente el link de la invitacion 
-2019-07-10 08:54:46,293 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-10 08:54:54,414 INFO  [Log] Se quita el mensaje para habilitar notificaciones 
-2019-07-10 08:54:54,629 INFO  [Log] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
-2019-07-10 08:54:54,832 INFO  [Log] Se aceptan los terminos y condiciones 
-2019-07-10 08:54:55,932 INFO  [Log] Se ingresa correctamente al consultorio 
-2019-07-10 08:54:55,932 INFO  [Log] 05_Se ingresa a la sala de espera: Pasa 
-2019-07-10 08:55:01,734 INFO  [Log] Se acepta el tiempo de espera 
-2019-07-10 08:55:36,637 INFO  [Log] Se aceptan los permisos 
-2019-07-10 08:55:36,638 INFO  [Log] Se ingresa correctamente al consultorio 
-2019-07-10 08:55:36,638 INFO  [Log] 06_Sala de espera - Ingresar al consultorio: Pasa 
-2019-07-10 08:55:42,643 INFO  [Log] Se hace clic en el elemento btnFinalizar 
-2019-07-10 08:55:47,304 INFO  [Log] Se hace clic en el elemento btnAceptarFinalizar 
-2019-07-10 08:55:47,305 INFO  [Log] 07_Videoconsulta - Finalizar VC: Pasa 
-2019-07-10 08:55:58,926 INFO  [Log] 08_Calificar - Calificar VC: Pasa 
-2019-07-10 08:56:01,020 INFO  [Log] 09_Pantalla Agradecimiento - Visualizar: Pasa 
-2019-07-10 08:56:03,545 INFO  [Log] End test: S_Home_02 
-2019-07-10 08:56:16,669 INFO  [Log] Sent message successfully.... 
-2019-07-11 14:15:34,487 INFO  [Log] Start test: S_Home_02 
-2019-07-11 14:15:36,811 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-11 14:15:37,075 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-11 14:15:37,506 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-11 14:15:37,801 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-11 14:15:38,010 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-11 14:15:38,301 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-11 14:15:38,301 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-11 14:15:38,554 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-11 14:15:41,848 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-11 14:15:44,777 INFO  [Log] Se encontro la notificacion 
-2019-07-11 14:15:44,953 INFO  [Log] Fallo el inicio del servicio de appium 
-2019-07-11 14:15:45,624 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-11 14:15:48,671 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-11 14:15:51,080 INFO  [Log] Fallo el abrir la aplicacion en el dispositivo 
-2019-07-11 14:15:51,495 INFO  [Log] Start test: S_Home_02 
-2019-07-11 14:15:53,934 INFO  [Log] Fallo al abrir el link de la invitacion 
-2019-07-11 14:15:53,934 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-11 14:15:59,518 INFO  [Log] No se muestra el mensaje para habilitar notificaciones 
-2019-07-11 14:17:04,148 INFO  [Log] Start test: S_Home_02 
-2019-07-11 14:17:06,886 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-11 14:17:07,034 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-11 14:17:07,257 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-11 14:17:07,457 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-11 14:17:07,619 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-11 14:17:07,774 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-11 14:17:07,774 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-11 14:17:08,033 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-11 14:17:09,876 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-11 14:17:12,804 INFO  [Log] Se encontro la notificacion 
-2019-07-11 14:17:12,985 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-11 14:17:14,413 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-11 14:17:16,417 INFO  [Log] Se abrio correctamente el link de la invitacion 
-2019-07-11 14:17:16,417 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-11 14:17:24,464 INFO  [Log] Se quita el mensaje para habilitar notificaciones 
-2019-07-11 14:17:24,595 INFO  [Log] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
-2019-07-11 14:17:24,837 INFO  [Log] Se aceptan los terminos y condiciones 
-2019-07-11 14:17:25,882 INFO  [Log] Se ingresa correctamente al consultorio 
-2019-07-11 14:17:25,882 INFO  [Log] 05_Se ingresa a la sala de espera: Pasa 
-2019-07-11 14:17:31,764 INFO  [Log] Se acepta el tiempo de espera 
-2019-07-11 14:17:55,198 INFO  [Log] Se aceptan los permisos 
-2019-07-11 14:17:55,199 INFO  [Log] Se ingresa correctamente al consultorio 
-2019-07-11 14:17:55,199 INFO  [Log] 06_Sala de espera - Ingresar al consultorio: Pasa 
-2019-07-11 14:18:10,881 INFO  [Log] Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: ar.com.portalsalud.osde:id/hangupBtt' (tried for 5 second(s) with 500 milliseconds interval) 
-2019-07-11 14:18:10,882 INFO  [Log] Falla al hacer clic en el elemento btnFinalizar 
-2019-07-11 14:19:34,264 INFO  [Log] Start test: S_Home_02 
-2019-07-11 14:19:37,216 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-11 14:19:37,341 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-11 14:19:37,541 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-11 14:19:37,722 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-11 14:19:37,896 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-11 14:19:38,276 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-11 14:19:38,277 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-11 14:19:38,462 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-11 14:19:40,034 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-11 14:19:44,556 INFO  [Log] Se encontro la notificacion 
-2019-07-11 14:19:44,736 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-11 14:19:46,010 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-11 14:19:47,617 INFO  [Log] Se abrio correctamente el link de la invitacion 
-2019-07-11 14:19:47,618 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-11 14:19:54,764 INFO  [Log] Se quita el mensaje para habilitar notificaciones 
-2019-07-11 14:19:55,057 INFO  [Log] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
-2019-07-11 14:19:55,282 INFO  [Log] Se aceptan los terminos y condiciones 
-2019-07-11 14:19:56,286 INFO  [Log] Se ingresa correctamente al consultorio 
-2019-07-11 14:19:56,286 INFO  [Log] 05_Se ingresa a la sala de espera: Pasa 
-2019-07-11 14:20:02,009 INFO  [Log] Se acepta el tiempo de espera 
-2019-07-11 14:20:22,173 INFO  [Log] Se aceptan los permisos 
-2019-07-11 14:20:22,173 INFO  [Log] Se ingresa correctamente al consultorio 
-2019-07-11 14:20:22,173 INFO  [Log] 06_Sala de espera - Ingresar al consultorio: Pasa 
-2019-07-11 14:20:26,399 INFO  [Log] Se hace clic en el elemento btnFinalizar 
-2019-07-11 14:20:30,690 INFO  [Log] Se hace clic en el elemento btnAceptarFinalizar 
-2019-07-11 14:20:30,691 INFO  [Log] 07_Videoconsulta - Finalizar VC: Pasa 
-2019-07-11 14:20:40,489 INFO  [Log] 08_Calificar - Calificar VC: Pasa 
-2019-07-11 14:20:42,216 INFO  [Log] 09_Pantalla Agradecimiento - Visualizar: Pasa 
-2019-07-11 14:20:43,714 INFO  [Log] End test: S_Home_02 
-2019-07-11 14:20:54,025 INFO  [Log] Sent message successfully.... 
-2019-07-11 16:22:28,401 INFO  [Log] Start test: S_Home_02 
-2019-07-11 16:22:30,998 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-11 16:22:31,220 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-11 16:22:31,578 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-11 16:22:31,977 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-11 16:22:32,364 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-11 16:22:32,782 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-11 16:22:32,782 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-11 16:22:33,110 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-11 16:22:36,330 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-11 16:22:40,790 INFO  [Log] Se encontro la notificacion 
-2019-07-11 16:22:41,030 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-11 16:22:44,602 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-11 16:22:46,011 INFO  [Log] Se abrio correctamente el link de la invitacion 
-2019-07-11 16:22:46,011 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-11 16:22:53,521 INFO  [Log] Se quita el mensaje para habilitar notificaciones 
-2019-07-11 16:22:53,797 INFO  [Log] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
-2019-07-11 16:22:54,056 INFO  [Log] Se aceptan los terminos y condiciones 
-2019-07-11 16:22:55,149 INFO  [Log] Se ingresa correctamente al consultorio 
-2019-07-11 16:22:55,149 INFO  [Log] 05_Se ingresa a la sala de espera: Pasa 
-2019-07-11 16:23:01,373 INFO  [Log] Se acepta el tiempo de espera 
-2019-07-11 16:23:17,390 INFO  [Log] No se ingresa correctamente al consultorio 
-2019-07-11 16:23:17,391 INFO  [Log] 06_Sala de espera - Ingresar al consultorio: Pasa 
-2019-07-11 16:23:33,278 INFO  [Log] Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: ar.com.portalsalud.osde:id/hangupBtt' (tried for 5 second(s) with 500 milliseconds interval) 
-2019-07-11 16:23:33,278 INFO  [Log] Falla al hacer clic en el elemento btnFinalizar 
-2019-07-11 16:23:44,036 INFO  [Log] Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: android:id/button1' (tried for 5 second(s) with 500 milliseconds interval) 
-2019-07-11 16:23:44,036 INFO  [Log] Falla al hacer clic en el elemento btnAceptarFinalizar 
-2019-07-11 16:23:44,036 INFO  [Log] 07_Videoconsulta - Finalizar VC: Pasa 
-2019-07-11 16:25:55,336 INFO  [Log] Start test: S_Home_02 
-2019-07-11 16:25:57,716 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-11 16:25:57,898 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-11 16:25:58,238 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-11 16:25:58,578 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-11 16:25:58,895 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-11 16:25:59,288 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-11 16:25:59,288 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-11 16:25:59,576 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-11 16:26:03,532 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-11 16:26:07,236 INFO  [Log] Se encontro la notificacion 
-2019-07-11 16:26:07,414 INFO  [Log] Se abrio correctamente la notificacion 
-2019-07-11 16:26:09,654 INFO  [Log] 03_Se abre la notificacion de la invitacion: Pasa 
-2019-07-11 16:26:11,205 INFO  [Log] Se abrio correctamente el link de la invitacion 
-2019-07-11 16:26:11,205 INFO  [Log] 04_Se ingresa al link de la invitacion: Pasa 
-2019-07-11 16:26:17,349 INFO  [Log] Se quita el mensaje para habilitar notificaciones 
-2019-07-11 16:26:17,626 INFO  [Log] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
-2019-07-11 16:26:17,847 INFO  [Log] Se aceptan los terminos y condiciones 
-2019-07-11 16:26:18,966 INFO  [Log] Se ingresa correctamente al consultorio 
-2019-07-11 16:26:18,966 INFO  [Log] 05_Se ingresa a la sala de espera: Pasa 
-2019-07-11 16:26:24,811 INFO  [Log] Se acepta el tiempo de espera 
-2019-07-11 16:26:47,713 INFO  [Log] Se aceptan los permisos 
-2019-07-11 16:26:47,714 INFO  [Log] Se ingresa correctamente al consultorio 
-2019-07-11 16:26:47,714 INFO  [Log] 06_Sala de espera - Ingresar al consultorio: Pasa 
-2019-07-11 16:26:52,286 INFO  [Log] Se hace clic en el elemento btnFinalizar 
-2019-07-11 16:26:57,022 INFO  [Log] Se hace clic en el elemento btnAceptarFinalizar 
-2019-07-11 16:26:57,023 INFO  [Log] 07_Videoconsulta - Finalizar VC: Pasa 
-2019-07-11 16:27:07,684 INFO  [Log] 08_Calificar - Calificar VC: Pasa 
-2019-07-11 16:27:09,827 INFO  [Log] 09_Pantalla Agradecimiento - Visualizar: Pasa 
-2019-07-11 16:27:12,909 INFO  [Log] End test: S_Home_02 
-2019-07-11 16:27:28,186 INFO  [Log] Sent message successfully.... 
-2019-07-12 14:29:18,110 INFO  [Log] Start test: S_Home_02 
-2019-07-12 14:29:21,485 INFO  [Log] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-12 14:29:21,690 INFO  [Log] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-12 14:29:21,970 INFO  [Log] Se obtuvo el elemento labelTxtAcceder 
-2019-07-12 14:29:22,259 INFO  [Log] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-12 14:29:22,462 INFO  [Log] Se obtuvo el elemento labelTxtVersion 
-2019-07-12 14:29:22,751 INFO  [Log] Se obtuvo el elemento labelTxtOSDE 
-2019-07-12 14:29:22,751 INFO  [Log] 01_Se verifica que sean visibles los elementos de la home: Pasa 
-2019-07-12 14:29:22,929 INFO  [Log] Se abre el panel de notificaciones 
-2019-07-12 14:29:24,968 INFO  [Log] 02_Se abren las notificaciones del dispositivo: Pasa 
-2019-07-12 14:40:01,955 INFO  [Log] Sent message successfully.... 
-2019-07-12 14:41:22,979 INFO  [Log] Sent message successfully.... 
-2019-07-12 14:48:58,020 INFO  [Log] Sent message successfully.... 
-2019-07-12 15:46:30,644 INFO  [Log] Fallo el abrir la aplicacion en el dispositivo 
-2019-07-12 15:46:30,771 INFO  [Log] Start test: S_Home_01 
-2019-07-12 16:23:33,945 INFO  [Log] Start test: S_Home_01 
-2019-07-12 16:23:38,741 INFO  [Log] Se ingreso el usuario 
-2019-07-12 16:23:38,966 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:23:39,164 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:23:39,580 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
-2019-07-12 16:23:41,959 INFO  [Log] Se ingresa al modulo de invitaciones 
-2019-07-12 16:23:42,216 INFO  [Log] Se cerr? la alerta de login correctamente 
-2019-07-12 16:23:42,217 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
-2019-07-12 16:23:43,812 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:23:43,816 INFO  [Log] 03_Se verifica la visualizacion del bot?n enviar invitacion: Pasa 
-2019-07-12 16:23:43,933 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:23:44,486 INFO  [Log] Se realizo la apertura del form de invitaciones 
-2019-07-12 16:23:44,486 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
-2019-07-12 16:35:14,538 INFO  [Log] Start test: M_Ingresar_01 
-2019-07-12 16:35:14,548 INFO  [Log] Start test: S_Home_01 
-2019-07-12 16:36:52,559 INFO  [Log] Start test: M_Ingresar_01 
-2019-07-12 16:36:52,559 INFO  [Log] Start test: S_Home_01 
-2019-07-12 16:38:27,950 INFO  [Log] Start test: S_Home_01 
-2019-07-12 16:38:27,950 INFO  [Log] Start test: M_Ingresar_01 
-2019-07-12 16:38:34,529 INFO  [Log] Se ingreso el usuario 
-2019-07-12 16:38:34,789 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:38:35,080 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:38:35,489 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
-2019-07-12 16:38:37,794 INFO  [Log] Se ingresa al modulo de invitaciones 
-2019-07-12 16:38:38,031 INFO  [Log] Se cerr? la alerta de login correctamente 
-2019-07-12 16:38:38,031 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
-2019-07-12 16:38:39,055 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:38:39,058 INFO  [Log] 03_Se verifica la visualizacion del bot?n enviar invitacion: Pasa 
-2019-07-12 16:38:39,153 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:38:39,724 INFO  [Log] Se realizo la apertura del form de invitaciones 
-2019-07-12 16:38:39,724 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
-2019-07-12 16:38:58,010 INFO  [Log] expected [true] but found [false] 
-2019-07-12 16:38:58,010 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Falla 
-2019-07-12 16:39:12,437 INFO  [Log] Start test: M_Ingresar_01 
-2019-07-12 16:39:16,971 INFO  [Log] Se ingreso el correo 
-2019-07-12 16:39:17,264 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:39:17,523 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:39:17,523 INFO  [Log] 1_Se loguea el medico: Pasa 
-2019-07-12 16:41:15,693 INFO  [Log] Start test: M_Ingresar_01 
-2019-07-12 16:41:20,250 INFO  [Log] Se ingreso el correo 
-2019-07-12 16:41:54,200 INFO  [Log] Start test: M_Ingresar_01 
-2019-07-12 16:41:59,152 INFO  [Log] Se ingreso el correo 
-2019-07-12 16:41:59,545 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:42:00,020 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:42:00,020 INFO  [Log] 1_Se loguea el medico: Pasa 
-2019-07-12 16:42:02,981 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
-2019-07-12 16:42:02,987 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
-2019-07-12 16:42:03,356 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
-2019-07-12 16:42:04,644 INFO  [Log] Se obtuvo el elemento panelInformacion 
-2019-07-12 16:42:04,644 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
-2019-07-12 16:42:09,745 INFO  [Log] Fallo al obtener el elemento btnSalirGuardia 
-2019-07-12 16:42:09,859 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
-2019-07-12 16:42:09,859 INFO  [Log] 4_Se verifica la visualizacion del bot?n para entrar a la guardia: Pasa 
-2019-07-12 16:42:10,003 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
-2019-07-12 16:42:11,153 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
-2019-07-12 16:42:11,575 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
-2019-07-12 16:42:11,575 INFO  [Log] End test: M_Ingresar_01 
-2019-07-12 16:42:11,985 INFO  [Log] Start test: S_Home_01 
-2019-07-12 16:42:14,610 INFO  [Log] Se ingreso el usuario 
-2019-07-12 16:42:14,899 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:42:15,082 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:42:15,463 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
-2019-07-12 16:42:17,138 INFO  [Log] Se ingresa al modulo de invitaciones 
-2019-07-12 16:42:17,371 INFO  [Log] Se cerr? la alerta de login correctamente 
-2019-07-12 16:42:17,371 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
-2019-07-12 16:42:18,327 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:42:18,331 INFO  [Log] 03_Se verifica la visualizacion del bot?n enviar invitacion: Pasa 
-2019-07-12 16:42:18,414 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:42:18,931 INFO  [Log] Se realizo la apertura del form de invitaciones 
-2019-07-12 16:42:18,931 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
-2019-07-12 16:42:26,998 INFO  [Log] Invitacion enviada correctamente 
-2019-07-12 16:42:26,998 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Pasa 
-2019-07-12 16:42:27,442 INFO  [Log] Se obtuvo el elemento grillaInvitacionesHoraActualizacion 
-2019-07-12 16:42:44,247 INFO  [Log] Start test: M_Ingresar_01 
-2019-07-12 16:42:49,218 INFO  [Log] Se ingreso el correo 
-2019-07-12 16:42:49,518 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:42:49,775 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:42:49,775 INFO  [Log] 1_Se loguea el medico: Pasa 
-2019-07-12 16:42:52,399 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
-2019-07-12 16:42:52,404 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
-2019-07-12 16:42:52,667 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
-2019-07-12 16:42:53,919 INFO  [Log] Se obtuvo el elemento panelInformacion 
-2019-07-12 16:42:53,919 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
-2019-07-12 16:42:54,058 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
-2019-07-12 16:42:54,224 INFO  [Log] Se hizo click en el boton para salir de la guardia 
-2019-07-12 16:42:55,655 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
-2019-07-12 16:42:55,833 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
-2019-07-12 16:42:56,367 INFO  [Log] 3_B_Se hace clic en Salir de la guardia: Pasa 
-2019-07-12 16:42:56,758 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
-2019-07-12 16:42:56,758 INFO  [Log] 4_Se verifica la visualizacion del bot?n para entrar a la guardia: Pasa 
-2019-07-12 16:42:56,919 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
-2019-07-12 16:42:58,114 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
-2019-07-12 16:42:58,488 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
-2019-07-12 16:42:58,488 INFO  [Log] End test: M_Ingresar_01 
-2019-07-12 16:42:58,896 INFO  [Log] Start test: S_Home_01 
-2019-07-12 16:43:01,580 INFO  [Log] Se ingreso el usuario 
-2019-07-12 16:43:02,188 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:43:02,472 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:43:02,901 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
-2019-07-12 16:43:04,939 INFO  [Log] Se ingresa al modulo de invitaciones 
-2019-07-12 16:43:05,146 INFO  [Log] Se cerr? la alerta de login correctamente 
-2019-07-12 16:43:05,146 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
-2019-07-12 16:43:06,084 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:43:06,087 INFO  [Log] 03_Se verifica la visualizacion del bot?n enviar invitacion: Pasa 
-2019-07-12 16:43:06,167 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:43:06,670 INFO  [Log] Se realizo la apertura del form de invitaciones 
-2019-07-12 16:43:06,670 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
-2019-07-12 16:45:27,820 INFO  [LogMobile] elemento inesperado (URI:"", local:"emailSenderConfiguration"). Los elementos esperados son <{}emailSenderConfigurationMobile> 
-2019-07-12 16:47:20,204 INFO  [LogMobile] elemento inesperado (URI:"", local:"emailSenderConfiguration"). Los elementos esperados son <{}emailSenderConfigurationMobile> 
-2019-07-12 16:49:47,605 INFO  [Log] Start test: M_Ingresar_01 
-2019-07-12 16:49:56,813 INFO  [Log] Se ingreso el correo 
-2019-07-12 16:49:57,658 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:49:58,544 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:49:58,544 INFO  [Log] 1_Se loguea el medico: Pasa 
-2019-07-12 16:50:02,171 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
-2019-07-12 16:50:02,183 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
-2019-07-12 16:50:02,704 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
-2019-07-12 16:50:04,539 INFO  [Log] Se obtuvo el elemento panelInformacion 
-2019-07-12 16:50:04,539 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
-2019-07-12 16:50:04,935 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
-2019-07-12 16:50:05,454 INFO  [Log] Se hizo click en el boton para salir de la guardia 
-2019-07-12 16:50:07,823 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
-2019-07-12 16:50:08,361 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
-2019-07-12 16:50:09,604 INFO  [Log] 3_B_Se hace clic en Salir de la guardia: Pasa 
-2019-07-12 16:50:10,021 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
-2019-07-12 16:50:10,022 INFO  [Log] 4_Se verifica la visualizacion del bot?n para entrar a la guardia: Pasa 
-2019-07-12 16:50:10,374 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
-2019-07-12 16:50:11,871 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
-2019-07-12 16:50:12,450 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
-2019-07-12 16:50:12,450 INFO  [Log] End test: M_Ingresar_01 
-2019-07-12 16:50:13,724 INFO  [Log] Start test: S_Home_01 
-2019-07-12 16:50:20,348 INFO  [Log] Se ingreso el usuario 
-2019-07-12 16:50:21,023 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:50:21,556 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:50:22,421 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
-2019-07-12 16:50:24,415 INFO  [Log] Se ingresa al modulo de invitaciones 
-2019-07-12 16:50:25,020 INFO  [Log] Se cerr? la alerta de login correctamente 
-2019-07-12 16:50:25,020 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
-2019-07-12 16:50:27,817 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:50:27,826 INFO  [Log] 03_Se verifica la visualizacion del bot?n enviar invitacion: Pasa 
-2019-07-12 16:50:28,026 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:50:29,527 INFO  [Log] Se realizo la apertura del form de invitaciones 
-2019-07-12 16:50:29,528 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
-2019-07-12 16:50:35,565 INFO  [LogMobile] Start test: S_Home_02 
-2019-07-12 16:50:38,793 INFO  [LogMobile] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-12 16:50:38,984 INFO  [LogMobile] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-12 16:50:39,229 INFO  [LogMobile] Se obtuvo el elemento labelTxtAcceder 
-2019-07-12 16:50:39,452 INFO  [LogMobile] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-12 16:50:39,671 INFO  [LogMobile] Se obtuvo el elemento labelTxtVersion 
-2019-07-12 16:50:39,980 INFO  [LogMobile] Se obtuvo el elemento labelTxtOSDE 
-2019-07-12 16:50:39,981 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 16:50:40,236 INFO  [LogMobile] Se abre el panel de notificaciones 
-2019-07-12 16:50:42,540 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 16:50:49,914 INFO  [Log] Invitacion enviada correctamente 
-2019-07-12 16:50:49,915 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Pasa 
-2019-07-12 16:50:50,568 INFO  [Log] Se obtuvo el elemento grillaInvitacionesHoraActualizacion 
-2019-07-12 16:51:09,257 INFO  [LogMobile] Se encontro la notificacion 
-2019-07-12 16:51:09,499 INFO  [LogMobile] Se abrio correctamente la notificacion 
-2019-07-12 16:51:10,950 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 16:51:15,949 INFO  [LogMobile] Se abrio correctamente el link de la invitacion 
-2019-07-12 16:51:15,949 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 16:51:25,181 INFO  [LogMobile] Se quita el mensaje para habilitar notificaciones 
-2019-07-12 16:51:25,469 INFO  [LogMobile] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
-2019-07-12 16:51:25,692 INFO  [LogMobile] Se aceptan los terminos y condiciones 
-2019-07-12 16:51:25,728 INFO  [Log] No se muestra la barra de carga de grilla 
-2019-07-12 16:51:26,057 INFO  [Log] El socio se encuentra en el panel de invitaciones 
-2019-07-12 16:51:26,058 INFO  [Log] 06_Se verifica que se muestre la invitacion en la grilla: Pasa 
-2019-07-12 16:51:26,192 INFO  [Log] El socio se encuentra en el panel de invitaciones 
-2019-07-12 16:51:26,433 INFO  [Log] Se recupera la fecha de lectura de la invitacion 
-2019-07-12 16:51:26,437 INFO  [Log] expected [null] but found [2/07/2019 16:51] 
-2019-07-12 16:51:26,437 INFO  [Log] 07_Se verifica que la invitacion no tenga fecha de lectura: Falla 
-2019-07-12 16:51:26,698 INFO  [LogMobile] Se ingresa correctamente al consultorio 
-2019-07-12 16:51:26,698 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 16:51:32,492 INFO  [LogMobile] Se acepta el tiempo de espera 
-2019-07-12 16:54:38,222 INFO  [Log] Start test: M_Ingresar_01 
-2019-07-12 16:57:37,351 INFO  [Log] Start test: M_Ingresar_01 
-2019-07-12 16:57:43,799 INFO  [Log] Se ingreso el correo 
-2019-07-12 16:57:44,187 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:57:44,601 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:57:44,602 INFO  [Log] 1_Se loguea el medico: Pasa 
-2019-07-12 16:57:47,551 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
-2019-07-12 16:57:47,556 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
-2019-07-12 16:57:47,814 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
-2019-07-12 16:57:49,265 INFO  [Log] Se obtuvo el elemento panelInformacion 
-2019-07-12 16:57:49,265 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
-2019-07-12 16:57:54,817 INFO  [Log] Fallo al obtener el elemento btnSalirGuardia 
-2019-07-12 16:57:55,014 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
-2019-07-12 16:57:55,015 INFO  [Log] 4_Se verifica la visualizacion del bot?n para entrar a la guardia: Pasa 
-2019-07-12 16:57:55,219 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
-2019-07-12 16:57:56,427 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
-2019-07-12 16:57:56,810 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
-2019-07-12 16:57:56,810 INFO  [Log] End test: M_Ingresar_01 
-2019-07-12 16:57:58,131 INFO  [Log] Start test: S_Home_01 
-2019-07-12 16:58:00,750 INFO  [Log] Se ingreso el usuario 
-2019-07-12 16:58:01,048 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:58:01,250 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:58:01,765 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
-2019-07-12 16:58:03,585 INFO  [Log] Se ingresa al modulo de invitaciones 
-2019-07-12 16:58:04,048 INFO  [Log] Se cerr? la alerta de login correctamente 
-2019-07-12 16:58:04,048 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
-2019-07-12 16:58:04,974 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:58:04,976 INFO  [Log] 03_Se verifica la visualizacion del bot?n enviar invitacion: Pasa 
-2019-07-12 16:58:05,112 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 16:58:05,555 INFO  [LogMobile] Start test: S_Home_02 
-2019-07-12 16:58:06,471 INFO  [Log] Se realizo la apertura del form de invitaciones 
-2019-07-12 16:58:06,472 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
-2019-07-12 16:58:09,829 INFO  [LogMobile] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-12 16:58:09,981 INFO  [LogMobile] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-12 16:58:10,210 INFO  [LogMobile] Se obtuvo el elemento labelTxtAcceder 
-2019-07-12 16:58:10,417 INFO  [LogMobile] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-12 16:58:10,669 INFO  [LogMobile] Se obtuvo el elemento labelTxtVersion 
-2019-07-12 16:58:10,882 INFO  [LogMobile] Se obtuvo el elemento labelTxtOSDE 
-2019-07-12 16:58:10,882 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 16:58:11,109 INFO  [LogMobile] Se abre el panel de notificaciones 
-2019-07-12 16:58:12,677 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 16:58:17,471 INFO  [Log] Invitacion enviada correctamente 
-2019-07-12 16:58:17,471 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Pasa 
-2019-07-12 16:58:17,844 INFO  [Log] End test: S_Home_01 
-2019-07-12 16:58:18,253 INFO  [Log] Start test: M_Mobile_Atender_01 
-2019-07-12 16:58:20,821 INFO  [Log] Se ingreso el correo 
-2019-07-12 16:58:21,187 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 16:58:21,406 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 16:58:21,406 INFO  [Log] 1_Se loguea el medico: Pasa 
-2019-07-12 16:58:23,219 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
-2019-07-12 16:58:23,220 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
-2019-07-12 16:58:23,426 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
-2019-07-12 16:58:24,255 INFO  [Log] Se obtuvo el elemento panelInformacion 
-2019-07-12 16:58:24,402 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
-2019-07-12 16:58:24,402 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
-2019-07-12 16:58:29,544 INFO  [Log] Fallo al obtener el elemento btnVerProxPaciente 
-2019-07-12 16:58:32,745 INFO  [LogMobile] Se encontro la notificacion 
-2019-07-12 16:58:32,923 INFO  [LogMobile] Se abrio correctamente la notificacion 
-2019-07-12 16:58:33,998 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 16:58:35,770 INFO  [LogMobile] Se abrio correctamente el link de la invitacion 
-2019-07-12 16:58:35,770 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 17:07:27,825 INFO  [Log] Start test: M_Ingresar_01 
-2019-07-12 17:07:41,696 INFO  [Log] Se ingreso el correo 
-2019-07-12 17:07:42,064 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 17:07:42,373 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 17:07:42,373 INFO  [Log] 1_Se loguea el medico: Pasa 
-2019-07-12 17:07:45,364 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
-2019-07-12 17:07:45,374 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
-2019-07-12 17:07:45,759 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
-2019-07-12 17:07:47,065 INFO  [Log] Se obtuvo el elemento panelInformacion 
-2019-07-12 17:07:47,065 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
-2019-07-12 17:07:48,807 INFO  [LogMobile] Start test: S_Home_02 
-2019-07-12 17:07:52,487 INFO  [Log] Fallo al obtener el elemento btnSalirGuardia 
-2019-07-12 17:07:52,623 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
-2019-07-12 17:07:52,623 INFO  [Log] 4_Se verifica la visualizacion del bot?n para entrar a la guardia: Pasa 
-2019-07-12 17:07:52,628 INFO  [LogMobile] Se obtuvo el elemento btnPrimerTelefono 
-2019-07-12 17:07:52,739 INFO  [LogMobile] Se obtuvo el elemento btnSegundoTelefono 
-2019-07-12 17:07:52,821 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
-2019-07-12 17:07:52,896 INFO  [LogMobile] Se obtuvo el elemento labelTxtAcceder 
-2019-07-12 17:07:53,055 INFO  [LogMobile] Se obtuvo el elemento labelTxtServicioUrgencias 
-2019-07-12 17:07:53,159 INFO  [LogMobile] Se obtuvo el elemento labelTxtVersion 
-2019-07-12 17:07:53,300 INFO  [LogMobile] Se obtuvo el elemento labelTxtOSDE 
-2019-07-12 17:07:53,300 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 17:07:53,469 INFO  [LogMobile] Se abre el panel de notificaciones 
-2019-07-12 17:07:54,127 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
-2019-07-12 17:07:54,722 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
-2019-07-12 17:07:54,722 INFO  [Log] End test: M_Ingresar_01 
-2019-07-12 17:07:55,393 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 17:07:55,471 INFO  [Log] Start test: S_Home_01 
-2019-07-12 17:07:59,152 INFO  [Log] Se ingreso el usuario 
-2019-07-12 17:07:59,374 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 17:07:59,551 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 17:08:00,045 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
-2019-07-12 17:08:01,844 INFO  [Log] Se ingresa al modulo de invitaciones 
-2019-07-12 17:08:02,063 INFO  [Log] Se cerr? la alerta de login correctamente 
-2019-07-12 17:08:02,063 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
-2019-07-12 17:08:03,336 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 17:08:03,336 INFO  [Log] 03_Se verifica la visualizacion del bot?n enviar invitacion: Pasa 
-2019-07-12 17:08:03,450 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
-2019-07-12 17:08:03,994 INFO  [Log] Se realizo la apertura del form de invitaciones 
-2019-07-12 17:08:03,994 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
-2019-07-12 17:08:14,124 INFO  [Log] Invitacion enviada correctamente 
-2019-07-12 17:08:14,124 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Pasa 
-2019-07-12 17:08:14,584 INFO  [Log] End test: S_Home_01 
-2019-07-12 17:08:14,993 INFO  [Log] Start test: M_Mobile_Atender_01 
-2019-07-12 17:08:18,485 INFO  [Log] Se ingreso el correo 
-2019-07-12 17:08:18,787 INFO  [Log] Se ingreso la contrasenia 
-2019-07-12 17:08:19,164 INFO  [Log] Se hizo click en el boton Ingresar 
-2019-07-12 17:08:19,164 INFO  [Log] 1_Se loguea el medico: Pasa 
-2019-07-12 17:08:21,120 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
-2019-07-12 17:08:21,120 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
-2019-07-12 17:08:21,424 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
-2019-07-12 17:08:22,440 INFO  [Log] Se obtuvo el elemento panelInformacion 
-2019-07-12 17:08:22,718 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
-2019-07-12 17:08:22,718 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
-2019-07-12 17:08:26,422 INFO  [LogMobile] Se encontro la notificacion 
-2019-07-12 17:08:26,581 INFO  [LogMobile] Se abrio correctamente la notificacion 
-2019-07-12 17:08:27,521 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 17:08:29,126 INFO  [LogMobile] Se abrio correctamente el link de la invitacion 
-2019-07-12 17:08:29,126 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 17:08:36,021 INFO  [LogMobile] Se quita el mensaje para habilitar notificaciones 
-2019-07-12 17:08:36,318 INFO  [LogMobile] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
-2019-07-12 17:08:36,499 INFO  [LogMobile] Se aceptan los terminos y condiciones 
-2019-07-12 17:08:37,455 INFO  [LogMobile] Se ingresa correctamente al consultorio 
-2019-07-12 17:08:37,455 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 17:08:43,288 INFO  [LogMobile] Se acepta el tiempo de espera 
-2019-07-12 17:08:43,551 INFO  [Log] Se obtuvo el elemento btnVerProxPaciente 
-2019-07-12 17:08:45,264 INFO  [Log] Se hizo click en el boton para ver proximo paciente 
-2019-07-12 17:08:45,707 INFO  [Log] El elemento btnAtenderProximoPaciente se encuentra habilitado 
-2019-07-12 17:08:45,707 INFO  [Log] 4_Se ingresa a la previsualizacion del paciente: Pasa 
-2019-07-12 17:08:48,604 INFO  [Log] Se hizo click en el boton btnAtender 
-2019-07-12 17:08:48,604 INFO  [Log] 6_Se llama al socio a la videoconsulta: Pasa 
-2019-07-12 17:09:02,128 INFO  [LogMobile] Se aceptan los permisos 
-2019-07-12 17:09:02,128 INFO  [LogMobile] Se ingresa correctamente al consultorio 
-2019-07-12 17:09:02,128 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 17:09:07,015 INFO  [LogMobile] Se hace clic en el elemento btnFinalizar 
-2019-07-12 17:09:09,914 INFO  [Log] Se obtuvo el elemento btnFinalizar 
-2019-07-12 17:09:09,914 INFO  [Log] 7_Se verifica que se establecio la videoconsulta: Pasa 
-2019-07-12 17:09:10,041 INFO  [LogMobile] Se hace clic en el elemento btnAceptarFinalizar 
-2019-07-12 17:09:10,042 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 17:09:14,935 INFO  [Log] Fallo al obtener el elemento formRegistroMedico 
-2019-07-12 17:09:19,512 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 17:09:21,328 INFO  [LogMobile] Error al setear paso exitoso 
-2019-07-12 17:09:22,327 INFO  [LogMobile] End test: S_Home_02 
-2019-07-12 17:09:23,529 INFO  [Log] Sent message successfully.... 
+2019-07-15 12:42:12,398 INFO  [Log] Start test: M_Ingresar_01 
+2019-07-15 12:42:23,754 INFO  [Log] Se ingreso el correo 
+2019-07-15 12:42:23,923 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 12:42:24,079 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 12:42:24,080 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 12:42:25,544 INFO  [LogMobile] Start test: S_RealizarVC_02 
+2019-07-15 12:42:27,478 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 12:42:27,480 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 12:42:27,627 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 12:42:29,862 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 12:42:29,862 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 12:42:31,453 INFO  [LogMobile] Se obtuvo el elemento btnPrimerTelefono 
+2019-07-15 12:42:31,517 INFO  [LogMobile] Se obtuvo el elemento btnSegundoTelefono 
+2019-07-15 12:42:31,622 INFO  [LogMobile] Se obtuvo el elemento labelTxtAcceder 
+2019-07-15 12:42:31,725 INFO  [LogMobile] Se obtuvo el elemento labelTxtServicioUrgencias 
+2019-07-15 12:42:31,811 INFO  [LogMobile] Se obtuvo el elemento labelTxtVersion 
+2019-07-15 12:42:31,905 INFO  [LogMobile] Se obtuvo el elemento labelTxtOSDE 
+2019-07-15 12:42:31,905 INFO  [LogMobile] 01_Se verifica que sean visibles los elementos de la home: Pasa 
+2019-07-15 12:42:31,983 INFO  [LogMobile] Se abre el panel de notificaciones 
+2019-07-15 12:42:32,957 INFO  [LogMobile] 02_Se abren las notificaciones del dispositivo: Pasa 
+2019-07-15 12:42:35,206 INFO  [Log] Fallo al obtener el elemento btnSalirGuardia 
+2019-07-15 12:42:35,277 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
+2019-07-15 12:42:35,277 INFO  [Log] 4_Se verifica la visualizacion del botón para entrar a la guardia: Pasa 
+2019-07-15 12:42:35,371 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
+2019-07-15 12:42:36,482 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 12:42:36,877 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
+2019-07-15 12:42:36,877 INFO  [Log] End test: M_Ingresar_01 
+2019-07-15 12:42:38,174 INFO  [Log] Start test: D_Mobile_EnvioInvitacion_02 
+2019-07-15 12:42:47,555 INFO  [Log] Se ingreso el usuario 
+2019-07-15 12:42:47,668 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 12:42:47,753 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 12:42:48,172 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
+2019-07-15 12:42:49,825 INFO  [Log] Se ingresa al modulo de invitaciones 
+2019-07-15 12:42:49,974 INFO  [Log] Se cerró la alerta de login correctamente 
+2019-07-15 12:42:49,974 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
+2019-07-15 12:42:51,279 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 12:42:51,279 INFO  [Log] 03_Se verifica la visualizacion del botï¿½n enviar invitacion: Pasa 
+2019-07-15 12:42:51,349 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 12:42:51,652 INFO  [Log] Se realizo la apertura del form de invitaciones 
+2019-07-15 12:42:51,652 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
+2019-07-15 12:42:58,417 INFO  [Log] Invitacion enviada correctamente 
+2019-07-15 12:42:58,417 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Pasa 
+2019-07-15 12:42:58,774 INFO  [Log] End test: D_Mobile_EnvioInvitacion_02 
+2019-07-15 12:43:00,322 INFO  [Log] Start test: M_Mobile_Atender_01 
+2019-07-15 12:43:02,135 INFO  [Log] Se ingreso el correo 
+2019-07-15 12:43:02,295 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 12:43:02,448 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 12:43:02,448 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 12:43:04,437 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 12:43:04,437 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 12:43:04,549 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 12:43:05,408 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 12:43:05,487 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 12:43:05,487 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 12:44:04,106 INFO  [LogMobile] Se encontro la notificacion 
+2019-07-15 12:44:04,359 INFO  [LogMobile] Se abrio correctamente la notificacion 
+2019-07-15 12:44:05,374 INFO  [LogMobile] 03_Se abre la notificacion de la invitacion: Pasa 
+2019-07-15 12:44:12,331 INFO  [LogMobile] Se hace clic en el boton Muestra texto citado 
+2019-07-15 12:44:15,103 INFO  [LogMobile] Se encontro el link de la invitacion 
+2019-07-15 12:44:16,272 INFO  [LogMobile] Se abrio correctamente el link de la invitacion 
+2019-07-15 12:44:16,272 INFO  [LogMobile] 04_Se ingresa al link de la invitacion: Pasa 
+2019-07-15 12:44:24,177 INFO  [LogMobile] Se quita el mensaje para habilitar notificaciones 
+2019-07-15 12:44:24,302 INFO  [LogMobile] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
+2019-07-15 12:44:24,497 INFO  [LogMobile] Se aceptan los terminos y condiciones 
+2019-07-15 12:44:25,407 INFO  [LogMobile] Se ingresa correctamente al consultorio 
+2019-07-15 12:44:25,408 INFO  [LogMobile] 05_Se ingresa a la sala de espera: Pasa 
+2019-07-15 12:44:30,975 INFO  [LogMobile] Se acepta el tiempo de espera 
+2019-07-15 12:44:36,178 INFO  [Log] Se obtuvo el elemento btnVerProxPaciente 
+2019-07-15 12:44:37,804 INFO  [Log] Se hizo click en el boton para ver proximo paciente 
+2019-07-15 12:44:37,895 INFO  [Log] El elemento btnAtenderProximoPaciente se encuentra habilitado 
+2019-07-15 12:44:37,895 INFO  [Log] 4_Se ingresa a la previsualizacion del paciente: Pasa 
+2019-07-15 12:44:41,581 INFO  [Log] Se hizo click en el boton btnAtender 
+2019-07-15 12:44:41,581 INFO  [Log] 6_Se llama al socio a la videoconsulta: Pasa 
+2019-07-15 12:44:54,023 INFO  [LogMobile] Se aceptan los permisos 
+2019-07-15 12:44:54,024 INFO  [LogMobile] Se ingresa correctamente al consultorio 
+2019-07-15 12:44:54,024 INFO  [LogMobile] 06_Sala de espera - Ingresar al consultorio: Pasa 
+2019-07-15 12:45:00,344 INFO  [LogMobile] Se hace clic en el elemento btnFinalizar 
+2019-07-15 12:45:02,006 INFO  [Log] Se obtuvo el elemento btnFinalizar 
+2019-07-15 12:45:02,006 INFO  [Log] 7_Se verifica que se establecio la videoconsulta: Pasa 
+2019-07-15 12:45:02,682 INFO  [LogMobile] Se hace clic en el elemento btnAceptarFinalizar 
+2019-07-15 12:45:02,682 INFO  [LogMobile] 07_Videoconsulta - Finalizar VC: Pasa 
+2019-07-15 12:45:11,850 INFO  [LogMobile] 08_Calificar - Calificar VC: Pasa 
+2019-07-15 12:45:12,272 INFO  [Log] Se obtuvo el elemento formRegistroMedico 
+2019-07-15 12:45:13,318 INFO  [Log] Se logro seleccionar el diagnostico 
+2019-07-15 12:45:13,615 INFO  [LogMobile] 09_Pantalla Agradecimiento - Visualizar: Pasa 
+2019-07-15 12:45:14,646 INFO  [LogMobile] End test: S_RealizarVC_02 
+2019-07-15 12:45:21,948 INFO  [LogMobile] Sent message successfully.... 
+2019-07-15 12:45:24,754 INFO  [Log] No se muestra la barra de carga de grilla 
+2019-07-15 12:45:25,373 INFO  [Log] Se completo el registro medico correctamente 
+2019-07-15 12:45:25,374 INFO  [Log] 8_Se completa el registro medico: Pasa 
+2019-07-15 12:45:25,374 INFO  [Log] End test: M_Mobile_Atender_01 
+2019-07-15 12:45:31,248 INFO  [Log] Sent message successfully.... 
+2019-07-15 12:55:16,143 INFO  [Log] Start test: M_Ingresar_01 
+2019-07-15 12:55:28,413 INFO  [Log] Se ingreso el correo 
+2019-07-15 12:55:28,580 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 12:55:28,725 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 12:55:28,725 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 12:55:31,437 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 12:55:31,439 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 12:55:31,582 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 12:55:32,818 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 12:55:32,819 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 12:55:38,215 INFO  [Log] Fallo al obtener el elemento btnSalirGuardia 
+2019-07-15 12:55:38,287 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
+2019-07-15 12:55:38,287 INFO  [Log] 4_Se verifica la visualizacion del botón para entrar a la guardia: Pasa 
+2019-07-15 12:55:38,382 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
+2019-07-15 12:55:39,506 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 12:55:39,891 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
+2019-07-15 12:55:39,891 INFO  [Log] End test: M_Ingresar_01 
+2019-07-15 12:55:40,913 INFO  [Log] Start test: D_Mobile_EnvioInvitacion_02 
+2019-07-15 12:55:49,118 INFO  [Log] Se ingreso el usuario 
+2019-07-15 12:55:49,241 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 12:55:49,380 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 12:55:49,735 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
+2019-07-15 12:55:51,672 INFO  [Log] Se ingresa al modulo de invitaciones 
+2019-07-15 12:55:51,789 INFO  [Log] Se cerró la alerta de login correctamente 
+2019-07-15 12:55:51,789 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
+2019-07-15 12:55:53,119 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 12:55:53,122 INFO  [Log] 03_Se verifica la visualizacion del botï¿½n enviar invitacion: Pasa 
+2019-07-15 12:55:53,193 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 12:55:53,507 INFO  [Log] Se realizo la apertura del form de invitaciones 
+2019-07-15 12:55:53,507 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
+2019-07-15 12:55:59,986 INFO  [Log] Invitacion enviada correctamente 
+2019-07-15 12:55:59,987 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Pasa 
+2019-07-15 12:56:00,347 INFO  [Log] End test: D_Mobile_EnvioInvitacion_02 
+2019-07-15 12:56:01,341 INFO  [Log] Start test: M_Mobile_Atender_01 
+2019-07-15 12:56:03,986 INFO  [Log] Se ingreso el correo 
+2019-07-15 12:56:04,147 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 12:56:04,281 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 12:56:04,281 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 12:56:06,222 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 12:56:06,222 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 12:56:06,347 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 12:56:07,191 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 12:56:07,282 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 12:56:07,283 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 12:58:10,648 INFO  [LogMobile] Fallo el abrir la aplicacion en el dispositivo 
+2019-07-15 12:58:10,677 INFO  [LogMobile] Start test: S_RealizarVC_02 
+2019-07-15 12:59:26,464 INFO  [Log] Start test: M_Ingresar_01 
+2019-07-15 12:59:35,656 INFO  [Log] Se ingreso el correo 
+2019-07-15 12:59:35,821 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 12:59:35,981 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 12:59:35,981 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 12:59:38,980 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 12:59:38,983 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 12:59:39,121 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 12:59:40,037 INFO  [LogMobile] Start test: S_RealizarVC_02 
+2019-07-15 12:59:40,329 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 12:59:40,329 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 12:59:43,728 INFO  [LogMobile] Se obtuvo el elemento btnPrimerTelefono 
+2019-07-15 12:59:43,804 INFO  [LogMobile] Se obtuvo el elemento btnSegundoTelefono 
+2019-07-15 12:59:43,906 INFO  [LogMobile] Se obtuvo el elemento labelTxtAcceder 
+2019-07-15 12:59:44,012 INFO  [LogMobile] Se obtuvo el elemento labelTxtServicioUrgencias 
+2019-07-15 12:59:44,163 INFO  [LogMobile] Se obtuvo el elemento labelTxtVersion 
+2019-07-15 12:59:44,268 INFO  [LogMobile] Se obtuvo el elemento labelTxtOSDE 
+2019-07-15 12:59:44,268 INFO  [LogMobile] 01_Se verifica que sean visibles los elementos de la home: Pasa 
+2019-07-15 12:59:44,363 INFO  [LogMobile] Se abre el panel de notificaciones 
+2019-07-15 12:59:45,426 INFO  [LogMobile] 02_Se abren las notificaciones del dispositivo: Pasa 
+2019-07-15 12:59:45,697 INFO  [Log] Fallo al obtener el elemento btnSalirGuardia 
+2019-07-15 12:59:45,786 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
+2019-07-15 12:59:45,786 INFO  [Log] 4_Se verifica la visualizacion del botón para entrar a la guardia: Pasa 
+2019-07-15 12:59:45,890 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
+2019-07-15 12:59:47,040 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 12:59:47,432 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
+2019-07-15 12:59:47,432 INFO  [Log] End test: M_Ingresar_01 
+2019-07-15 12:59:49,541 INFO  [Log] Start test: D_Mobile_EnvioInvitacion_02 
+2019-07-15 12:59:53,522 INFO  [Log] Se ingreso el usuario 
+2019-07-15 12:59:53,646 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 12:59:53,784 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 12:59:54,165 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
+2019-07-15 12:59:55,863 INFO  [Log] Se ingresa al modulo de invitaciones 
+2019-07-15 12:59:55,997 INFO  [Log] Se cerró la alerta de login correctamente 
+2019-07-15 12:59:55,997 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
+2019-07-15 12:59:58,137 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 12:59:58,137 INFO  [Log] 03_Se verifica la visualizacion del botï¿½n enviar invitacion: Pasa 
+2019-07-15 12:59:58,199 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 12:59:58,499 INFO  [Log] Se realizo la apertura del form de invitaciones 
+2019-07-15 12:59:58,499 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
+2019-07-15 13:00:05,316 INFO  [Log] Invitacion enviada correctamente 
+2019-07-15 13:00:05,316 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Pasa 
+2019-07-15 13:00:05,673 INFO  [Log] End test: D_Mobile_EnvioInvitacion_02 
+2019-07-15 13:00:06,899 INFO  [Log] Start test: M_Mobile_Atender_01 
+2019-07-15 13:00:09,018 INFO  [Log] Se ingreso el correo 
+2019-07-15 13:00:09,203 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 13:00:09,345 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 13:00:09,345 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 13:00:11,537 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 13:00:11,537 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 13:00:11,662 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 13:00:12,484 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 13:00:12,558 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 13:00:12,558 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 13:18:08,100 INFO  [Log] Start test: M_Ingresar_01 
+2019-07-15 13:18:18,589 INFO  [Log] Se ingreso el correo 
+2019-07-15 13:18:18,801 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 13:18:18,986 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 13:18:18,986 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 13:18:22,133 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 13:18:22,136 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 13:18:22,272 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 13:18:23,613 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 13:18:23,613 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 13:18:24,421 INFO  [LogMobile] Start test: S_RealizarVC_02 
+2019-07-15 13:18:27,991 INFO  [LogMobile] Se obtuvo el elemento btnPrimerTelefono 
+2019-07-15 13:18:28,060 INFO  [LogMobile] Se obtuvo el elemento btnSegundoTelefono 
+2019-07-15 13:18:28,172 INFO  [LogMobile] Se obtuvo el elemento labelTxtAcceder 
+2019-07-15 13:18:28,275 INFO  [LogMobile] Se obtuvo el elemento labelTxtServicioUrgencias 
+2019-07-15 13:18:28,364 INFO  [LogMobile] Se obtuvo el elemento labelTxtVersion 
+2019-07-15 13:18:28,459 INFO  [LogMobile] Se obtuvo el elemento labelTxtOSDE 
+2019-07-15 13:18:28,459 INFO  [LogMobile] 01_Se verifica que sean visibles los elementos de la home: Pasa 
+2019-07-15 13:18:28,551 INFO  [LogMobile] Se abre el panel de notificaciones 
+2019-07-15 13:18:29,028 INFO  [Log] Fallo al obtener el elemento btnSalirGuardia 
+2019-07-15 13:18:29,114 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
+2019-07-15 13:18:29,114 INFO  [Log] 4_Se verifica la visualizacion del botón para entrar a la guardia: Pasa 
+2019-07-15 13:18:29,208 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
+2019-07-15 13:18:29,609 INFO  [LogMobile] 02_Se abren las notificaciones del dispositivo: Pasa 
+2019-07-15 13:18:30,320 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 13:18:30,666 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
+2019-07-15 13:18:30,666 INFO  [Log] End test: M_Ingresar_01 
+2019-07-15 13:18:32,014 INFO  [Log] Start test: D_Mobile_EnvioInvitacion_02 
+2019-07-15 13:18:40,709 INFO  [Log] Se ingreso el usuario 
+2019-07-15 13:18:40,830 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 13:18:40,925 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 13:18:41,289 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
+2019-07-15 13:21:45,162 INFO  [Log] Start test: M_Ingresar_01 
+2019-07-15 13:21:59,359 INFO  [LogMobile] Start test: S_RealizarVC_02 
+2019-07-15 13:22:00,460 INFO  [Log] Se ingreso el correo 
+2019-07-15 13:22:00,619 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 13:22:00,784 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 13:22:00,784 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 13:22:02,973 INFO  [LogMobile] Se obtuvo el elemento btnPrimerTelefono 
+2019-07-15 13:22:03,041 INFO  [LogMobile] Se obtuvo el elemento btnSegundoTelefono 
+2019-07-15 13:22:03,153 INFO  [LogMobile] Se obtuvo el elemento labelTxtAcceder 
+2019-07-15 13:22:03,324 INFO  [LogMobile] Se obtuvo el elemento labelTxtServicioUrgencias 
+2019-07-15 13:22:03,422 INFO  [LogMobile] Se obtuvo el elemento labelTxtVersion 
+2019-07-15 13:22:03,523 INFO  [LogMobile] Se obtuvo el elemento labelTxtOSDE 
+2019-07-15 13:22:03,524 INFO  [LogMobile] 01_Se verifica que sean visibles los elementos de la home: Pasa 
+2019-07-15 13:22:03,556 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 13:22:03,559 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 13:22:03,644 INFO  [LogMobile] Se abre el panel de notificaciones 
+2019-07-15 13:22:03,735 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 13:22:04,644 INFO  [LogMobile] 02_Se abren las notificaciones del dispositivo: Pasa 
+2019-07-15 13:22:05,082 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 13:22:05,082 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 13:22:10,504 INFO  [Log] Fallo al obtener el elemento btnSalirGuardia 
+2019-07-15 13:22:10,597 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
+2019-07-15 13:22:10,597 INFO  [Log] 4_Se verifica la visualizacion del botón para entrar a la guardia: Pasa 
+2019-07-15 13:22:10,691 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
+2019-07-15 13:22:11,845 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 13:22:12,226 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
+2019-07-15 13:22:12,226 INFO  [Log] End test: M_Ingresar_01 
+2019-07-15 13:22:13,315 INFO  [Log] Start test: D_Mobile_EnvioInvitacion_02 
+2019-07-15 13:22:22,727 INFO  [Log] Se ingreso el usuario 
+2019-07-15 13:22:22,921 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 13:22:23,026 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 13:22:23,481 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
+2019-07-15 13:22:25,895 INFO  [Log] Se ingresa al modulo de invitaciones 
+2019-07-15 13:22:26,045 INFO  [Log] Se cerró la alerta de login correctamente 
+2019-07-15 13:22:26,046 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
+2019-07-15 13:22:27,737 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 13:22:27,737 INFO  [Log] 03_Se verifica la visualizacion del botï¿½n enviar invitacion: Pasa 
+2019-07-15 13:22:27,806 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 13:22:28,129 INFO  [Log] Se realizo la apertura del form de invitaciones 
+2019-07-15 13:22:28,129 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
+2019-07-15 13:22:35,890 INFO  [Log] Invitacion enviada correctamente 
+2019-07-15 13:22:35,890 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Pasa 
+2019-07-15 13:22:36,265 INFO  [Log] End test: D_Mobile_EnvioInvitacion_02 
+2019-07-15 13:22:37,242 INFO  [Log] Start test: M_Mobile_Atender_01 
+2019-07-15 13:22:39,224 INFO  [Log] Se ingreso el correo 
+2019-07-15 13:22:39,411 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 13:22:39,642 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 13:22:39,642 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 13:22:41,805 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 13:22:41,805 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 13:22:41,962 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 13:22:43,224 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 13:22:43,310 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 13:22:43,310 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 13:22:46,814 INFO  [LogMobile] Se encontro la notificacion 
+2019-07-15 13:22:47,001 INFO  [LogMobile] Se abrio correctamente la notificacion 
+2019-07-15 13:22:48,068 INFO  [LogMobile] 03_Se abre la notificacion de la invitacion: Pasa 
+2019-07-15 13:22:55,856 INFO  [LogMobile] Se hace clic en el boton Muestra texto citado 
+2019-07-15 13:22:58,569 INFO  [LogMobile] Se encontro el link de la invitacion 
+2019-07-15 13:22:59,849 INFO  [LogMobile] Se abrio correctamente el link de la invitacion 
+2019-07-15 13:22:59,849 INFO  [LogMobile] 04_Se ingresa al link de la invitacion: Pasa 
+2019-07-15 13:23:07,479 INFO  [LogMobile] Se quita el mensaje para habilitar notificaciones 
+2019-07-15 13:23:07,690 INFO  [LogMobile] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
+2019-07-15 13:23:07,875 INFO  [LogMobile] Se aceptan los terminos y condiciones 
+2019-07-15 13:23:08,841 INFO  [LogMobile] Se ingresa correctamente al consultorio 
+2019-07-15 13:23:08,841 INFO  [LogMobile] 05_Se ingresa a la sala de espera: Pasa 
+2019-07-15 13:23:14,257 INFO  [Log] Se obtuvo el elemento btnVerProxPaciente 
+2019-07-15 13:23:14,613 INFO  [LogMobile] Se acepta el tiempo de espera 
+2019-07-15 13:23:15,902 INFO  [Log] Se hizo click en el boton para ver proximo paciente 
+2019-07-15 13:23:16,021 INFO  [Log] El elemento btnAtenderProximoPaciente se encuentra habilitado 
+2019-07-15 13:23:16,022 INFO  [Log] 4_Se ingresa a la previsualizacion del paciente: Pasa 
+2019-07-15 13:23:19,726 INFO  [Log] Se hizo click en el boton btnAtender 
+2019-07-15 13:23:19,726 INFO  [Log] 6_Se llama al socio a la videoconsulta: Pasa 
+2019-07-15 13:23:33,311 INFO  [LogMobile] Se aceptan los permisos 
+2019-07-15 13:23:33,311 INFO  [LogMobile] Se ingresa correctamente al consultorio 
+2019-07-15 13:23:33,311 INFO  [LogMobile] 06_Sala de espera - Ingresar al consultorio: Pasa 
+2019-07-15 13:23:36,544 INFO  [LogMobile] Se hace clic en el elemento btnFinalizar 
+2019-07-15 13:23:38,100 INFO  [LogMobile] Se hace clic en el elemento btnAceptarFinalizar 
+2019-07-15 13:23:38,100 INFO  [LogMobile] 07_Videoconsulta - Finalizar VC: Pasa 
+2019-07-15 13:23:48,385 INFO  [LogMobile] 08_Calificar - Calificar VC: Pasa 
+2019-07-15 13:23:50,152 INFO  [LogMobile] 09_Pantalla Agradecimiento - Visualizar: Pasa 
+2019-07-15 13:23:51,649 INFO  [LogMobile] End test: S_RealizarVC_02 
+2019-07-15 13:24:00,760 INFO  [LogMobile] Sent message successfully.... 
+2019-07-15 14:34:41,725 INFO  [Log] Start test: M_Ingresar_01 
+2019-07-15 14:35:03,213 INFO  [Log] Se ingreso el correo 
+2019-07-15 14:35:03,377 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 14:35:03,530 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 14:35:03,530 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 14:35:07,404 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 14:35:07,407 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 14:35:07,553 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 14:35:09,392 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 14:35:09,392 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 14:35:14,757 INFO  [Log] Fallo al obtener el elemento btnSalirGuardia 
+2019-07-15 14:35:14,830 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
+2019-07-15 14:35:14,830 INFO  [Log] 4_Se verifica la visualizacion del botón para entrar a la guardia: Pasa 
+2019-07-15 14:35:14,923 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
+2019-07-15 14:35:16,096 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 14:35:16,465 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
+2019-07-15 14:35:16,465 INFO  [Log] End test: M_Ingresar_01 
+2019-07-15 14:35:17,944 INFO  [Log] Start test: D_Mobile_EnvioInvitacion_02 
+2019-07-15 14:35:25,199 INFO  [LogMobile] Start test: S_RealizarVC_02 
+2019-07-15 14:35:29,071 INFO  [Log] Se ingreso el usuario 
+2019-07-15 14:35:29,195 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 14:35:29,292 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 14:35:29,630 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
+2019-07-15 14:35:29,977 INFO  [LogMobile] Se obtuvo el elemento btnPrimerTelefono 
+2019-07-15 14:35:30,046 INFO  [LogMobile] Se obtuvo el elemento btnSegundoTelefono 
+2019-07-15 14:35:30,159 INFO  [LogMobile] Se obtuvo el elemento labelTxtAcceder 
+2019-07-15 14:35:30,253 INFO  [LogMobile] Se obtuvo el elemento labelTxtServicioUrgencias 
+2019-07-15 14:35:30,354 INFO  [LogMobile] Se obtuvo el elemento labelTxtVersion 
+2019-07-15 14:35:30,454 INFO  [LogMobile] Se obtuvo el elemento labelTxtOSDE 
+2019-07-15 14:35:30,455 INFO  [LogMobile] 01_Se verifica que sean visibles los elementos de la home: Pasa 
+2019-07-15 14:35:30,544 INFO  [LogMobile] Se abre el panel de notificaciones 
+2019-07-15 14:35:31,731 INFO  [LogMobile] 02_Se abren las notificaciones del dispositivo: Pasa 
+2019-07-15 14:35:31,887 INFO  [Log] Se ingresa al modulo de invitaciones 
+2019-07-15 14:35:32,005 INFO  [Log] Se cerró la alerta de login correctamente 
+2019-07-15 14:35:32,005 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
+2019-07-15 14:35:36,584 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 14:35:36,585 INFO  [Log] 03_Se verifica la visualizacion del botï¿½n enviar invitacion: Pasa 
+2019-07-15 14:35:36,656 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 14:35:37,029 INFO  [Log] Se realizo la apertura del form de invitaciones 
+2019-07-15 14:35:37,029 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
+2019-07-15 14:35:44,349 INFO  [Log] Invitacion enviada correctamente 
+2019-07-15 14:35:44,349 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Pasa 
+2019-07-15 14:35:44,692 INFO  [Log] End test: D_Mobile_EnvioInvitacion_02 
+2019-07-15 14:35:45,820 INFO  [Log] Start test: M_Mobile_Atender_01 
+2019-07-15 14:35:47,786 INFO  [Log] Se ingreso el correo 
+2019-07-15 14:35:47,941 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 14:35:48,066 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 14:35:48,066 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 14:35:50,328 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 14:35:50,328 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 14:35:50,450 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 14:35:51,617 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 14:35:51,705 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 14:35:51,705 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 14:35:59,031 INFO  [LogMobile] Se encontro la notificacion 
+2019-07-15 14:35:59,197 INFO  [LogMobile] Se abrio correctamente la notificacion 
+2019-07-15 14:36:00,207 INFO  [LogMobile] 03_Se abre la notificacion de la invitacion: Pasa 
+2019-07-15 14:36:08,222 INFO  [LogMobile] Se hace clic en el boton Muestra texto citado 
+2019-07-15 14:36:10,917 INFO  [LogMobile] Se encontro el link de la invitacion 
+2019-07-15 14:36:12,145 INFO  [LogMobile] Se abrio correctamente el link de la invitacion 
+2019-07-15 14:36:12,145 INFO  [LogMobile] 04_Se ingresa al link de la invitacion: Pasa 
+2019-07-15 14:36:19,706 INFO  [LogMobile] Se quita el mensaje para habilitar notificaciones 
+2019-07-15 14:36:19,869 INFO  [LogMobile] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
+2019-07-15 14:36:20,050 INFO  [LogMobile] Se aceptan los terminos y condiciones 
+2019-07-15 14:36:20,953 INFO  [LogMobile] Se ingresa correctamente al consultorio 
+2019-07-15 14:36:20,953 INFO  [LogMobile] 05_Se ingresa a la sala de espera: Pasa 
+2019-07-15 14:36:26,658 INFO  [LogMobile] Se acepta el tiempo de espera 
+2019-07-15 14:36:33,002 INFO  [Log] Se obtuvo el elemento btnVerProxPaciente 
+2019-07-15 14:36:34,755 INFO  [Log] Se hizo click en el boton para ver proximo paciente 
+2019-07-15 14:36:34,911 INFO  [Log] El elemento btnAtenderProximoPaciente se encuentra habilitado 
+2019-07-15 14:36:34,911 INFO  [Log] 4_Se ingresa a la previsualizacion del paciente: Pasa 
+2019-07-15 14:36:40,289 INFO  [Log] Fallo el hacer click en el boton btnAtender 
+2019-07-15 14:36:40,292 INFO  [Log] 6_Se llama al socio a la videoconsulta: Pasa 
+2019-07-15 14:36:52,239 INFO  [LogMobile] Se aceptan los permisos 
+2019-07-15 14:36:52,239 INFO  [LogMobile] Se ingresa correctamente al consultorio 
+2019-07-15 14:36:52,239 INFO  [LogMobile] 06_Sala de espera - Ingresar al consultorio: Pasa 
+2019-07-15 14:36:56,978 INFO  [LogMobile] Se hace clic en el elemento btnFinalizar 
+2019-07-15 14:36:58,904 INFO  [LogMobile] Se hace clic en el elemento btnAceptarFinalizar 
+2019-07-15 14:36:58,904 INFO  [LogMobile] 07_Videoconsulta - Finalizar VC: Pasa 
+2019-07-15 14:37:00,219 INFO  [Log] Se obtuvo el elemento btnFinalizar 
+2019-07-15 14:37:00,219 INFO  [Log] 7_Se verifica que se establecio la videoconsulta: Pasa 
+2019-07-15 14:37:04,482 INFO  [Log] Se obtuvo el elemento formRegistroMedico 
+2019-07-15 14:37:06,294 INFO  [Log] Se logro seleccionar el diagnostico 
+2019-07-15 14:37:07,986 INFO  [LogMobile] 08_Calificar - Calificar VC: Pasa 
+2019-07-15 14:37:09,811 INFO  [LogMobile] 09_Pantalla Agradecimiento - Visualizar: Pasa 
+2019-07-15 14:37:11,132 INFO  [LogMobile] End test: S_RealizarVC_02 
+2019-07-15 14:37:20,047 INFO  [LogMobile] Sent message successfully.... 
+2019-07-15 14:37:24,376 INFO  [Log] No se muestra la barra de carga de grilla 
+2019-07-15 14:37:24,388 INFO  [Log] Se completo el registro medico correctamente 
+2019-07-15 14:37:24,388 INFO  [Log] 8_Se completa el registro medico: Pasa 
+2019-07-15 14:37:24,388 INFO  [Log] End test: M_Mobile_Atender_01 
+2019-07-15 14:37:30,278 INFO  [Log] Sent message successfully.... 
+2019-07-15 14:54:33,806 INFO  [Log] Start test: M_Ingresar_01 
+2019-07-15 14:54:56,553 INFO  [LogMobile] Start test: S_RealizarVC_01 
+2019-07-15 14:54:57,659 INFO  [Log] Se ingreso el correo 
+2019-07-15 14:54:58,093 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 14:54:58,434 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 14:54:58,435 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 14:55:01,420 INFO  [LogMobile] Se obtuvo el elemento btnPrimerTelefono 
+2019-07-15 14:55:01,538 INFO  [LogMobile] Se obtuvo el elemento btnSegundoTelefono 
+2019-07-15 14:55:01,674 INFO  [LogMobile] Se obtuvo el elemento labelTxtAcceder 
+2019-07-15 14:55:01,813 INFO  [LogMobile] Se obtuvo el elemento labelTxtServicioUrgencias 
+2019-07-15 14:55:01,961 INFO  [LogMobile] Se obtuvo el elemento labelTxtVersion 
+2019-07-15 14:55:02,095 INFO  [LogMobile] Se obtuvo el elemento labelTxtOSDE 
+2019-07-15 14:55:02,095 INFO  [LogMobile] 01_Se verifica que sean visibles los elementos de la home: Pasa 
+2019-07-15 14:55:02,221 INFO  [LogMobile] Se abre el panel de notificaciones 
+2019-07-15 14:55:03,997 INFO  [LogMobile] 02_Se abren las notificaciones del dispositivo: Pasa 
+2019-07-15 14:55:05,106 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 14:55:05,111 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 14:55:05,344 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 14:55:07,210 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 14:55:07,210 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 14:55:12,775 INFO  [Log] Fallo al obtener el elemento btnSalirGuardia 
+2019-07-15 14:55:12,963 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
+2019-07-15 14:55:12,964 INFO  [Log] 4_Se verifica la visualizacion del botón para entrar a la guardia: Pasa 
+2019-07-15 14:55:13,181 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
+2019-07-15 14:55:14,556 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 14:55:15,065 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
+2019-07-15 14:55:15,065 INFO  [Log] End test: M_Ingresar_01 
+2019-07-15 14:55:16,137 INFO  [Log] Start test: D_Mobile_EnvioInvitacion_01 
+2019-07-15 14:55:24,636 INFO  [Log] Se ingreso el usuario 
+2019-07-15 14:55:24,891 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 14:55:25,098 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 14:55:25,524 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
+2019-07-15 14:55:28,235 INFO  [Log] Se ingresa al modulo de invitaciones 
+2019-07-15 14:55:28,468 INFO  [Log] Se cerró la alerta de login correctamente 
+2019-07-15 14:55:28,468 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
+2019-07-15 14:55:31,546 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 14:55:31,547 INFO  [Log] 03_Se verifica la visualizacion del botï¿½n enviar invitacion: Pasa 
+2019-07-15 14:55:31,671 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 14:55:32,242 INFO  [Log] Se realizo la apertura del form de invitaciones 
+2019-07-15 14:55:32,242 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
+2019-07-15 14:55:40,160 INFO  [Log] Invitacion enviada correctamente 
+2019-07-15 14:55:40,161 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Pasa 
+2019-07-15 14:55:40,588 INFO  [Log] End test: D_Mobile_EnvioInvitacion_01 
+2019-07-15 14:55:41,737 INFO  [Log] Start test: M_Mobile_Atender_01 
+2019-07-15 14:55:45,404 INFO  [Log] Se ingreso el correo 
+2019-07-15 14:55:45,774 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 14:55:46,033 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 14:55:46,033 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 14:55:48,597 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 14:55:48,597 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 14:55:48,839 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 14:55:50,316 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 14:55:50,475 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 14:55:50,475 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 14:56:20,205 INFO  [LogMobile] Se encontro la notificacion 
+2019-07-15 14:56:20,427 INFO  [LogMobile] Se abrio correctamente la notificacion 
+2019-07-15 14:56:22,046 INFO  [LogMobile] 03_Se abre la notificacion de la invitacion: Pasa 
+2019-07-15 14:56:23,172 INFO  [LogMobile] Se abrio correctamente el link de la invitacion 
+2019-07-15 14:56:23,172 INFO  [LogMobile] 04_Se ingresa al link de la invitacion: Pasa 
+2019-07-15 14:56:30,570 INFO  [LogMobile] Se quita el mensaje para habilitar notificaciones 
+2019-07-15 14:56:30,694 INFO  [LogMobile] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
+2019-07-15 14:56:30,890 INFO  [LogMobile] Se aceptan los terminos y condiciones 
+2019-07-15 14:56:31,849 INFO  [LogMobile] Se ingresa correctamente al consultorio 
+2019-07-15 14:56:31,849 INFO  [LogMobile] 05_Se ingresa a la sala de espera: Pasa 
+2019-07-15 14:56:37,471 INFO  [LogMobile] Se acepta el tiempo de espera 
+2019-07-15 14:56:42,443 INFO  [Log] Se obtuvo el elemento btnVerProxPaciente 
+2019-07-15 14:56:44,693 INFO  [Log] Se hizo click en el boton para ver proximo paciente 
+2019-07-15 14:56:44,853 INFO  [Log] El elemento btnAtenderProximoPaciente se encuentra habilitado 
+2019-07-15 14:56:44,853 INFO  [Log] 4_Se ingresa a la previsualizacion del paciente: Pasa 
+2019-07-15 14:56:48,620 INFO  [Log] Se hizo click en el boton btnAtender 
+2019-07-15 14:56:48,621 INFO  [Log] 6_Se llama al socio a la videoconsulta: Pasa 
+2019-07-15 14:57:01,333 INFO  [LogMobile] Se aceptan los permisos 
+2019-07-15 14:57:01,333 INFO  [LogMobile] Se ingresa correctamente al consultorio 
+2019-07-15 14:57:01,333 INFO  [LogMobile] 06_Sala de espera - Ingresar al consultorio: Pasa 
+2019-07-15 14:57:07,117 INFO  [LogMobile] Expected condition failed: waiting for element to be clickable: [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Users\Noelia\workspace\ConsultaMedicaMobile\Android\src\apk\v43.apk, appActivity=ar.com.portalsalud.osde.activities.SplashActivity, appPackage=ar.com.portalsalud.osde, appWaitActivity=ar.com.portalsalud.osde.activities.SplashActivity, appWaitPackage=ar.com.portalsalud.osde, databaseEnabled=false, desired={platformName=android, app=C:\Users\Noelia\workspace\ConsultaMedicaMobile\Android\src\apk\v43.apk, deviceName=RQ30059PKM, platformVersion=8.0.0}, deviceManufacturer=Sony, deviceModel=G3123, deviceName=RQ30059PKM, deviceScreenSize=720x1280, deviceUDID=RQ30059PKM, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, platform=LINUX, platformName=Android, platformVersion=8.0.0, takesScreenshot=true, warnings={}, webStorageEnabled=false}] -> id: ar.com.portalsalud.osde:id/hangupBtt] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NOELIA-PC', ip: '172.20.100.9', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Noelia\workspace\C..., appActivity: ar.com.portalsalud.osde.act..., appPackage: ar.com.portalsalud.osde, appWaitActivity: ar.com.portalsalud.osde.act..., appWaitPackage: ar.com.portalsalud.osde, databaseEnabled: false, desired: {app: C:\Users\Noelia\workspace\C..., deviceName: RQ30059PKM, platformName: android, platformVersion: 8.0.0}, deviceManufacturer: Sony, deviceModel: G3123, deviceName: RQ30059PKM, deviceScreenSize: 720x1280, deviceUDID: RQ30059PKM, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 98053aec-f9e3-48b2-864f-0e12cd07ae7f 
+2019-07-15 14:57:07,118 INFO  [LogMobile] Falla al hacer clic en el elemento btnFinalizar 
+2019-07-15 14:57:15,431 INFO  [Log] Se obtuvo el elemento btnFinalizar 
+2019-07-15 14:57:15,431 INFO  [Log] 7_Se verifica que se establecio la videoconsulta: Pasa 
+2019-07-15 14:57:17,714 INFO  [LogMobile] Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: android:id/button1' (tried for 5 second(s) with 500 milliseconds interval) 
+2019-07-15 14:57:17,715 INFO  [LogMobile] Falla al hacer clic en el elemento btnAceptarFinalizar 
+2019-07-15 14:57:17,715 INFO  [LogMobile] 07_Videoconsulta - Finalizar VC: Pasa 
+2019-07-15 14:57:43,699 INFO  [LogMobile] 08_Calificar - Calificar VC: Pasa 
+2019-07-15 14:57:46,268 INFO  [LogMobile] expected [¡Gracias por utilizar nuestro servicio!] but found [¿Está seguro que desea finalizar la consulta?] 
+2019-07-15 14:57:46,268 INFO  [LogMobile] 09_Pantalla Agradecimiento - Visualizar: Falla 
+2019-07-15 14:58:00,693 INFO  [Log] Se obtuvo el elemento formRegistroMedico 
+2019-07-15 14:58:01,662 INFO  [LogMobile] Sent message successfully.... 
+2019-07-15 14:58:02,388 INFO  [Log] Se logro seleccionar el diagnostico 
+2019-07-15 14:58:19,352 INFO  [Log] No se muestra la barra de carga de grilla 
+2019-07-15 14:58:19,361 INFO  [Log] Se completo el registro medico correctamente 
+2019-07-15 14:58:19,361 INFO  [Log] 8_Se completa el registro medico: Pasa 
+2019-07-15 14:58:19,362 INFO  [Log] End test: M_Mobile_Atender_01 
+2019-07-15 14:58:24,204 INFO  [Log] Sent message successfully.... 
+2019-07-15 15:00:11,050 INFO  [Log] Start test: M_Ingresar_01 
+2019-07-15 15:00:28,955 INFO  [Log] Se ingreso el correo 
+2019-07-15 15:00:29,288 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 15:00:29,590 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 15:00:29,590 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 15:00:32,359 INFO  [LogMobile] Start test: S_RealizarVC_01 
+2019-07-15 15:00:32,695 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 15:00:32,702 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 15:00:32,967 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 15:00:34,974 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 15:00:34,974 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 15:00:36,525 INFO  [LogMobile] Se obtuvo el elemento btnPrimerTelefono 
+2019-07-15 15:00:36,636 INFO  [LogMobile] Se obtuvo el elemento btnSegundoTelefono 
+2019-07-15 15:00:36,775 INFO  [LogMobile] Se obtuvo el elemento labelTxtAcceder 
+2019-07-15 15:00:36,906 INFO  [LogMobile] Se obtuvo el elemento labelTxtServicioUrgencias 
+2019-07-15 15:00:37,032 INFO  [LogMobile] Se obtuvo el elemento labelTxtVersion 
+2019-07-15 15:00:37,151 INFO  [LogMobile] Se obtuvo el elemento labelTxtOSDE 
+2019-07-15 15:00:37,151 INFO  [LogMobile] 01_Se verifica que sean visibles los elementos de la home: Pasa 
+2019-07-15 15:00:37,275 INFO  [LogMobile] Se abre el panel de notificaciones 
+2019-07-15 15:00:38,786 INFO  [LogMobile] 02_Se abren las notificaciones del dispositivo: Pasa 
+2019-07-15 15:00:40,483 INFO  [Log] Fallo al obtener el elemento btnSalirGuardia 
+2019-07-15 15:00:40,630 INFO  [Log] Se obtuvo el elemento btnEntrarGuardia 
+2019-07-15 15:00:40,630 INFO  [Log] 4_Se verifica la visualizacion del botón para entrar a la guardia: Pasa 
+2019-07-15 15:00:40,838 INFO  [Log] Se hizo click en el boton para entrar a la guardia 
+2019-07-15 15:00:42,614 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 15:00:43,153 INFO  [Log] 5_Se hace clic en el boton ingresar a la guardia: Pasa 
+2019-07-15 15:00:43,153 INFO  [Log] End test: M_Ingresar_01 
+2019-07-15 15:00:44,297 INFO  [Log] Start test: D_Mobile_EnvioInvitacion_01 
+2019-07-15 15:00:53,897 INFO  [Log] Se ingreso el usuario 
+2019-07-15 15:00:54,250 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 15:00:54,518 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 15:00:55,033 INFO  [Log] 01_Se ingresa a Login Despacho: Pasa 
+2019-07-15 15:00:57,029 INFO  [Log] Se ingresa al modulo de invitaciones 
+2019-07-15 15:00:57,258 INFO  [Log] Se cerró la alerta de login correctamente 
+2019-07-15 15:00:57,258 INFO  [Log] 02_Se ingresa al modulo invitaciones: Pasa 
+2019-07-15 15:00:59,952 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 15:00:59,952 INFO  [Log] 03_Se verifica la visualizacion del botï¿½n enviar invitacion: Pasa 
+2019-07-15 15:01:00,075 INFO  [Log] Se obtuvo el elemento btnEnviarInvitacion 
+2019-07-15 15:01:00,630 INFO  [Log] Se realizo la apertura del form de invitaciones 
+2019-07-15 15:01:00,630 INFO  [Log] 04_Se verifica la visualizacion del formulario de envio de invitacion: Pasa 
+2019-07-15 15:01:08,551 INFO  [Log] Invitacion enviada correctamente 
+2019-07-15 15:01:08,552 INFO  [Log] 05_Se verifica el mensaje de Invitacion Enviada: Pasa 
+2019-07-15 15:01:09,022 INFO  [Log] End test: D_Mobile_EnvioInvitacion_01 
+2019-07-15 15:01:10,170 INFO  [Log] Start test: M_Mobile_Atender_01 
+2019-07-15 15:01:13,561 INFO  [Log] Se ingreso el correo 
+2019-07-15 15:01:13,875 INFO  [Log] Se ingreso la contrasenia 
+2019-07-15 15:01:14,112 INFO  [Log] Se hizo click en el boton Ingresar 
+2019-07-15 15:01:14,113 INFO  [Log] 1_Se loguea el medico: Pasa 
+2019-07-15 15:01:16,430 INFO  [Log] Se obtuvo el elemento moduloAtenerVideoconsultas 
+2019-07-15 15:01:16,431 INFO  [Log] 2_Se ingresa a la home del medico: Pasa 
+2019-07-15 15:01:16,658 INFO  [Log] Se ingresa al modulo de Atender Videconsultas 
+2019-07-15 15:01:18,245 INFO  [Log] Se obtuvo el elemento panelInformacion 
+2019-07-15 15:01:18,407 INFO  [Log] Se obtuvo el elemento btnSalirGuardia 
+2019-07-15 15:01:18,407 INFO  [Log] 3_Se ingresa al modulo Atender videoconsultas: Pasa 
+2019-07-15 15:01:28,987 INFO  [LogMobile] Se encontro la notificacion 
+2019-07-15 15:01:29,190 INFO  [LogMobile] Se abrio correctamente la notificacion 
+2019-07-15 15:01:30,748 INFO  [LogMobile] 03_Se abre la notificacion de la invitacion: Pasa 
+2019-07-15 15:01:31,526 INFO  [LogMobile] Se abrio correctamente el link de la invitacion 
+2019-07-15 15:01:31,526 INFO  [LogMobile] 04_Se ingresa al link de la invitacion: Pasa 
+2019-07-15 15:01:39,089 INFO  [LogMobile] Se quita el mensaje para habilitar notificaciones 
+2019-07-15 15:01:39,249 INFO  [LogMobile] No se encuentran habilitados los campos de los terminos y condiciones - Socio es mayor de 18 
+2019-07-15 15:01:39,432 INFO  [LogMobile] Se aceptan los terminos y condiciones 
+2019-07-15 15:01:40,354 INFO  [LogMobile] Se ingresa correctamente al consultorio 
+2019-07-15 15:01:40,354 INFO  [LogMobile] 05_Se ingresa a la sala de espera: Pasa 
+2019-07-15 15:01:46,217 INFO  [LogMobile] Se acepta el tiempo de espera 
+2019-07-15 15:01:49,677 INFO  [Log] Se obtuvo el elemento btnVerProxPaciente 
+2019-07-15 15:01:51,386 INFO  [Log] Se hizo click en el boton para ver proximo paciente 
+2019-07-15 15:01:51,551 INFO  [Log] El elemento btnAtenderProximoPaciente se encuentra habilitado 
+2019-07-15 15:01:51,551 INFO  [Log] 4_Se ingresa a la previsualizacion del paciente: Pasa 
+2019-07-15 15:01:55,978 INFO  [Log] Se hizo click en el boton btnAtender 
+2019-07-15 15:01:55,979 INFO  [Log] 6_Se llama al socio a la videoconsulta: Pasa 
+2019-07-15 15:02:09,143 INFO  [LogMobile] Se aceptan los permisos 
+2019-07-15 15:02:09,143 INFO  [LogMobile] Se ingresa correctamente al consultorio 
+2019-07-15 15:02:09,144 INFO  [LogMobile] 06_Sala de espera - Ingresar al consultorio: Pasa 
+2019-07-15 15:02:12,928 INFO  [LogMobile] Se hace clic en el elemento btnFinalizar 
+2019-07-15 15:02:15,171 INFO  [LogMobile] Se hace clic en el elemento btnAceptarFinalizar 
+2019-07-15 15:02:15,171 INFO  [LogMobile] 07_Videoconsulta - Finalizar VC: Pasa 
+2019-07-15 15:02:24,462 INFO  [LogMobile] 08_Calificar - Calificar VC: Pasa 
+2019-07-15 15:02:26,045 INFO  [LogMobile] 09_Pantalla Agradecimiento - Visualizar: Pasa 
+2019-07-15 15:02:27,571 INFO  [LogMobile] End test: S_RealizarVC_01 
+2019-07-15 15:02:35,804 INFO  [LogMobile] Sent message successfully.... 
+2019-07-15 15:06:56,210 INFO  [Log] Fallo al obtener el elemento btnFinalizar 
+2019-07-15 15:07:04,362 INFO  [Log] Sent message successfully.... 

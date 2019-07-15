@@ -3,10 +3,18 @@
     <asignado>Noelia</asignado>
     <descripcion>Aplicacion Android - Visualizar elementos de la Home</descripcion>
     <estado>Pasa</estado>
-    <imgFalla>C:\imageRepository\FALLA_M_Mobile_Atender_01_20190712045829.png</imgFalla>
+    <imgFalla>C:\imageRepository\FALLA_M_Mobile_Atender_01_20190715030656.png</imgFalla>
     <modulo>Socio</modulo>
     <nombreDeLaPrueba>M_Mobile_Atender_01</nombreDeLaPrueba>
     <pasos>
+        <entry>
+            <key>6_Se llama al socio a la videoconsulta</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>4_Se ingresa a la previsualizacion del paciente</key>
+            <value>Pasa</value>
+        </entry>
         <entry>
             <key>1_Se loguea el medico</key>
             <value>Pasa</value>
@@ -24,7 +32,7 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1562961498</tiempoInicio>
+    <tiempoInicio>1563213670</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest1@cmo.com</email>

@@ -3,7 +3,7 @@
 	<platformName>Android</platformName>
 	<apkPath>\\src\\apk\\v43.apk</apkPath>
 	<portAppium>4723</portAppium>
-	<ipAppium>172.20.64.53</ipAppium>
+	<ipAppium>192.168.0.161</ipAppium>
 	<platformVersion>8.0.0</platformVersion>
 	<deviceName>RQ30059PKM</deviceName>
 	<delivery>False</delivery>
@@ -14,8 +14,8 @@
 	<reportRepository>\\src\\ResultadosTest\\Report\\Reporte.pdf</reportRepository>
 	<deliveryPath>..\\frameworkMobile\\src\\main\\java\\delivery\\emailSenderConfigurationMobile.xml</deliveryPath>
 	<browser>Chrome</browser>
-	<driverPath>C:\\Users\\ntedesco\\workspace\\ConsultaMedicaOnline\\ConsultaMedica-master\\framework\\src\\drivers\\ChromeDriver\\chromedriver.exe</driverPath>
-	<IEDriverPath>C:\\Users\\ntedesco\\workspace\\ConsultaMedicaOnline\\ConsultaMedica-master\\framework\\src\\drivers\\ChromeDriver\\chromedriver.exe</IEDriverPath>
+	<driverPath>..\\frameworkMobile\\src\\drivers\\ChromeDriver\\chromedriver.exe</driverPath>
+	<IEDriverPath>..\\frameworkMobile\\src\\drivers\\ChromeDriver\\chromedriver.exe</IEDriverPath>
 	<delivery>False</delivery>
 	<imagePath>\\src\\ResultadosTest\\screenshot</imagePath>
 	<imageRepository>C:\\imageRepository</imageRepository>

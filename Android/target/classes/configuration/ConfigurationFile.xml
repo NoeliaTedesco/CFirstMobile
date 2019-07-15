@@ -14,8 +14,8 @@
 	<reportRepository>\\src\\ResultadosTest\\Report\\Reporte.pdf</reportRepository>
 	<deliveryPath>..\\frameworkMobile\\src\\main\\java\\delivery\\emailSenderConfiguration.xml</deliveryPath>
 	<browser>Chrome</browser>
-	<driverPath>C:\\Users\\ntedesco\\workspace\\ConsultaMedicaOnline\\ConsultaMedica-master\\framework\\src\\drivers\\ChromeDriver\\chromedriver.exe</driverPath>
-	<IEDriverPath>C:\\Users\\ntedesco\\workspace\\ConsultaMedicaOnline\\ConsultaMedica-master\\framework\\src\\drivers\\ChromeDriver\\chromedriver.exe</IEDriverPath>
+	<driverPath>..\\frameworkMobile\\src\\drivers\\ChromeDriver\\chromedriver.exe</driverPath>
+	<IEDriverPath>..\\frameworkMobile\\src\\drivers\\ChromeDriver\\chromedriver.exe</IEDriverPath>
 	<delivery>False</delivery>
 	<imagePath>\\src\\ResultadosTest\\screenshot</imagePath>
 	<imageRepository>C:\\imageRepository</imageRepository>

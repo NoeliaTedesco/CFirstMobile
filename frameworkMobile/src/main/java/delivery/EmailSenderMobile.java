@@ -112,7 +112,7 @@ public class EmailSenderMobile {
             LogMobile.info("Sent message successfully....");
 
         } catch (Exception e) {
-        	System.out.println("Error email send - " + "e.printStackTrace()");
+        	System.out.println("Error email send - " + e.getMessage());
             throw new RuntimeException(e);
         }
     }

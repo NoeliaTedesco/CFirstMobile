@@ -4,12 +4,12 @@
 <suite name="Suite Mobile Android" parallel="tests" thread-count="2">
 	<test name="Realizar VC - Web">
 		<classes>
-			<class name="suiteTest.Regresion_Despacho" />
+			<class name="suiteTest.Regresion_Web" />
 		</classes>
 	</test>
 	<test name="Realizar VC - Mobile">
 		<classes>
-			<class name="suiteTest.Regresion_RealizarVC" />
+			<class name="suiteTest.Regresion_Socio" />
 		</classes>
 	</test>
 </suite>  

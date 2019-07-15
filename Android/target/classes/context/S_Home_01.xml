@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<objects>
+<objectsMobile>
     <asignado>Noelia</asignado>
     <descripcion>Aplicacion Android - Visualizar elementos de la Home</descripcion>
     <estado>Pasa</estado>
@@ -32,11 +32,11 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1562961478</tiempoInicio>
+    <tiempoInicio>1562962075</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest5@cmo.com</email>
         <password>Cmotest5!</password>
     </usuario>
     <version>4.2.0</version>
-</objects>
+</objectsMobile>

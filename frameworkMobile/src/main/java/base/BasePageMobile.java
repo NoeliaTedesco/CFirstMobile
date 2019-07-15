@@ -26,7 +26,7 @@ public class BasePageMobile extends BaseMobile {
 	public BasePageMobile() {
 		wait = new WebDriverWait(driver, 5);
 		waitFluent = new FluentWait(driver)
-				.withTimeout(Duration.ofSeconds(300))
+				.withTimeout(Duration.ofSeconds(420))
 				.pollingEvery(Duration.ofSeconds(2))
 				.ignoring(NoSuchElementException.class);
 		action = new Actions(driver);

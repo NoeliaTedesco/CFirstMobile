@@ -16,7 +16,7 @@
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>4_Se verifica la visualizacion del bot�n para entrar a la guardia</key>
+            <key>4_Se verifica la visualizacion del botón para entrar a la guardia</key>
             <value>Pasa</value>
         </entry>
         <entry>
@@ -32,7 +32,7 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1562961457</tiempoInicio>
+    <tiempoInicio>1563213611</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest1@cmo.com</email>
