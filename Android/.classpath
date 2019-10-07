@@ -26,6 +26,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Noelia/workspace/ConsultaMedicaMobile/FrameworkWeb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ntedesco/workspace/ConsultaMedicaMobile/FrameworkWeb.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

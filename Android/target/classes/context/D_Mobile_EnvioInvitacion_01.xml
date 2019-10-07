@@ -4,7 +4,7 @@
     <descripcion>Aplicacion Android - Visualizar elementos de la Home</descripcion>
     <estado>Pasa</estado>
     <imgFalla></imgFalla>
-    <modulo>Socio</modulo>
+    <modulo>Despacho</modulo>
     <nombreDeLaPrueba>D_Mobile_EnvioInvitacion_01</nombreDeLaPrueba>
     <pasos>
         <entry>
@@ -32,7 +32,7 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1563213644</tiempoInicio>
+    <tiempoInicio>1563276403</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest1@cmo.com</email>
