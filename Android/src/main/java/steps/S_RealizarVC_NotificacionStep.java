@@ -74,7 +74,7 @@ public class S_RealizarVC_NotificacionStep extends BaseStepMobile {
 			nombrePaso = "09_Pantalla Agradecimiento - Visualizar";
 			CurrentPage = (new S_AgradecimientosPage().GetInstance(S_AgradecimientosPage.class));
 			Assert.assertTrue(CurrentPage.As(S_AgradecimientosPage.class).esVisibleTxtAgradecimiento());
-			Assert.assertEquals(CurrentPage.As(S_AgradecimientosPage.class).recuperarTxtAgradecimiento(), "¡Gracias por utilizar nuestro servicio!");
+			Assert.assertEquals(CurrentPage.As(S_AgradecimientosPage.class).recuperarTxtAgradecimiento(), "Â¡Gracias por utilizar nuestro servicio!");
 			CurrentPage.As(S_AgradecimientosPage.class).clicBtnSalir();
 			log.LogMobile.SuccessStep(nombrePaso);
 			

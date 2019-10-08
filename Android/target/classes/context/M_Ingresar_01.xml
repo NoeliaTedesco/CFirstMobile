@@ -8,23 +8,27 @@
     <nombreDeLaPrueba>M_Ingresar_01</nombreDeLaPrueba>
     <pasos>
         <entry>
-            <key>1_Se loguea el medico</key>
+            <key>02_Se ingresa a la home del medico</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>3_Se ingresa al modulo Atender videoconsultas</key>
+            <key>03_B_Se hace clic en Salir de la guardia</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>4_Se verifica la visualizacion del botón para entrar a la guardia</key>
+            <key>01_Se loguea el medico</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>5_Se hace clic en el boton ingresar a la guardia</key>
+            <key>03_Se ingresa al modulo Atender videoconsultas</key>
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>2_Se ingresa a la home del medico</key>
+            <key>04_Se verifica la visualizacion del boton para entrar a la guardia</key>
+            <value>Pasa</value>
+        </entry>
+        <entry>
+            <key>05_Se hace clic en el boton ingresar a la guardia</key>
             <value>Pasa</value>
         </entry>
     </pasos>
@@ -32,7 +36,7 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1563276385</tiempoInicio>
+    <tiempoInicio>1570547084</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest1@cmo.com</email>

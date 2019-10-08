@@ -2,16 +2,21 @@
 <objectsMobile>
     <asignado>Noelia</asignado>
     <descripcion>Aplicacion Android - Realizar VC - Gmail</descripcion>
-    <estado>Pasa</estado>
-    <imgFalla>C:\imageRepository\FALLA_S_Home_02_20190712022921.png</imgFalla>
+    <estado>Falla</estado>
+    <imgFalla>C:\imageRepository\FALLA_S_Home_02_20191007085053.png</imgFalla>
     <modulo>Socio</modulo>
     <nombreDeLaPrueba>S_Home_02</nombreDeLaPrueba>
-    <pasos/>
+    <pasos>
+        <entry>
+            <key>01_Se verifica que sean visibles los elementos de la home</key>
+            <value>Falla</value>
+        </entry>
+    </pasos>
     <prioridad>Alta</prioridad>
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1562952558</tiempoInicio>
+    <tiempoInicio>1570492247</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest5@cmo.com</email>

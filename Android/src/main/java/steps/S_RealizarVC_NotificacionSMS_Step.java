@@ -44,7 +44,7 @@ public class S_RealizarVC_NotificacionSMS_Step extends BaseStepMobile {
 			log.LogMobile.SuccessStep(nombrePaso);
 			
 			nombrePaso = "04_Se ingresa al link de la invitacion";
-			CurrentPage = (new S_MensajesPage().GetInstance(S_MensajesPage.class));
+			CurrentPage = (new S_MensajesPage<Object>().GetInstance(S_MensajesPage.class));
 			CurrentPage.As(S_MensajesPage.class).abrirLinkInvitacion();
 			log.LogMobile.SuccessStep(nombrePaso);
 			
@@ -75,7 +75,7 @@ public class S_RealizarVC_NotificacionSMS_Step extends BaseStepMobile {
 			nombrePaso = "09_Pantalla Agradecimiento - Visualizar";
 			CurrentPage = (new S_AgradecimientosPage().GetInstance(S_AgradecimientosPage.class));
 			Assert.assertTrue(CurrentPage.As(S_AgradecimientosPage.class).esVisibleTxtAgradecimiento());
-			Assert.assertEquals(CurrentPage.As(S_AgradecimientosPage.class).recuperarTxtAgradecimiento(), "¡Gracias por utilizar nuestro servicio!");
+			Assert.assertEquals(CurrentPage.As(S_AgradecimientosPage.class).recuperarTxtAgradecimiento(), "Â¡Gracias por utilizar nuestro servicio!");
 			CurrentPage.As(S_AgradecimientosPage.class).clicBtnSalir();
 			log.LogMobile.SuccessStep(nombrePaso);
 

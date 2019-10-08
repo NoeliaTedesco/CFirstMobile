@@ -54,7 +54,7 @@ public class S_GmailPage extends BasePageMobile {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(containerCorreo));
 			for (WebElement txt : txtCorreo) {
-				if (txt.getText().equals("aquí")) {
+				if (txt.getText().equals("aquÃ­")) {
 					linkInvitacion = txt;
 					PageHelperMobile.ScrollDown();
 					LogMobile.info("Se encontro el link de la invitacion");
@@ -82,7 +82,7 @@ public class S_GmailPage extends BasePageMobile {
 		try {
 			wait.until(ExpectedConditions.visibilityOfAllElements(correosGmail));
 			for (WebElement correo : correosGmail) {
-				if (correo.getAttribute("name").contains("OSDE Consulta Médica OnLine")) {
+				if (correo.getAttribute("name").contains("OSDE Consulta Mï¿½dica OnLine")) {
 					correo.click();
 					LogMobile.info("Se abre el gmail");
 					break;

@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="suiteTest.Regresion_Despacho">
+      <class name="suiteTest.Regresion_Android">
         <methods>
-          <include name="tearDown"/>
           <include name="setUpClass"/>
+          <include name="tearDown"/>
           <include name="tearDownClass"/>
-          <include name="stepFail"/>
-          <include name="S_Home_01"/>
           <include name="setUp"/>
+          <include name="S_Home_02" invocation-numbers="0"/>
+          <include name="stepFail"/>
         </methods>
-      </class> <!-- suiteTest.Regresion_Despacho -->
+      </class> <!-- suiteTest.Regresion_Android -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

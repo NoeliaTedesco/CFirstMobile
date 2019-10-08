@@ -24,7 +24,7 @@
             <value>Pasa</value>
         </entry>
         <entry>
-            <key>03_Se verifica la visualizacion del botï¿½n enviar invitacion</key>
+            <key>03_Se verifica la visualizacion del boton enviar invitacion</key>
             <value>Pasa</value>
         </entry>
     </pasos>
@@ -32,7 +32,7 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1563477326</tiempoInicio>
+    <tiempoInicio>1570547097</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest1@cmo.com</email>

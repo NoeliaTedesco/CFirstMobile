@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite Mobile Android]" parallel="tests">
-  <test name="Realizar VC - Web(failed)" parallel="tests">
+  <test name="Realizar VC - Mobile(failed)" parallel="tests">
     <classes>
-      <class name="suiteTest.Regresion_Web">
+      <class name="suiteTest.Regresion_Socio_SMS">
         <methods>
-          <include name="tearDown"/>
           <include name="setUpClass"/>
+          <include name="S_RealizarVC_01" invocation-numbers="0"/>
+          <include name="tearDown"/>
           <include name="tearDownClass"/>
-          <include name="D_Mobile_EnvioInvitacion_01"/>
-          <include name="stepFail"/>
           <include name="setUp"/>
-          <include name="M_Ingresar_01"/>
-          <include name="M_Mobile_Atender_01" invocation-numbers="0"/>
+          <include name="stepFail"/>
         </methods>
-      </class> <!-- suiteTest.Regresion_Web -->
+      </class> <!-- suiteTest.Regresion_Socio_SMS -->
     </classes>
-  </test> <!-- Realizar VC - Web(failed) -->
+  </test> <!-- Realizar VC - Mobile(failed) -->
 </suite> <!-- Failed suite [Suite Mobile Android] -->

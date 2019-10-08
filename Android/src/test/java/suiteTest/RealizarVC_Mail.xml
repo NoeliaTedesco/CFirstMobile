@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Mobile Android" parallel="tests" thread-count="2">
+	<test name="Realizar VC - Web">
+		<classes>
+			<class name="suiteTest.Regresion_Web_Mail" />
+		</classes>
+	</test>
+	<test name="Realizar VC - Mobile">
+		<classes>
+			<class name="suiteTest.Regresion_Socio_Mail" />
+		</classes>
+	</test>
+</suite>  

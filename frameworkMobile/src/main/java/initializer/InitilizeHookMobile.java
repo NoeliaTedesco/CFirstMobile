@@ -29,11 +29,14 @@ public class InitilizeHookMobile extends BaseMobile {
 	public static void StartAppiumService() {
 		String ipAppium = DataSetterMobile.configurationMobile.getIpAppium();
 		int puertoAppium = DataSetterMobile.configurationMobile.getPortAppium();
+		DesiredCapabilities cap = new DesiredCapabilities();
+		cap.setCapability("automationName", "UiAutomator2");
 
 		try {
 			AppiumServiceBuilder build = new AppiumServiceBuilder();
 			build.withIPAddress(ipAppium);
 			build.usingPort(puertoAppium);
+			build.withCapabilities(cap);
 			service = AppiumDriverLocalService.buildService(build);
 			service.start();
 		} catch (Exception e) {

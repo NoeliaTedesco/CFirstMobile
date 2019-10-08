@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import base.BasePageMobile;
 import helpers.PageHelperMobile;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import log.LogMobile;
 
 public class S_NotificacionPage extends BasePageMobile {
@@ -24,7 +25,9 @@ public class S_NotificacionPage extends BasePageMobile {
 
 	@FindBy(id = "com.android.systemui:id/notification_stack_scroller")
 	private WebElement containerNotificaciones;
+	
 
+	
 
 	public void abrirNotificacion() {
 		try {
@@ -64,7 +67,6 @@ public class S_NotificacionPage extends BasePageMobile {
 
 	public void abrirPanelNotificacion() {
 		try {
-			wait.until(ExpectedConditions.elementToBeClickable(barraNotificaciones));
 			driver.openNotifications();
 			LogMobile.info("Se abre el panel de notificaciones");
 		} catch (Exception e) {

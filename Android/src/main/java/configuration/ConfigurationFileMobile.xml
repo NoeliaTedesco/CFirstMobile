@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configurationMobile>
 	<platformName>Android</platformName>
-	<apkPath>\\src\\apk\\v43.apk</apkPath>
+	<apkPath>\\src\\apk\\v47.apk</apkPath>
 	<portAppium>4723</portAppium>
-	<ipAppium>172.20.64.52</ipAppium>
-	<platformVersion>8.0.0</platformVersion>
-	<deviceName>RQ30059PKM</deviceName>
+	<ipAppium>192.168.56.1</ipAppium>
+	<platformVersion>9.0.0</platformVersion>
+	<deviceName>BH9035KFCU</deviceName>
 	<delivery>False</delivery>
 	<imagePath>\\src\\\ResultadosTest\\screenshot</imagePath>
 	<imageRepository>C:/imageRepository</imageRepository>

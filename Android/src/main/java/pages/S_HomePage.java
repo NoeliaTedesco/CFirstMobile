@@ -31,7 +31,7 @@ public class S_HomePage extends BasePageMobile {
 	public  Boolean esVisiblePrimerTelefono() {
 		Boolean esVisible = false;
 		try {
-			wait.until(ExpectedConditions.visibilityOf(btnPrimerTelefono));
+			waitFluent.until(ExpectedConditions.visibilityOf(btnPrimerTelefono));
 			esVisible = btnPrimerTelefono.isDisplayed();
 			LogMobile.info("Se obtuvo el elemento btnPrimerTelefono");
 		} catch (Exception e) {

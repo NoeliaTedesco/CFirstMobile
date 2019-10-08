@@ -18,10 +18,11 @@ public class S_AgradecimientosPage extends BasePageMobile {
 	@FindBy(id = "ar.com.portalsalud.osde:id/img_toolbar")
 	private WebElement imgLogo;
 	
+	@SuppressWarnings("unchecked")
 	public  Boolean esVisibleTxtAgradecimiento() {
 		Boolean esVisible = false;
 		try {
-			wait.until(ExpectedConditions.visibilityOf(txtAgradecimiento));
+			waitFluent.until(ExpectedConditions.visibilityOf(txtAgradecimiento));
 			esVisible = txtAgradecimiento.isDisplayed();
 			Log.info("Se obtuvo el elemento txtAgradecimiento");
 		} catch (Exception e) {

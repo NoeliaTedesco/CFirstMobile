@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite_Mobile_Android">
-              <span class="suite-name border-passed">Suite Mobile Android</span>
+              <span class="suite-name border-failed">Suite Mobile Android</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite_Mobile_Android">
-                    <span>C:\Users\ntedesco\workspace\ConsultaMedicaMobile\Android\src\test\java\suiteTest\RealizarVC.xml</span>
+                    <span>C:\Users\ntedesco\workspace\ConsultaMedicaMobile\Android\src\test\java\suiteTest\RealizarVC_SMS.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite_Mobile_Android" class="hide-methods failed suite-Suite_Mobile_Android"> (hide)</a> <!-- hide-methods failed suite-Suite_Mobile_Android -->
+                      <a href="#" panel-name="suite-Suite_Mobile_Android" class="show-methods failed suite-Suite_Mobile_Android"> (show)</a> <!-- show-methods failed suite-Suite_Mobile_Android -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite_Mobile_Android">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_Mobile_Android" title="suiteTest.Regresion_Socio_SMS" hash-for-method="S_RealizarVC_01(public void suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method))">S_RealizarVC_01(public void suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite_Mobile_Android -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,22 +116,17 @@
                     <div class="method-list-content passed suite-Suite_Mobile_Android">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_Mobile_Android" title="suiteTest.Regresion_Web" hash-for-method="D_Mobile_EnvioInvitacion_01(public void suiteTest.Regresion_Web.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))">D_Mobile_EnvioInvitacion_01(public void suiteTest.Regresion_Web.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_Mobile_Android" title="suiteTest.Regresion_Web_SMS" hash-for-method="D_Mobile_EnvioInvitacion_01(public void suiteTest.Regresion_Web_SMS.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))">D_Mobile_EnvioInvitacion_01(public void suiteTest.Regresion_Web_SMS.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_Mobile_Android" title="suiteTest.Regresion_Web" hash-for-method="M_Ingresar_01(public void suiteTest.Regresion_Web.M_Ingresar_01(java.lang.reflect.Method))">M_Ingresar_01(public void suiteTest.Regresion_Web.M_Ingresar_01(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_Mobile_Android" title="suiteTest.Regresion_Web_SMS" hash-for-method="M_Ingresar_01(public void suiteTest.Regresion_Web_SMS.M_Ingresar_01(java.lang.reflect.Method))">M_Ingresar_01(public void suiteTest.Regresion_Web_SMS.M_Ingresar_01(java.lang.reflect.Method))</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_Mobile_Android" title="suiteTest.Regresion_Web" hash-for-method="M_Mobile_Atender_01(public void suiteTest.Regresion_Web.M_Mobile_Atender_01(java.lang.reflect.Method))">M_Mobile_Atender_01(public void suiteTest.Regresion_Web.M_Mobile_Atender_01(java.lang.reflect.Method))</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_Mobile_Android" title="suiteTest.Regresion_Socio" hash-for-method="S_RealizarVC_01(public void suiteTest.Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method))">S_RealizarVC_01(public void suiteTest.Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_Mobile_Android" title="suiteTest.Regresion_Web_SMS" hash-for-method="M_Mobile_Atender_01(public void suiteTest.Regresion_Web_SMS.M_Mobile_Atender_01(java.lang.reflect.Method))">M_Mobile_Atender_01(public void suiteTest.Regresion_Web_SMS.M_Mobile_Atender_01(java.lang.reflect.Method))</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite_Mobile_Android -->
@@ -132,50 +141,59 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite_Mobile_Android" class="panel Suite_Mobile_Android">
-          <div class="suite-Suite_Mobile_Android-class-passed">
+          <div class="suite-Suite_Mobile_Android-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">suiteTest.Regresion_Socio</span>
+              <img src="failed.png"/>
+              <span class="class-name">suiteTest.Regresion_Socio_SMS</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="S_RealizarVC_01(public void suiteTest.Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method))">
-                  </a> <!-- S_RealizarVC_01(public void suiteTest.Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method)) -->
+                  <a name="S_RealizarVC_01(public void suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method))">
+                  </a> <!-- S_RealizarVC_01(public void suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method)) -->
                   <span class="method-name">S_RealizarVC_01</span>
-                  <span class="parameters">(public void suiteTest.Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method))</span>
+                  <span class="parameters">(public void suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method))</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fallo test - S_RealizarVC_01 - Step: 09_Pantalla Agradecimiento - Visualizar
+	at steps.S_RealizarVC_NotificacionSMS_Step.Run(S_RealizarVC_NotificacionSMS_Step.java:87)
+	at suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(Regresion_Socio_SMS.java:16)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite_Mobile_Android-class-passed -->
+          </div> <!-- suite-Suite_Mobile_Android-class-failed -->
           <div class="suite-Suite_Mobile_Android-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">suiteTest.Regresion_Web</span>
+              <span class="class-name">suiteTest.Regresion_Web_SMS</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="D_Mobile_EnvioInvitacion_01(public void suiteTest.Regresion_Web.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))">
-                  </a> <!-- D_Mobile_EnvioInvitacion_01(public void suiteTest.Regresion_Web.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method)) -->
+                  <a name="D_Mobile_EnvioInvitacion_01(public void suiteTest.Regresion_Web_SMS.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))">
+                  </a> <!-- D_Mobile_EnvioInvitacion_01(public void suiteTest.Regresion_Web_SMS.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method)) -->
                   <span class="method-name">D_Mobile_EnvioInvitacion_01</span>
-                  <span class="parameters">(public void suiteTest.Regresion_Web.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))</span>
+                  <span class="parameters">(public void suiteTest.Regresion_Web_SMS.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="M_Ingresar_01(public void suiteTest.Regresion_Web.M_Ingresar_01(java.lang.reflect.Method))">
-                  </a> <!-- M_Ingresar_01(public void suiteTest.Regresion_Web.M_Ingresar_01(java.lang.reflect.Method)) -->
+                  <a name="M_Ingresar_01(public void suiteTest.Regresion_Web_SMS.M_Ingresar_01(java.lang.reflect.Method))">
+                  </a> <!-- M_Ingresar_01(public void suiteTest.Regresion_Web_SMS.M_Ingresar_01(java.lang.reflect.Method)) -->
                   <span class="method-name">M_Ingresar_01</span>
-                  <span class="parameters">(public void suiteTest.Regresion_Web.M_Ingresar_01(java.lang.reflect.Method))</span>
+                  <span class="parameters">(public void suiteTest.Regresion_Web_SMS.M_Ingresar_01(java.lang.reflect.Method))</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="M_Mobile_Atender_01(public void suiteTest.Regresion_Web.M_Mobile_Atender_01(java.lang.reflect.Method))">
-                  </a> <!-- M_Mobile_Atender_01(public void suiteTest.Regresion_Web.M_Mobile_Atender_01(java.lang.reflect.Method)) -->
+                  <a name="M_Mobile_Atender_01(public void suiteTest.Regresion_Web_SMS.M_Mobile_Atender_01(java.lang.reflect.Method))">
+                  </a> <!-- M_Mobile_Atender_01(public void suiteTest.Regresion_Web_SMS.M_Mobile_Atender_01(java.lang.reflect.Method)) -->
                   <span class="method-name">M_Mobile_Atender_01</span>
-                  <span class="parameters">(public void suiteTest.Regresion_Web.M_Mobile_Atender_01(java.lang.reflect.Method))</span>
+                  <span class="parameters">(public void suiteTest.Regresion_Web_SMS.M_Mobile_Atender_01(java.lang.reflect.Method))</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,7 +201,7 @@
         </div> <!-- panel Suite_Mobile_Android -->
         <div panel-name="test-xml-Suite_Mobile_Android" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ntedesco\workspace\ConsultaMedicaMobile\Android\src\test\java\suiteTest\RealizarVC.xml</span>
+            <span class="header-content">C:\Users\ntedesco\workspace\ConsultaMedicaMobile\Android\src\test\java\suiteTest\RealizarVC_SMS.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -192,12 +210,12 @@
 &lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite Mobile Android&quot; parallel=&quot;tests&quot;&gt;
   &lt;test name=&quot;Realizar VC - Web&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;suiteTest.Regresion_Web&quot;/&gt;
+      &lt;class name=&quot;suiteTest.Regresion_Web_SMS&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Realizar VC - Web --&gt;
   &lt;test name=&quot;Realizar VC - Mobile&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;suiteTest.Regresion_Socio&quot;/&gt;
+      &lt;class name=&quot;suiteTest.Regresion_Socio_SMS&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Realizar VC - Mobile --&gt;
 &lt;/suite&gt; &lt;!-- Suite Mobile Android --&gt;
@@ -242,26 +260,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'S_RealizarVC_01')
-data.setCell(0, 2, 'suiteTest.Regresion_Socio')
-data.setCell(0, 3, 122061);
+data.setCell(0, 1, 'M_Mobile_Atender_01')
+data.setCell(0, 2, 'suiteTest.Regresion_Web_SMS')
+data.setCell(0, 3, 116831);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'M_Mobile_Atender_01')
-data.setCell(1, 2, 'suiteTest.Regresion_Web')
-data.setCell(1, 3, 114056);
+data.setCell(1, 1, 'S_RealizarVC_01')
+data.setCell(1, 2, 'suiteTest.Regresion_Socio_SMS')
+data.setCell(1, 3, 111124);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'D_Mobile_EnvioInvitacion_01')
-data.setCell(2, 2, 'suiteTest.Regresion_Web')
-data.setCell(2, 3, 73612);
+data.setCell(2, 2, 'suiteTest.Regresion_Web_SMS')
+data.setCell(2, 3, 13743);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'M_Ingresar_01')
-data.setCell(3, 2, 'suiteTest.Regresion_Web')
-data.setCell(3, 3, 50743);
+data.setCell(3, 2, 'suiteTest.Regresion_Web_SMS')
+data.setCell(3, 3, 12757);
 window.suiteTableData['Suite_Mobile_Android']= { tableData: data, tableDiv: 'times-div-Suite_Mobile_Android'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Suite_Mobile_Android">
               </div> <!-- times-div-Suite_Mobile_Android -->
             </div> <!-- times-div -->
@@ -287,101 +305,103 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">suiteTest.Regresion_Socio</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">suiteTest.Regresion_Socio_SMS</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">suiteTest.Regresion_Web</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">suiteTest.Regresion_Web_SMS</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void suiteTest.Regresion_Web.M_Ingresar_01(java.lang.reflect.Method))</span>
-                <span class="method-start">18279 ms</span>
+                <span class="method-name">setUp(public void suiteTest.Regresion_Web_SMS.M_Ingresar_01(java.lang.reflect.Method))</span>
+                <span class="method-start">3289 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">M_Ingresar_01(public void suiteTest.Regresion_Web.M_Ingresar_01(java.lang.reflect.Method))</span>
-                <span class="method-start">20342 ms</span>
+                <span class="method-name">M_Ingresar_01(public void suiteTest.Regresion_Web_SMS.M_Ingresar_01(java.lang.reflect.Method))</span>
+                <span class="method-start">3409 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">stepFail([TestResult name=M_Ingresar_01 status=SUCCESS method=Regresion_Web.M_Ingresar_01(java.lang.reflect.M...)</span>
-                <span class="method-start">71103 ms</span>
+                <span class="method-name">stepFail([TestResult name=M_Ingresar_01 status=SUCCESS method=Regresion_Web_SMS.M_Ingresar_01(java.lang.refle...)</span>
+                <span class="method-start">16167 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">71103 ms</span>
+                <span class="method-start">16167 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void suiteTest.Regresion_Web.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))</span>
-                <span class="method-start">72548 ms</span>
+                <span class="method-name">setUp(public void suiteTest.Regresion_Web_SMS.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))</span>
+                <span class="method-start">16334 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">D_Mobile_EnvioInvitacion_01(public void suiteTest.Regresion_Web.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))</span>
-                <span class="method-start">74127 ms</span>
+                <span class="method-name">D_Mobile_EnvioInvitacion_01(public void suiteTest.Regresion_Web_SMS.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method))</span>
+                <span class="method-start">16403 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">suiteTest.Regresion_Socio</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">suiteTest.Regresion_Socio_SMS</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void suiteTest.Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method))</span>
-                <span class="method-start">121359 ms</span>
+                <span class="method-name">setUp(public void suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method))</span>
+                <span class="method-start">20208 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">S_RealizarVC_01(public void suiteTest.Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method))</span>
-                <span class="method-start">121718 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">S_RealizarVC_01(public void suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method))</span>
+                <span class="method-start">20253 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">suiteTest.Regresion_Web</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">suiteTest.Regresion_Web_SMS</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">stepFail([TestResult name=D_Mobile_EnvioInvitacion_01 status=SUCCESS method=Regresion_Web.D_Mobile_EnvioInvit...)</span>
-                <span class="method-start">147750 ms</span>
+                <span class="method-name">stepFail([TestResult name=D_Mobile_EnvioInvitacion_01 status=SUCCESS method=Regresion_Web_SMS.D_Mobile_EnvioI...)</span>
+                <span class="method-start">30147 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">147751 ms</span>
+                <span class="method-start">30147 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void suiteTest.Regresion_Web.M_Mobile_Atender_01(java.lang.reflect.Method))</span>
-                <span class="method-start">150075 ms</span>
+                <span class="method-name">setUp(public void suiteTest.Regresion_Web_SMS.M_Mobile_Atender_01(java.lang.reflect.Method))</span>
+                <span class="method-start">30284 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">M_Mobile_Atender_01(public void suiteTest.Regresion_Web.M_Mobile_Atender_01(java.lang.reflect.Method))</span>
-                <span class="method-start">151125 ms</span>
+                <span class="method-name">M_Mobile_Atender_01(public void suiteTest.Regresion_Web_SMS.M_Mobile_Atender_01(java.lang.reflect.Method))</span>
+                <span class="method-start">30372 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">suiteTest.Regresion_Socio</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">suiteTest.Regresion_Socio_SMS</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">stepFail([TestResult name=S_RealizarVC_01 status=SUCCESS method=Regresion_Socio.S_RealizarVC_01(java.lang.ref...)</span>
-                <span class="method-start">243786 ms</span>
+                <span class="method-name">stepFail([TestResult name=S_RealizarVC_01 status=FAILURE method=Regresion_Socio_SMS.S_RealizarVC_01(java.lang...)</span>
+                <span class="method-start">131380 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown(public void suiteTest.Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method))</span>
-                <span class="method-start">243786 ms</span>
+                <span class="method-name">tearDown(public void suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method))</span>
+                <span class="method-start">131813 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">244070 ms</span>
+                <span class="method-start">131840 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">suiteTest.Regresion_Web</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">suiteTest.Regresion_Web_SMS</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">stepFail([TestResult name=M_Mobile_Atender_01 status=SUCCESS method=Regresion_Web.M_Mobile_Atender_01(java.la...)</span>
-                <span class="method-start">265183 ms</span>
+                <span class="method-name">stepFail([TestResult name=M_Mobile_Atender_01 status=SUCCESS method=Regresion_Web_SMS.M_Mobile_Atender_01(jav...)</span>
+                <span class="method-start">147203 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">265184 ms</span>
+                <span class="method-start">147204 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">266368 ms</span>
+                <span class="method-start">147325 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

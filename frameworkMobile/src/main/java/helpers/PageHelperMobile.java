@@ -77,8 +77,7 @@ public class PageHelperMobile {
 				int y = elementToTap.getLocation().getY();				
 				PointOption point = new PointOption();
 				point.withCoordinates(x, y);
-				BasePageMobile.actionTouch.tap(point);
-				BasePageMobile.actionTouch.perform();
+				BasePageMobile.actionTouch.tap(point).perform();
 			}
 			Log.info("Se hace clic en la pantalla");
 		} catch (Exception e){

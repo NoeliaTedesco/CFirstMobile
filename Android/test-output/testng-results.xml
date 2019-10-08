@@ -1,188 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite Mobile Android" duration-ms="275944" started-at="2019-07-18T19:14:12Z" finished-at="2019-07-18T19:18:48Z">
+  <suite name="Suite Mobile Android" duration-ms="153158" started-at="2019-10-08T14:45:52Z" finished-at="2019-10-08T14:48:25Z">
     <groups>
     </groups>
-    <test name="Realizar VC - Mobile" duration-ms="263145" started-at="2019-07-18T19:14:12Z" finished-at="2019-07-18T19:18:35Z">
-      <class name="suiteTest.Regresion_Socio">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:suiteTest.Regresion_Socio@4d95d2a2]" name="setUpClass" is-config="true" duration-ms="121355" started-at="2019-07-18T16:14:12Z" finished-at="2019-07-18T16:16:14Z">
+    <test name="Realizar VC - Mobile" duration-ms="138923" started-at="2019-10-08T14:45:52Z" finished-at="2019-10-08T14:48:11Z">
+      <class name="suiteTest.Regresion_Socio_SMS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:suiteTest.Regresion_Socio_SMS@639c2c1d]" name="setUpClass" is-config="true" duration-ms="20208" started-at="2019-10-08T11:45:52Z" finished-at="2019-10-08T11:46:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Socio@4d95d2a2]" name="setUp" is-config="true" duration-ms="359" started-at="2019-07-18T16:16:14Z" finished-at="2019-07-18T16:16:14Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Socio_SMS@639c2c1d]" name="setUp" is-config="true" duration-ms="45" started-at="2019-10-08T11:46:12Z" finished-at="2019-10-08T11:46:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void suiteTest.Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method)]]>
+                <![CDATA[public void suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="S_RealizarVC_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Socio@4d95d2a2]" name="S_RealizarVC_01" duration-ms="122061" started-at="2019-07-18T16:16:14Z" finished-at="2019-07-18T16:18:16Z">
+        <test-method status="FAIL" signature="S_RealizarVC_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Socio_SMS@639c2c1d]" name="S_RealizarVC_01" duration-ms="111124" started-at="2019-10-08T11:46:12Z" finished-at="2019-10-08T11:48:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void suiteTest.Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method)]]>
+                <![CDATA[public void suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Fallo test - S_RealizarVC_01 - Step: 09_Pantalla Agradecimiento - Visualizar]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Fallo test - S_RealizarVC_01 - Step: 09_Pantalla Agradecimiento - Visualizar
+	at org.testng.Assert.fail(Assert.java:93)
+	at steps.S_RealizarVC_NotificacionSMS_Step.Run(S_RealizarVC_NotificacionSMS_Step.java:87)
+	at suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(Regresion_Socio_SMS.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- S_RealizarVC_01 -->
-        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_Socio@4d95d2a2]" name="stepFail" is-config="true" duration-ms="0" started-at="2019-07-18T16:18:16Z" finished-at="2019-07-18T16:18:16Z">
+        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_Socio_SMS@639c2c1d]" name="stepFail" is-config="true" duration-ms="433" started-at="2019-10-08T11:48:04Z" finished-at="2019-10-08T11:48:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=S_RealizarVC_01 status=SUCCESS method=Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Socio@4d95d2a2] output={null}]]]>
+                <![CDATA[[TestResult name=S_RealizarVC_01 status=FAILURE method=Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Socio_SMS@639c2c1d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stepFail -->
-        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Socio@4d95d2a2]" name="tearDown" is-config="true" duration-ms="284" started-at="2019-07-18T16:18:16Z" finished-at="2019-07-18T16:18:16Z">
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Socio_SMS@639c2c1d]" name="tearDown" is-config="true" duration-ms="26" started-at="2019-10-08T11:48:04Z" finished-at="2019-10-08T11:48:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void suiteTest.Regresion_Socio.S_RealizarVC_01(java.lang.reflect.Method)]]>
+                <![CDATA[public void suiteTest.Regresion_Socio_SMS.S_RealizarVC_01(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:suiteTest.Regresion_Socio@4d95d2a2]" name="tearDownClass" is-config="true" duration-ms="19056" started-at="2019-07-18T16:18:16Z" finished-at="2019-07-18T16:18:35Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:suiteTest.Regresion_Socio_SMS@639c2c1d]" name="tearDownClass" is-config="true" duration-ms="7077" started-at="2019-10-08T11:48:04Z" finished-at="2019-10-08T11:48:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- suiteTest.Regresion_Socio -->
+      </class> <!-- suiteTest.Regresion_Socio_SMS -->
     </test> <!-- Realizar VC - Mobile -->
-    <test name="Realizar VC - Web" duration-ms="275944" started-at="2019-07-18T19:14:12Z" finished-at="2019-07-18T19:18:48Z">
-      <class name="suiteTest.Regresion_Web">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="setUpClass" is-config="true" duration-ms="18137" started-at="2019-07-18T16:14:12Z" finished-at="2019-07-18T16:14:30Z">
+    <test name="Realizar VC - Web" duration-ms="153158" started-at="2019-10-08T14:45:52Z" finished-at="2019-10-08T14:48:25Z">
+      <class name="suiteTest.Regresion_Web_SMS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="setUpClass" is-config="true" duration-ms="3262" started-at="2019-10-08T11:45:52Z" finished-at="2019-10-08T11:45:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="setUp" is-config="true" duration-ms="2062" started-at="2019-07-18T16:14:30Z" finished-at="2019-07-18T16:14:32Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="setUp" is-config="true" duration-ms="120" started-at="2019-10-08T11:45:55Z" finished-at="2019-10-08T11:45:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void suiteTest.Regresion_Web.M_Ingresar_01(java.lang.reflect.Method)]]>
+                <![CDATA[public void suiteTest.Regresion_Web_SMS.M_Ingresar_01(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="M_Ingresar_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="M_Ingresar_01" duration-ms="50743" started-at="2019-07-18T16:14:32Z" finished-at="2019-07-18T16:15:23Z">
+        <test-method status="PASS" signature="M_Ingresar_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="M_Ingresar_01" duration-ms="12757" started-at="2019-10-08T11:45:56Z" finished-at="2019-10-08T11:46:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void suiteTest.Regresion_Web.M_Ingresar_01(java.lang.reflect.Method)]]>
+                <![CDATA[public void suiteTest.Regresion_Web_SMS.M_Ingresar_01(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- M_Ingresar_01 -->
-        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="stepFail" is-config="true" duration-ms="0" started-at="2019-07-18T16:15:23Z" finished-at="2019-07-18T16:15:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="tearDown" is-config="true" duration-ms="165" started-at="2019-10-08T11:46:08Z" finished-at="2019-10-08T11:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="stepFail" is-config="true" duration-ms="0" started-at="2019-10-08T11:46:08Z" finished-at="2019-10-08T11:46:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=M_Ingresar_01 status=SUCCESS method=Regresion_Web.M_Ingresar_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b] output={null}]]]>
+                <![CDATA[[TestResult name=M_Ingresar_01 status=SUCCESS method=Regresion_Web_SMS.M_Ingresar_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stepFail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="tearDown" is-config="true" duration-ms="1434" started-at="2019-07-18T16:15:23Z" finished-at="2019-07-18T16:15:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="setUp" is-config="true" duration-ms="1579" started-at="2019-07-18T16:15:25Z" finished-at="2019-07-18T16:15:26Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="setUp" is-config="true" duration-ms="69" started-at="2019-10-08T11:46:09Z" finished-at="2019-10-08T11:46:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void suiteTest.Regresion_Web.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method)]]>
+                <![CDATA[public void suiteTest.Regresion_Web_SMS.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="D_Mobile_EnvioInvitacion_01" duration-ms="73612" started-at="2019-07-18T16:15:26Z" depends-on-methods="suiteTest.Regresion_Web.M_Ingresar_01" finished-at="2019-07-18T16:16:40Z">
+        <test-method status="PASS" signature="D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="D_Mobile_EnvioInvitacion_01" duration-ms="13743" started-at="2019-10-08T11:46:09Z" depends-on-methods="suiteTest.Regresion_Web_SMS.M_Ingresar_01" finished-at="2019-10-08T11:46:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void suiteTest.Regresion_Web.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method)]]>
+                <![CDATA[public void suiteTest.Regresion_Web_SMS.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- D_Mobile_EnvioInvitacion_01 -->
-        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="stepFail" is-config="true" duration-ms="1" started-at="2019-07-18T16:16:40Z" finished-at="2019-07-18T16:16:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="tearDown" is-config="true" duration-ms="136" started-at="2019-10-08T11:46:22Z" finished-at="2019-10-08T11:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="stepFail" is-config="true" duration-ms="0" started-at="2019-10-08T11:46:22Z" finished-at="2019-10-08T11:46:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=D_Mobile_EnvioInvitacion_01 status=SUCCESS method=Regresion_Web.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b] output={null}]]]>
+                <![CDATA[[TestResult name=D_Mobile_EnvioInvitacion_01 status=SUCCESS method=Regresion_Web_SMS.D_Mobile_EnvioInvitacion_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stepFail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="tearDown" is-config="true" duration-ms="2323" started-at="2019-07-18T16:16:40Z" finished-at="2019-07-18T16:16:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="setUp" is-config="true" duration-ms="1050" started-at="2019-07-18T16:16:42Z" finished-at="2019-07-18T16:16:43Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="setUp" is-config="true" duration-ms="88" started-at="2019-10-08T11:46:22Z" finished-at="2019-10-08T11:46:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void suiteTest.Regresion_Web.M_Mobile_Atender_01(java.lang.reflect.Method)]]>
+                <![CDATA[public void suiteTest.Regresion_Web_SMS.M_Mobile_Atender_01(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="M_Mobile_Atender_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="M_Mobile_Atender_01" duration-ms="114056" started-at="2019-07-18T16:16:43Z" depends-on-methods="suiteTest.Regresion_Web.D_Mobile_EnvioInvitacion_01" finished-at="2019-07-18T16:18:37Z">
+        <test-method status="PASS" signature="M_Mobile_Atender_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="M_Mobile_Atender_01" duration-ms="116831" started-at="2019-10-08T11:46:23Z" depends-on-methods="suiteTest.Regresion_Web_SMS.D_Mobile_EnvioInvitacion_01" finished-at="2019-10-08T11:48:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void suiteTest.Regresion_Web.M_Mobile_Atender_01(java.lang.reflect.Method)]]>
+                <![CDATA[public void suiteTest.Regresion_Web_SMS.M_Mobile_Atender_01(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- M_Mobile_Atender_01 -->
-        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="stepFail" is-config="true" duration-ms="1" started-at="2019-07-18T16:18:37Z" finished-at="2019-07-18T16:18:37Z">
+        <test-method status="PASS" signature="stepFail(org.testng.ITestResult)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="stepFail" is-config="true" duration-ms="1" started-at="2019-10-08T11:48:19Z" finished-at="2019-10-08T11:48:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=M_Mobile_Atender_01 status=SUCCESS method=Regresion_Web.M_Mobile_Atender_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web@5649fd9b] output={null}]]]>
+                <![CDATA[[TestResult name=M_Mobile_Atender_01 status=SUCCESS method=Regresion_Web_SMS.M_Mobile_Atender_01(java.lang.reflect.Method)[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stepFail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="tearDown" is-config="true" duration-ms="1184" started-at="2019-07-18T16:18:37Z" finished-at="2019-07-18T16:18:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="tearDown" is-config="true" duration-ms="121" started-at="2019-10-08T11:48:19Z" finished-at="2019-10-08T11:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:suiteTest.Regresion_Web@5649fd9b]" name="tearDownClass" is-config="true" duration-ms="9557" started-at="2019-07-18T16:18:39Z" finished-at="2019-07-18T16:18:48Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:suiteTest.Regresion_Web_SMS@47af7f3d]" name="tearDownClass" is-config="true" duration-ms="5825" started-at="2019-10-08T11:48:20Z" finished-at="2019-10-08T11:48:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- suiteTest.Regresion_Web -->
+      </class> <!-- suiteTest.Regresion_Web_SMS -->
     </test> <!-- Realizar VC - Web -->
   </suite> <!-- Suite Mobile Android -->
 </testng-results>
