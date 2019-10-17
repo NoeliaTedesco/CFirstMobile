@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>com.sms.framework.CMOMobile</groupId>
 		<artifactId>ConsultaMedicaOnlineMobile</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</parent>
 	<groupId>com.sms.frameworkMobile</groupId>
 	<artifactId>frameworkMobile</artifactId>

@@ -36,6 +36,8 @@ public class S_VideoconsultaPage extends BasePageMobile {
 
 	@FindBy(id = "ar.com.portalsalud.osde:id/callView")
 	private WebElement screenView;
+	
+
 
 	public void clicIBtnChat() {
 		try {
@@ -85,20 +87,17 @@ public class S_VideoconsultaPage extends BasePageMobile {
 
 	}
 
-	@SuppressWarnings("unchecked")
 	public void clicIBtnFinalizar() {
 		try {
-			PageHelperMobile.tapScreen(btnFinalizar,screenView);
-			waitFluent.until(ExpectedConditions.elementToBeClickable(btnFinalizar));
-			btnFinalizar.click();
-			while (PageHelperMobile.elementStillPresent(btnFinalizar)) {
+			wait.until(ExpectedConditions.elementToBeClickable(screenView));
+			do {
 				try {
 					PageHelperMobile.tapScreen(btnFinalizar,screenView);
 					btnFinalizar.click();
 				} catch (Exception e) {
 				LogMobile.info("No se logro hacer clic en el btnFinalizar");
 				}
-			}
+			} while (!PageHelperMobile.elementStillPresent(btnAceptarFinalizar));
 			LogMobile.info("Se hace clic en el elemento btnFinalizar");
 		} catch (Exception e){
 			LogMobile.info(e.getMessage());

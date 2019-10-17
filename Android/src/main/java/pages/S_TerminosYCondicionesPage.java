@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import base.BasePageMobile;
+import helpers.PageHelperMobile;
 import log.LogMobile;
 
 public class S_TerminosYCondicionesPage extends BasePageMobile {
@@ -52,8 +53,8 @@ public class S_TerminosYCondicionesPage extends BasePageMobile {
 	
 	public void quitarPopUpNotificacion() {
 		try {
-			wait.until(ExpectedConditions.visibilityOf(popUpNotificacion));
-			if (popUpNotificacion.isDisplayed()) {
+			PageHelperMobile.waitImplicit();
+			while (popUpNotificacion.isDisplayed()) {
 				btnNotificacionNo.click();
 				wait.until(ExpectedConditions.elementToBeClickable(checkTerminos));
 			}

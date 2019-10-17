@@ -30,9 +30,11 @@ public class S_CalificarPage extends BasePageMobile {
 	@FindBy(id = "ar.com.portalsalud.osde:id/nextText")
 	private WebElement btnCalificar;
 
+	@SuppressWarnings("unchecked")
 	private void seleccionarEstrella(String estrella) {
 		try 
 		{ 
+			waitFluent.until(ExpectedConditions.elementToBeClickable(btnUnaEstrella));
 			switch (estrella) {
 			case "uno":
 					btnUnaEstrella.click();

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.sms.framework.CMOMobile</groupId>
 	<artifactId>ConsultaMedicaOnlineMobile</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>ConsultaMedicaOnlineMobile</name>
 
@@ -22,7 +23,7 @@
 				<configuration>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/java/suiteTest/RealizarVC.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/java/suiteTest/RealizarVC_SMS.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -34,6 +35,30 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-install-plugin</artifactId>
+				<version>2.3.1</version>
+				<inherited>false</inherited>
+				<executions>
+					<execution>
+						<id>install-framework-web</id>
+						<goals>
+							<goal>install-file</goal>
+						</goals>
+						<phase>test</phase>
+						<configuration>
+							<groupId>com.sms.framework</groupId>
+							<artifactId>framework</artifactId>
+							<version>1.0.0</version>
+							<packaging>jar</packaging>
+							<generatePom>true</generatePom>
+							<createChecksum>true</createChecksum>
+							<file>${project.basedir}/FrameworkWeb.jar</file>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
@@ -102,6 +127,11 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.8.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sms.framework</groupId>
+			<artifactId>framework</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 	<modules>

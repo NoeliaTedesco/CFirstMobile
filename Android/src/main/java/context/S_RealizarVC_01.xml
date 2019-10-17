@@ -3,7 +3,7 @@
     <asignado>Noelia</asignado>
     <descripcion>Aplicacion Android - Realizar VC con notificacion por SMS</descripcion>
     <estado>Falla</estado>
-    <imgFalla>C:\imageRepository\FALLA_S_RealizarVC_01_20191008114804.png</imgFalla>
+    <imgFalla>C:\imageRepository\FALLA_S_RealizarVC_01_20191008032332.png</imgFalla>
     <modulo>Socio</modulo>
     <nombreDeLaPrueba>S_RealizarVC_01</nombreDeLaPrueba>
     <pasos>
@@ -48,7 +48,7 @@
     <referencia>Referencia</referencia>
     <sprint>Ciclo 0</sprint>
     <tiempoFinal>285</tiempoFinal>
-    <tiempoInicio>1570545972</tiempoInicio>
+    <tiempoInicio>1570558946</tiempoInicio>
     <tipoDePrueba>Regresión</tipoDePrueba>
     <usuario>
         <email>cmotest5@cmo.com</email>
